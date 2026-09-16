@@ -1,0 +1,181 @@
+{
+    "hullName":"Freedom",
+    "hullId":"fed_freedom",
+    "hullSize":"FRIGATE",
+    "style":"HIGH_TECH",
+    "spriteName":"graphics/ships/fed_freedom.png",
+    "height":370,
+    "width":256,
+    "center":[
+        128, 185
+    ],
+    "collisionRadius":300,
+    "coversColor":"",
+    "shieldCenter":[
+        0, 0
+    ],
+    "shieldRadius":275,
+    "viewOffset":0,
+    "builtInMods":[
+        "power_delivery",
+        "sensorArray",
+        "main_power_failure",
+        "engine_mount",
+        "shieldMount",
+        "federationShieldRecovery"
+    ],
+    "builtInWings":[],
+    "builtInModules":null,
+    "weaponSlots":[
+        {
+            "id":"FWD Phaser 000",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                     162,       -1
+            ]
+        },
+        {
+            "id":"FWD Phaser 002",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":346.5,
+            "locations":[
+                   156.5,    -36.5
+            ]
+        },
+        {
+            "id":"FWD Phaser 001",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":13.5,
+            "locations":[
+                     156,     34.5
+            ]
+        },
+        {
+            "id":"AFT Phaser 000",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":220.5,
+            "locations":[
+                      39,    -65.5
+            ]
+        },
+        {
+            "id":"AFT Phaser 001",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":139.5,
+            "locations":[
+                    36.5,       61
+            ]
+        },
+        {
+            "id":"AFT Phaser 002",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":219,
+            "locations":[
+                    28.5,    -49.5
+            ]
+        },
+        {
+            "id":"AFT Phaser 003",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":141,
+            "locations":[
+                    27.5,     46.5
+            ]
+        },
+        {
+            "id":"AFT Launcher 000",
+            "size":"SMALL",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":183,
+            "locations":[
+                   -66.5,     -1.5
+            ]
+        },
+        {
+            "id":"FWD Launcher 000",
+            "size":"SMALL",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":0,
+            "locations":[
+                     184,       -1
+            ]
+        }
+    ],
+    "engineSlots":[],
+    "bounds":[
+            -184,      6.5,
+            -182,       13,
+            -173,       22,
+            -143,     23.5,
+          -109.5,     22.5,
+        
+             -59,     19.5,
+              -4,     16.5,
+              -1,       29,
+               9,       58,
+            27.5,     85.5,
+        
+              57,      106,
+              71,      112,
+            89.5,      114,
+             106,    112.5,
+           123.5,    106.5,
+        
+             140,     97.5,
+             151,     86.5,
+             170,       62,
+           180.5,       32,
+           183.5,       15,
+        
+           183.5,      -15,
+           180.5,      -32,
+             170,      -62,
+             151,    -86.5,
+             140,    -97.5,
+        
+           123.5,   -106.5,
+           108.5,   -113.5,
+            89.5,     -114,
+             106,   -112.5,
+              71,     -112,
+        
+            27.5,    -85.5,
+               9,      -58,
+              -1,      -29,
+            -2.5,    -19.5,
+             -59,      -22,
+        
+          -109.5,      -25,
+            -143,    -26.5,
+            -172,      -26,
+            -181,      -18,
+            -184,     -8.5
+    # 40 points total.
+    ]
+}

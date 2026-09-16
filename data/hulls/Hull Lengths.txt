@@ -1,0 +1,18 @@
+Nova > 165
+Saber > 195
+Centaur > 210
+Miranda > 243
+Steamrunner > 243
+Norway > 252
+Springfield > 325
+Intrepid > 344
+New Orleans > 345
+Freedom > 350
+Cheyenne > 362
+Challenger > 394
+Nebula > 442
+Excelsior > 467
+Akira > 464
+Ambassador > 526
+Galaxy > 641
+Sovereign > 685

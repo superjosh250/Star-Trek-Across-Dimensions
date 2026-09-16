@@ -1,0 +1,56 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "kol_antiseptic",
+    "hullMods": [
+        "advancedshieldemitter",
+        "ludditeShields"
+    ],
+    "permaMods": [
+        "reduced_explosion",
+        "high_maintenance",
+        "advancedcore"
+    ],
+    "quality": 0.0,
+    "variantId": "kol_antiseptic",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "typeV_laser",
+                "WS 010": "typeV_laser",
+                "WS 007": "coalition_antishieldM",
+                "WS 006": "coalition_antishieldM",
+                "WS 003": "coalition_neutrino_slugM",
+                "WS 002": "coalition_neutrino_slugM"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 019": "neutrino_matter_launcher",
+                "WS 012": "neutrino_matter_launcherM"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "coalition_antishieldM",
+                "WS 017": "coalition_antishieldM",
+                "WS 018": "coalition_antishieldM",
+                "WS 014": "coalition_neutrino_slugS",
+                "WS 013": "coalition_neutrino_slugS",
+                "WS 016": "coalition_antishieldS",
+                "WS 015": "coalition_antishieldS",
+                "WS 008": "coalition_antishieldM",
+                "WS 004": "coalition_neutrino_slugM",
+                "WS 005": "coalition_neutrino_slugM"
+            }
+        }
+    ]
+}

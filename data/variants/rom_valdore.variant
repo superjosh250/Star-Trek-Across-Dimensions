@@ -1,0 +1,21 @@
+{
+    "displayName": "Valdore",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "rom_valdore",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "rom_valdore",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "FWD Torpedo Launcher 000": "photon_torpedo_type6",
+                "AFT Torpedo Launcher 000": "photon_torpedo_type6",
+                "AFT Torpedo Launcher 001": "photon_torpedo_type6"
+            }
+        }
+    ]
+}

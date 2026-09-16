@@ -1,0 +1,11 @@
+{
+    "displayName": "Regula Type",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "fed_regulaTypeStation",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "fed_regulaTypeStation",
+    "weaponGroups": []
+}

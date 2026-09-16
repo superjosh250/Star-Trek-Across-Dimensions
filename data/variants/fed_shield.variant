@@ -1,0 +1,11 @@
+{
+    "displayName": "Fed Shield",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "fed_shield",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "fed_shield",
+    "weaponGroups": []
+}

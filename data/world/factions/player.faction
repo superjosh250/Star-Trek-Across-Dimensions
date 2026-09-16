@@ -1,0 +1,42 @@
+{
+	# trivial test commit change.
+	"id":"player",
+	"portraits":{
+		"standard_male":[
+		"graphics/portraits/ufp_m01.png",
+		"graphics/portraits/ufp_m13.png",
+		"graphics/portraits/ufp_m16.png",
+		"graphics/portraits/ufp_m17.png",
+		"graphics/portraits/ufp_m23.png",
+		"graphics/portraits/ufp_m50.png",
+		"graphics/portraits/ufp_m53.png",
+		"graphics/portraits/ufp_m01.png",
+		"graphics/portraits/characters/geordi.png"
+		],
+		"standard_female":[
+		"graphics/portraits/player/ufp_adelaideKane.png",	
+		"graphics/portraits/player/ufp_adelaideKane1.png",
+		"graphics/portraits/player/ufp_adelaideKane2.png",
+		"graphics/portraits/player/ufp_adelaideKane3.png",
+		"graphics/portraits/ufp_f012.png",
+		"graphics/portraits/ufp_f013.png",
+		"graphics/portraits/ufp_f021.png",
+		"graphics/portraits/ufp_f038.png",
+		"graphics/portraits/ufp_f045.png",
+		"graphics/portraits/ufp_f059.png",
+		"graphics/portraits/ufp_f064.png",
+		"graphics/portraits/ufp_f071.png",
+		"graphics/portraits/ufp_f073.png",
+		"graphics/portraits/ufp_f075.png",
+		"graphics/portraits/ufp_f080.png",
+		"graphics/portraits/ufp_f083.png",
+		"graphics/portraits/ufp_f085.png",
+		"graphics/portraits/ufp_f102.png",
+		"graphics/portraits/ufp_f107.png",
+		"graphics/portraits/ufp_f108.png",
+		"graphics/portraits/ufp_f110.png"
+		],
+	}
+}
+
+

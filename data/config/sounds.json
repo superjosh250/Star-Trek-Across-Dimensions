@@ -1,0 +1,87 @@
+{
+    "music": {
+        "music_title": [ 
+            { "file": "a_federation_united.ogg", "source": "sounds/music", "volume": 1.25 },
+            { "file": "maelstrom_orchestral_theme.ogg", "source": "sounds/music", "volume": 1 },
+            { "file": "starbase_12_menu_alt.ogg", "source": "sounds/music", "volume": 1 },
+            { "file": "friends_of_the_federation.ogg", "source": "sounds/music", "volume": 1 },
+            { "file": "encounter_with_the_federation.ogg", "source": "sounds/music", "volume": 1 },
+            { "file": "encounter_with_the_federation_a.ogg", "source": "sounds/music", "volume": 1 },
+            { "file": "adventures_in_the_federation.ogg", "source": "sounds/music", "volume": 1 }
+        ],
+        "federation_theme": [
+            { "file": "friends_of_the_federation.ogg", "source": "sounds/music", "volume": 1 }
+        ],
+        "federation_friendly_theme": [
+            { "file": "friends_of_the_federation.ogg", "source": "sounds/music", "volume": 1 },
+            { "file": "friends_of_the_federation_a.ogg", "source": "sounds/music", "volume": 0.8 }
+        ],
+        "federation_neutral_theme": [
+            { "file": "a_neutral_federation_base.ogg", "source": "sounds/music", "volume": 1 }
+        ],
+        "federation_hostile_theme": [
+            { "file": "starfleet_hostile_suite.ogg", "source": "sounds/music", "volume": 1 }
+        ],
+        "starbase_12": [
+            { "file": "starbase_12_main.ogg", "source": "sounds/music", "volume": 1.10 },
+            { "file": "maelstrom_theme.ogg", "source": "sounds/music", "volume": 1 }
+        ]
+    },
+    "pulsePhaser_fire": [
+        { "file": "sounds/sfx_weapon/pulse_phaser.ogg", "pitch": 1, "volume": 0.5 }
+    ],
+    "tractor_beam_fire": [
+        { "file": "sounds/sfx_weapon/tractor_fire.ogg", "pitch": 1, "volume": 0.55 }
+    ],
+    "tractor_beam_loop": [
+        { "file": "sounds/sfx_weapon/tractor_loop.ogg", "pitch": 1, "volume": 0.55 }
+    ],
+    "typeXII_phaser_fire": [
+        { "file": "sounds/sfx_weapon/typeXII_phaser_a.ogg", "pitch": 1, "volume": 0.55 }
+    ],
+    "typeXII_phaser_loop": [
+        { "file": "sounds/sfx_weapon/typeXII_phaser_b.ogg", "pitch": 1, "volume": 0.55 }
+    ],
+    "typeX_phaser_fire": [
+        { "file": "sounds/sfx_weapon/typeX_phaser_a.ogg", "pitch": 1, "volume": 0.55 }
+    ],
+    "typeX_phaser_loop": [
+        { "file": "sounds/sfx_weapon/typeX_phaser_b.ogg", "pitch": 1, "volume": 0.55 }
+    ],
+    "typeIX_phaser_fire": [
+        { "file": "sounds/sfx_weapon/typeIX_phaser_a.ogg", "pitch": 1, "volume": 0.55 }
+    ],
+    "typeIX_phaser_loop": [
+        { "file": "sounds/sfx_weapon/typeIX_phaser_b.ogg", "pitch": 1, "volume": 0.55 }
+    ],
+    "typeVIII_phaser_fire": [
+        { "file": "sounds/sfx_weapon/typeVIII_phaser_a.ogg", "pitch": 1, "volume": 0.55 }
+    ],
+    "typeVIII_phaser_loop": [
+        { "file": "sounds/sfx_weapon/typeVIII_phaser_b.ogg", "pitch": 1, "volume": 0.4 }
+    ],
+    "photon_fire": [
+        { "file": "sounds/sfx_weapon/photon_torpedo.ogg", "pitch": 1, "volume": 0.5 }
+    ],
+    "quantum_fire": [
+        { "file": "sounds/sfx_weapon/quantum_torpedo.ogg", "pitch": 1, "volume": 0.5 }
+    ],
+    "phased_plasma_fire": [
+        { "file": "sounds/sfx_weapon/phased_plasma_torpedo.ogg", "pitch": 1, "volume": 0.5 }
+    ],
+    "photon_type6_fire": [
+        { "file": "sounds/sfx_weapon/type6_photon_torpedo.ogg", "pitch": 1, "volume": 0.5 }
+    ],
+    "kli_disruptorBETA_fire": [
+        { "file": "sounds/sfx_weapon/kli_pulse_fire.ogg", "pitch": 1, "volume": 0.5 }
+    ],
+    "romulan_disruptor_fire": [
+        { "file": "sounds/sfx_weapon/romulan_disruptor.ogg", "pitch": 1, "volume": 0.5 }
+    ],
+    "romulan_disruptorBETA_fire": [
+        { "file": "sounds/sfx_weapon/rom_disruptor_a.ogg", "pitch": 1, "volume": 0.55 }
+    ],
+    "romulan_disruptorBETA_loop": [
+        { "file": "sounds/sfx_weapon/rom_disruptor_b.ogg", "pitch": 1, "volume": 0.55 }
+    ]
+}

@@ -1,0 +1,314 @@
+{
+    "hullName":"Cheyenne",
+    "hullId":"fed_cheyenne",
+    "hullSize":"DESTROYER",
+    "style":"HIGH_TECH",
+    "spriteName":"graphics/ships/fed_cheyenne.png",
+    "height":382,
+    "width":235,
+    "center":[
+        117.5, 191
+    ],
+    "collisionRadius":250,
+    "coversColor":"",
+    "shieldCenter":[
+        0, 0
+    ],
+    "shieldRadius":240,
+    "viewOffset":0,
+    "builtInMods":[
+        "power_delivery",
+        "sensorArray",
+        "main_power_failure",
+        "shieldMount",
+        "engine_mount",
+        "federationShieldRecovery"
+    ],
+    "builtInWings":[],
+    "builtInModules":null,
+    "weaponSlots":[
+        {
+            "id":"FWD Phaser 000",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                     146,     -0.5
+            ]
+        },
+        {
+            "id":"FWD Phaser 001",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":326.5,
+            "locations":[
+                   135.5,      -39
+            ]
+        },
+        {
+            "id":"FWD Phaser 002",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":33.5,
+            "locations":[
+                   135.5,       39
+            ]
+        },
+        {
+            "id":"STBD Phaser 000",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":270,
+            "locations":[
+                    91.5,      -67
+            ]
+        },
+        {
+            "id":"PORT Phaser 000",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":90,
+            "locations":[
+                    91.5,       67
+            ]
+        },
+        {
+            "id":"STBD Phaser 001",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":234.5,
+            "locations":[
+                    61.5,      -57
+            ]
+        },
+        {
+            "id":"PORT Phaser 001",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":125.5,
+            "locations":[
+                    61.5,       57
+            ]
+        },
+        {
+            "id":"STBD Phaser 002",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":295.5,
+            "locations":[
+                     113,      -61
+            ]
+        },
+        {
+            "id":"PORT Phaser 002",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":64.5,
+            "locations":[
+                     113,       61
+            ]
+        },
+        {
+            "id":"STBD Phaser 003",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":270,
+            "locations":[
+                     -45,    -64.5
+            ]
+        },
+        {
+            "id":"PORT Phaser 003",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":90,
+            "locations":[
+                     -45,     64.5
+            ]
+        },
+        {
+            "id":"AFT Phaser 001",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":180,
+            "locations":[
+                     -57,    -64.5
+            ]
+        },
+        {
+            "id":"AFT Phaser 000",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":180,
+            "locations":[
+                     -57,     64.5
+            ]
+        },
+        {
+            "id":"FWD Launcher 000",
+            "size":"MEDIUM",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":0,
+            "locations":[
+                      18,     -0.5
+            ]
+        },
+        {
+            "id":"FWD Launcher 001",
+            "size":"MEDIUM",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":0,
+            "locations":[
+                     186,     -0.5
+            ]
+        },
+        {
+            "id":"LB 000",
+            "size":"SMALL",
+            "type":"LAUNCH_BAY",
+            "mount":"HIDDEN",
+            "arc":0,
+            "angle":0,
+            "locations":[
+                   -41.5,     -0.5,
+                     -44,     -0.5
+            ]
+        }
+    ],
+    "engineSlots":[
+        {
+            "location":[
+                5, -59.5
+            ],
+            "length":0.5,
+            "width":12,
+            "angle":180,
+            "contrailSize":15,
+            "style":"impulseEngines_standard"
+        },
+        {
+            "location":[
+                5, 59.5
+            ],
+            "length":0.5,
+            "width":12,
+            "angle":180,
+            "contrailSize":15,
+            "style":"impulseEngines_standard"
+        }
+    ],
+    "bounds":[
+             -42,        3,
+           -40.5,      8.5,
+           -45.5,     12.5,
+           -51.5,     22.5,
+           -59.5,     39.5,
+        
+           -63.5,     55.5,
+            -150,     57.5,
+          -149.5,       68,
+            -180,     68.5,
+          -185.5,       70,
+        
+          -185.5,     90.5,
+             -43,     90.5,
+             -27,     88.5,
+              -5,       87,
+            -2.5,       71,
+        
+            -2.5,     56.5,
+             -27,     55.5,
+             -27,       45,
+           -21.5,       32,
+           -15.5,       24,
+        
+            -4.5,     40.5,
+               5,       54,
+             8.5,       67,
+            24.5,       89,
+            43.5,      104,
+        
+            72.5,    114.5,
+              97,    116.5,
+             124,    108.5,
+           147.5,       92,
+             167,       68,
+        
+           180.5,       39,
+             185,      9.5,
+             185,     -9.5,
+           180.5,      -39,
+             167,      -68,
+        
+           147.5,      -92,
+             124,   -108.5,
+              97,   -116.5,
+            72.5,   -114.5,
+            43.5,     -104,
+        
+            24.5,      -89,
+             8.5,      -67,
+               5,    -65.5,
+               5,      -54,
+             0.5,    -52.5,
+        
+            -4.5,    -40.5,
+           -15.5,      -24,
+           -21.5,      -32,
+             -27,      -45,
+             -27,    -55.5,
+        
+            -2.5,    -56.5,
+            -2.5,      -71,
+            -4.5,      -71,
+              -5,      -87,
+             -27,    -88.5,
+        
+             -43,    -90.5,
+          -185.5,    -90.5,
+          -185.5,      -70,
+            -180,    -68.5,
+          -149.5,      -68,
+        
+            -150,    -57.5,
+            -147,    -55.5,
+           -63.5,    -55.5,
+           -59.5,    -39.5,
+           -51.5,    -22.5,
+        
+           -45.5,    -12.5,
+           -40.5,     -8.5,
+             -42,     -4.5
+    # 68 points total.
+    ]
+}

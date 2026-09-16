@@ -1,0 +1,49 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "coltech_atlas",
+    "hullMods": [
+        "colTechShields"
+    ],
+    "permaMods": [
+        "shielded_holds",
+        "civgrade"
+    ],
+    "quality": 0.0,
+    "variantId": "coltech_atlas",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "typeV_laser",
+                "WS 000": "typeV_laser",
+                "WS 001": "typeV_laser",
+                "WS 004": "exotic_particle_emitter",
+                "WS 005": "exotic_particle_emitter",
+                "WS 007": "exotic_particle_emitterM",
+                "WS 011": "typeIV_laser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "dragonpod",
+                "WS 009": "swarmer_fighter",
+                "WS 010": "swarmer_fighter"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "sniper_turret",
+                "WS 012": "coalition_neutrino_slugS",
+                "WS 013": "coalition_neutrino_slugS"
+            }
+        }
+    ]
+}

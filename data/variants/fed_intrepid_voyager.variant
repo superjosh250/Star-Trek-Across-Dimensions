@@ -1,0 +1,50 @@
+{
+    "displayName":"Standard",
+    "fluxCapacitors":0,
+    "fluxVents":0,
+    "goalVariant":true,
+    "hullId":"fed_intrepid_voyager",
+    "hullMods":[
+        "warp_core_intrepid",
+        "impulse_engines",
+        "federationShields"
+    ],
+    "quality":0.0,
+    "variantId":"fed_intrepid_voyager",
+    "weaponGroups":[
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 003":"phaser_typeX_medium",
+                "WS 001":"phaser_typeX_medium",
+                "WS 000":"phaser_typeX_medium",
+                "WS 002":"phaser_typeX_medium",
+                "WS 011":"phaser_typeX_medium",
+                "WS 010":"phaser_typeX_medium"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 015":"photon_torpedo_type6",
+                "WS 014":"photon_torpedo_type6",
+                "WS 012":"photon_torpedo_type6",
+                "WS 013":"photon_torpedo_type6"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 008":"phaser_typeX_medium",
+                "WS 006":"phaser_typeX_medium",
+                "WS 004":"phaser_typeX_medium",
+                "WS 009":"phaser_typeX_medium",
+                "WS 007":"phaser_typeX_medium",
+                "WS 005":"phaser_typeX_medium"
+            }
+        }
+    ]
+}

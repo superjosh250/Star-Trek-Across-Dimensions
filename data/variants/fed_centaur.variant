@@ -1,0 +1,46 @@
+{
+    "displayName":"Standard",
+    "fluxCapacitors":0,
+    "fluxVents":0,
+    "goalVariant":true,
+    "hullId":"fed_centaur",
+    "hullMods":[
+        "impulseEngines_small",
+        "warp_core_small",
+        "federationShields"
+    ],
+    "quality":0.0,
+    "variantId":"fed_centaur",
+    "weaponGroups":[
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 003":"phaser_typeVIII_medium",
+                "WS 002":"phaser_typeVIII_medium",
+                "WS 001":"phaser_typeVIII_medium",
+                "WS 000":"phaser_typeVIII_medium"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 008":"photonTorpedo_x1_standard_medium",
+                "WS 009":"photonTorpedo_x1_standard_medium",
+                "WS 010":"photonTorpedo_x1_standard_medium",
+                "WS 011":"photonTorpedo_x1_standard_medium"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 004":"phaser_typeVIII_medium",
+                "WS 005":"phaser_typeVIII_medium",
+                "WS 007":"phaser_typeVIII_medium",
+                "WS 006":"phaser_typeVIII_medium"
+            }
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "colossus_mkIV",
+    "hullMods": [
+        "colTechShields",
+        "advancedshieldemitter",
+        "dedicated_targeting_core"
+    ],
+    "permaMods": [
+        "repair_gantry"
+    ],
+    "quality": 0.0,
+    "variantId": "colossus_mkIV",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "ionbeam",
+                "WS 007": "ionbeam",
+                "WS 014": "coalition_neutrino_slugS",
+                "WS 015": "coalition_neutrino_slugS",
+                "WS 002": "coalition_neutrino_slugS",
+                "WS 003": "coalition_neutrino_slugS"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "heavy_mass_driver",
+                "WS 005": "heavy_mass_driver",
+                "WS 000": "harpoon",
+                "WS 001": "harpoon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 016": "exotic_particle_emitterM",
+                "WS 011": "mininglaser",
+                "WS 009": "mininglaser",
+                "WS 010": "mininglaser",
+                "WS 008": "mininglaser",
+                "WS 013": "exotic_particle_emitterS",
+                "WS 012": "exotic_particle_emitterS"
+            }
+        }
+    ],
+    "wings": [
+        "thunder_wing",
+        "thunder_wing"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "displayName": "Orbital Complex I",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "fed_orbitalStationComplex",
+    "hullMods": [
+        "eps_conversionCapacitor"
+    ],
+    "quality": 0.0,
+    "variantId": "fed_orbitalStationComplex_phaserDefenseMKI",
+    "weaponGroups": [],
+    "modules": {
+        "WS 011": "fed_phaserTurret_typeIX",
+        "WS 015": "fed_phaserTurret_typeIX",
+        "WS 013": "fed_phaserTurret_typeIX",
+        "WS 012": "fed_phaserTurret_typeIX",
+        "WS 016": "fed_phaserTurret_typeIX",
+        "WS 014": "fed_phaserTurret_typeIX"
+    }
+}

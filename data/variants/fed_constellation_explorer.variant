@@ -1,0 +1,45 @@
+{
+    "displayName":"Explorer",
+    "fluxCapacitors":0,
+    "fluxVents":0,
+    "goalVariant":true,
+    "hullId":"fed_constellation",
+    "hullMods":[
+        "impulse_engines",
+        "warp_core_standard",
+        "federationShields",
+        "fuel_tank_expansion_mki"
+    ],
+    "quality":0.0,
+    "variantId":"fed_constellation_explorer",
+    "weaponGroups":[
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 003":"phaser_typeX",
+                "WS 002":"phaser_typeX"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 009":"photonTorpedo_x1_standard",
+                "WS 008":"photonTorpedo_x1_standard",
+                "WS 011":"photonTorpedo_x1_standard",
+                "WS 010":"photonTorpedo_x1_standard"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 005":"phaser_typeX",
+                "WS 007":"phaser_typeX",
+                "WS 006":"phaser_typeX",
+                "WS 004":"phaser_typeX"
+            }
+        }
+    ]
+}

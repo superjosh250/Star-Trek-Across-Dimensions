@@ -1,0 +1,52 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "eagle_mkIII",
+    "hullMods": [
+        "advancedshieldemitter",
+        "colTechShields",
+        "pointdefenseai"
+    ],
+    "permaMods": [
+        "insulatedengine"
+    ],
+    "quality": 0.0,
+    "variantId": "eagle_mkIII",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 016": "plasma",
+                "WS 007": "miningblaster",
+                "WS 005": "exotic_particle_emitterM",
+                "WS 004": "exotic_particle_emitterM",
+                "WS 009": "exotic_particle_emitterM",
+                "WS 010": "exotic_particle_emitterM",
+                "WS 000": "mininglaser",
+                "WS 001": "mininglaser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "neutrino_matter_launcherM",
+                "WS 011": "neutrino_matter_launcherM",
+                "WS 008": "neutrino_matter_launcherM"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 013": "typeV_laser",
+                "WS 006": "typeV_laser",
+                "WS 015": "typeV_laser",
+                "WS 014": "typeV_laser"
+            }
+        }
+    ]
+}

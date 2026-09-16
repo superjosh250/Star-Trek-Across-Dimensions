@@ -1,0 +1,60 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "colossus_mkIII",
+    "hullMods": [
+        "advancedcore",
+        "colTechShields",
+        "repair_gantry"
+    ],
+    "permaMods": [
+        "shielded_holds",
+        "erratic_injector"
+    ],
+    "quality": 0.0,
+    "variantId": "colossus_mkIII",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "coalition_antishieldS",
+                "WS 000": "coalition_antishieldS",
+                "WS 002": "coalition_antishieldS",
+                "WS 003": "coalition_antishieldS",
+                "WS 004": "coalition_antishieldS",
+                "WS 007": "coalition_antishieldS"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "hammer",
+                "WS 006": "hammer"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "sniper_turret",
+                "WS 009": "sniper_turret",
+                "WS 010": "light_mass_driver",
+                "WS 011": "light_mass_driver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "hil"
+            }
+        }
+    ],
+    "wings": [
+        "thunder_wing"
+    ]
+}

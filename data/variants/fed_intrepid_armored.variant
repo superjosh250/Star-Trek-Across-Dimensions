@@ -1,0 +1,28 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "fed_intrepid_armored",
+    "hullMods": [
+        "warp_core_intrepid",
+        "impulse_engines",
+        "deployedAblativeArmor"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "fed_intrepid_armored",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "transphasic_torpedo",
+                "WS 001": "transphasic_torpedo",
+                "WS 002": "transphasic_torpedo",
+                "WS 003": "transphasic_torpedo"
+            }
+        }
+    ],
+    "wings": []
+}

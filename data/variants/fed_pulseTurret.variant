@@ -1,0 +1,22 @@
+{
+    "displayName": "Pulse",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "fed_pulseTurret",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "fed_pulseTurret",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "pulse_phaser_typeX",
+                "WS 002": "pulse_phaser_typeX",
+                "WS 001": "pulse_phaser_typeX",
+                "WS 003": "pulse_phaser_typeX"
+            }
+        }
+    ]
+}

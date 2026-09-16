@@ -1,0 +1,55 @@
+{
+    "displayName":"Standard",
+    "fluxCapacitors":0,
+    "fluxVents":0,
+    "goalVariant":true,
+    "hullId":"fed_springfield",
+    "hullMods":[
+        "impulseEngines_small",
+        "warp_core_small",
+        "federationShields"
+    ],
+    "quality":0.0,
+    "variantId":"fed_springfield",
+    "weaponGroups":[
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "FWD Phaser 000":"phaser_typeX_medium",
+                "FWD Phaser 001":"phaser_typeX_medium",
+                "FWD Phaser 002":"phaser_typeX_medium"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "FWD Torpedo Launcher 001":"photonTorpedo_x1_standard_medium",
+                "FWD Torpedo Launcher 000":"photonTorpedo_x1_standard_medium"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "STBD Phaser 001":"phaser_typeX_medium",
+                "STBD Phaser 000":"phaser_typeX_medium",
+                "STBD Phaser 002":"phaser_typeX_medium",
+                "PORT Phaser 002":"phaser_typeX_medium",
+                "PORT Phaser 001":"phaser_typeX_medium",
+                "PORT Phaser 000":"phaser_typeX_medium"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "AFT Phaser 000":"phaser_typeX_medium",
+                "AFT Phaser 003":"phaser_typeX_medium",
+                "AFT Phaser 002":"phaser_typeX_medium",
+                "AFT Phaser 001":"phaser_typeX_medium"
+            }
+        }
+    ]
+}

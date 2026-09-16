@@ -1,0 +1,68 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "paragon_monarch",
+    "hullMods": [
+        "advancedshieldemitter",
+        "hardenedshieldemitter",
+        "colTechShields"
+    ],
+    "permaMods": [
+        "nav_relay",
+        "high_scatter_amp"
+    ],
+    "quality": 0.0,
+    "variantId": "paragon_monarch",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 022": "typeV_laser",
+                "WS 023": "typeV_laser",
+                "WS 019": "ionbeam",
+                "WS 016": "exotic_particle_emitterM",
+                "WS 015": "exotic_particle_emitterM",
+                "WS 020": "exotic_particle_emitterM",
+                "WS 021": "exotic_particle_emitterM",
+                "WS 004": "exotic_particle_emitterM",
+                "WS 002": "exotic_particle_emitterM",
+                "WS 003": "exotic_particle_emitterM",
+                "WS 008": "exotic_particle_emitterM",
+                "WS 007": "exotic_particle_emitterM",
+                "WS 006": "exotic_particle_emitterM",
+                "WS 005": "exotic_particle_emitterM"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 017": "neutrino_matter_launcherM",
+                "WS 018": "neutrino_matter_launcherM",
+                "WS 000": "neutrino_matter_launcherM",
+                "WS 001": "neutrino_matter_launcherM",
+                "WS 009": "neutrino_matter_launcherS",
+                "WS 012": "neutrino_matter_launcherS"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 024": "coalition_neutrino_slugM",
+                "WS 029": "coalition_neutrino_slugM",
+                "WS 014": "coalition_neutrino_slugS",
+                "WS 011": "coalition_neutrino_slugS",
+                "WS 013": "coalition_neutrino_slugS",
+                "WS 010": "coalition_neutrino_slugS",
+                "WS 028": "coalition_neutrino_slugS",
+                "WS 027": "coalition_neutrino_slugS",
+                "WS 025": "coalition_neutrino_slugS",
+                "WS 026": "coalition_neutrino_slugS"
+            }
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "displayName": "Quantum",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "fed_photonTurret",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "fed_photonTurret_qunatum",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "quantumTorpedo_standard",
+                "WS 001": "quantumTorpedo_standard",
+                "WS 003": "quantumTorpedo_standard",
+                "WS 002": "quantumTorpedo_standard"
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "exotic_particle_emitterS",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/neutrino_nadion_turretS.png",
+  "turretGlowSprite": "graphics/weapons/neutrino_matter_launcherS_glow.png",
+  "turretGunSprite": "graphics/weapons/neutrino_nadion_turretS.png",
+  "hardpointSprite": "",
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    13,
+    -0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    143,
+    189,
+    194,
+    150
+  ],
+  "coreColor": [
+    214,
+    180,
+    97,
+    255
+  ],
+  "width": 20,
+  "textureType": [
+    "graphics/fx/spiral_beam.png",
+    "graphics/fx/spiral_beam.png"
+  ],
+  "textureScrollSpeed": 64,
+  "pixelsPerTexel": 32
+}

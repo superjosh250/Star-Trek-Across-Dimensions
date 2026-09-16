@@ -1,0 +1,55 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "ind_sovereign_conquest",
+    "hullMods": [
+        "advancedshieldemitter",
+        "colTechShields",
+        "targetingunit"
+    ],
+    "permaMods": [
+        "augmentedengines"
+    ],
+    "quality": 0.0,
+    "variantId": "ind_sovereign_conquest",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "typeV_laser",
+                "WS 013": "typeV_laser",
+                "WS 010": "typeV_laser",
+                "WS 011": "typeV_laser",
+                "WS 007": "typeV_laser",
+                "WS 008": "typeV_laser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "sabotpod",
+                "WS 006": "sabotpod",
+                "WS 004": "neutrino_matter_launcherM",
+                "WS 005": "neutrino_matter_launcherM"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "coalition_neutrino_slugS",
+                "WS 003": "coalition_neutrino_slugS",
+                "WS 000": "coalition_neutrino_slugS",
+                "WS 001": "coalition_neutrino_slugS"
+            }
+        }
+    ],
+    "wings": [
+        "talon_wing",
+        "talon_wing"
+    ]
+}

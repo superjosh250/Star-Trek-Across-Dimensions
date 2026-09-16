@@ -1,0 +1,457 @@
+{
+    "hullName":"Sovereign",
+    "hullId":"fed_sovereign",
+    "hullSize":"CAPITAL_SHIP",
+    "style":"HIGH_TECH",
+    "spriteName":"graphics/ships/fed_sovereign.png",
+    "height":691,
+    "width":261,
+    "center":[
+        130.5, 345.5
+    ],
+    "collisionRadius":600,
+    "coversColor":"",
+    "shieldCenter":[
+        0, 0
+    ],
+    "shieldRadius":570,
+    "viewOffset":0,
+    "builtInMods":[
+        "power_delivery",
+        "sensorArray",
+        "main_power_failure",
+        "engine_mount",
+        "shieldMount",
+        "federationShieldRecovery"
+    ],
+    "builtInWeapons":{
+        "WS 011":"blinker_galaxySaucer",
+        "WS 012":"blinker_galaxySaucer_red",
+        "WS 013":"blinker_galaxySaucer_red",
+        "WS 014":"blinker_galaxySaucer",
+        "WS 015":"blinker_galaxySaucer_red"
+    },
+    "builtInWings":[],
+    "builtInModules":null,
+    "weaponSlots":[
+        {
+            "id":"FWD Phaser 000",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":21,
+            "locations":[
+                     287,       19
+            ]
+        },
+        {
+            "id":"FWD Phaser 001",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":339,
+            "locations":[
+                     287,      -19
+            ]
+        },
+        {
+            "id":"FWD Phaser 003",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":32.5,
+            "locations":[
+                     264,     44.5
+            ]
+        },
+        {
+            "id":"FWD Phaser 002",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":327.5,
+            "locations":[
+                     264,    -44.5
+            ]
+        },
+        {
+            "id":"FWD Phaser 004",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                   291.5,     -0.5
+            ]
+        },
+        {
+            "id":"WS 000",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":300,
+            "locations":[
+                     230,    -61.5
+            ]
+        },
+        {
+            "id":"WS 001",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":60,
+            "locations":[
+                     230,     61.5
+            ]
+        },
+        {
+            "id":"WS 002",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":280.5,
+            "locations":[
+                     201,    -68.5
+            ]
+        },
+        {
+            "id":"WS 003",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":79.5,
+            "locations":[
+                     201,     68.5
+            ]
+        },
+        {
+            "id":"WS 004",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":271,
+            "locations":[
+                     175,      -69
+            ]
+        },
+        {
+            "id":"WS 005",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":89,
+            "locations":[
+                     175,       69
+            ]
+        },
+        {
+            "id":"WS 006",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":253,
+            "locations":[
+                   148.5,      -66
+            ]
+        },
+        {
+            "id":"WS 007",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":107,
+            "locations":[
+                   148.5,       66
+            ]
+        },
+        {
+            "id":"AFT Phaser 001",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":219.5,
+            "locations":[
+                      68,      -79
+            ]
+        },
+        {
+            "id":"AFT Phaser 000",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":140.5,
+            "locations":[
+                      68,       79
+            ]
+        },
+        {
+            "id":"AFT Phaser 003",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":176.5,
+            "locations":[
+                      86,       22
+            ]
+        },
+        {
+            "id":"AFT Phaser 002",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":183.5,
+            "locations":[
+                      86,      -22
+            ]
+        },
+        {
+            "id":"AFT Phaser 004",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":180,
+            "locations":[
+                  -135.5,      -38
+            ]
+        },
+        {
+            "id":"AFT Phaser 005",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":180,
+            "locations":[
+                  -135.5,       38
+            ]
+        },
+        {
+            "id":"WS 008",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":180,
+            "locations":[
+                    -150,        0
+            ]
+        },
+        {
+            "id":"WS 009",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                   336.5,        0
+            ]
+        },
+        {
+            "id":"WS 010",
+            "size":"LARGE",
+            "type":"COMPOSITE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                     340,        0
+            ]
+        },
+        {
+            "id":"WS 011",
+            "size":"SMALL",
+            "type":"DECORATIVE",
+            "mount":"TURRET",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                     183,   -101.5
+            ]
+        },
+        {
+            "id":"WS 012",
+            "size":"SMALL",
+            "type":"DECORATIVE",
+            "mount":"TURRET",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                     183,    101.5
+            ]
+        },
+        {
+            "id":"WS 013",
+            "size":"SMALL",
+            "type":"DECORATIVE",
+            "mount":"TURRET",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                   162.5,     -0.5
+            ]
+        },
+        {
+            "id":"WS 014",
+            "size":"SMALL",
+            "type":"DECORATIVE",
+            "mount":"TURRET",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                   -69.5,    -88.5
+            ]
+        },
+        {
+            "id":"WS 015",
+            "size":"SMALL",
+            "type":"DECORATIVE",
+            "mount":"TURRET",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                   -69.5,     88.5
+            ]
+        },
+        {
+            "id":"LB 000",
+            "size":"SMALL",
+            "type":"LAUNCH_BAY",
+            "mount":"HIDDEN",
+            "arc":0,
+            "angle":0,
+            "locations":[
+                  -121.5,        0,
+                    -139,      7.5,
+                    -139,     -7.5
+            ]
+        },
+        {
+            "id":"LB 001",
+            "size":"SMALL",
+            "type":"LAUNCH_BAY",
+            "mount":"HIDDEN",
+            "arc":0,
+            "angle":0,
+            "locations":[
+                      60,        0,
+                    50.5,    -21.5,
+                    50.5,     21.5
+            ]
+        }
+    ],
+    "engineSlots":[
+        {
+            "location":[
+                44.5, -55.5
+            ],
+            "length":0.5,
+            "width":30,
+            "angle":217,
+            "contrailSize":32,
+            "style":"impulseEngines_standard"
+        },
+        {
+            "location":[
+                44.5, 55.5
+            ],
+            "length":0.5,
+            "width":30,
+            "angle":-217,
+            "contrailSize":32,
+            "style":"impulseEngines_standard"
+        }
+    ],
+    "bounds":[
+          -150.5,        5,
+          -139.5,       14,
+            -127,     16.5,
+          -126.5,     26.5,
+            -170,     64.5,
+        
+            -219,     73.5,
+            -335,       78,
+          -335.5,     94.5,
+           -95.5,    101.5,
+             -42,    101.5,
+        
+           -11.5,       92,
+             -12,     82.5,
+             -42,       72,
+          -116.5,     68.5,
+            -114,       64,
+        
+           -87.5,       49,
+           -57.5,     38.5,
+             -18,       30,
+              11,       33,
+              25,       41,
+        
+            45.5,       72,
+              76,       92,
+             114,    108.5,
+             187,    114.5,
+             240,      108,
+        
+             274,     93.5,
+           299.5,       75,
+           319.5,     52.5,
+             330,     31.5,
+             335,        8,
+        
+             335,       -8,
+             330,    -31.5,
+           319.5,    -52.5,
+           299.5,      -75,
+             274,    -93.5,
+        
+             240,     -108,
+             187,   -114.5,
+             114,   -108.5,
+              76,      -92,
+            45.5,      -72,
+        
+              25,      -41,
+              11,      -33,
+             -18,      -30,
+           -57.5,    -38.5,
+           -87.5,      -49,
+        
+            -114,      -64,
+          -116.5,    -68.5,
+             -42,      -72,
+             -12,    -82.5,
+           -11.5,      -92,
+        
+             -42,   -101.5,
+           -95.5,   -101.5,
+          -335.5,    -94.5,
+            -335,      -78,
+            -219,    -73.5,
+        
+            -170,    -64.5,
+          -126.5,    -26.5,
+            -127,    -16.5,
+          -139.5,      -14,
+          -150.5,       -5
+    # 60 points total.
+    ]
+}

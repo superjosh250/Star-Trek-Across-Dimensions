@@ -1,0 +1,15 @@
+{
+    "id": "command_coordination",
+    "type": "STAT_MOD",
+    "aiType":"NONE",
+    "runScriptWhileIdle": true,
+    "statsScript": "UFP.data.systems.SupportCoordination",
+    "useSound": "energy_lash_activate",
+    "outOfUsesSound": "gun_out_of_ammo",
+    "aiHints": {
+        "threatRange": 1500,
+        "threatAmount": 4,
+        "threatAngle": 0,
+        "threatArc": 360
+    }
+}

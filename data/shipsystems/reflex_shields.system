@@ -1,0 +1,16 @@
+{
+    "id": "reflex_shields",
+    "type": "STAT_MOD",
+    "aiType": "CUSTOM",
+    "aiScript":"UFP.data.ai.ReflexShieldsAI",	
+    "runScriptWhileIdle": true,
+    "statsScript": "UFP.data.systems.ReflexShields",
+    "useSound": "energy_lash_activate",
+    "outOfUsesSound": "gun_out_of_ammo",
+    "aiHints": {
+        "threatRange": 1500,
+        "threatAmount": 4,
+        "threatAngle": 0,
+        "threatArc": 360
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "displayName":"Standard",
+    "fluxCapacitors":0,
+    "fluxVents":0,
+    "goalVariant":true,
+    "hullId":"fed_nova",
+    "hullMods":[
+        "impulseEngines_small",
+        "warp_core_small",
+        "federationShields"
+    ],
+    "quality":0.0,
+    "variantId":"fed_nova",
+    "weaponGroups":[
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "FWD Phaser 000":"phaser_typeX_small",
+                "FWD Phaser 001":"phaser_typeX_small",
+                "FWD Phaser 003":"phaser_typeX_small",
+                "FWD Phaser 002":"phaser_typeX_small"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "FWD Launcher 000":"photon_torpedo_type6_s",
+                "AFT Launcher 000":"photon_torpedo_type6_s"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "PORT Phaser 001":"phaser_typeX_small",
+                "PORT Phaser 000":"phaser_typeX_small",
+                "STBD Phaser 000":"phaser_typeX_small",
+                "STBD Phaser 001":"phaser_typeX_small"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "AFT Phaser 001":"phaser_typeX_small",
+                "AFT Phaser 000":"phaser_typeX_small"
+            }
+        }
+    ]
+}

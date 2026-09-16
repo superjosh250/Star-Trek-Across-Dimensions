@@ -1,0 +1,73 @@
+{
+    "displayName":"Standard",
+    "fluxCapacitors":0,
+    "fluxVents":0,
+    "goalVariant":true,
+    "hullId":"fed_sovereign_ussSovereign",
+    "hullMods":[
+        "warp_core_sovereign",
+        "impulse_engines_capital",
+        "federationShields"
+    ],
+    "variantId":"fed_sovereign_ussSovereign",
+    "weaponGroups":[
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 029":"phaser_typeXI",
+                "WS 028":"phaser_typeXI",
+                "WS 027":"phaser_typeXI",
+                "WS 021":"phaser_typeXI",
+                "WS 020":"phaser_typeXI",
+                "WS 017":"phaser_typeXI",
+                "WS 016":"phaser_typeXI",
+                "WS 015":"phaser_typeXI",
+                "WS 014":"phaser_typeXI",
+                "WS 013":"phaser_typeXI",
+                "WS 012":"phaser_typeXI",
+                "WS 004":"phaser_typeXI",
+                "WS 003":"phaser_typeXI",
+                "WS 002":"phaser_typeXI"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 030":"photonTorpedo_standard",
+                "WS 033":"photonTorpedo_standard"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 026":"phaser_typeXI",
+                "WS 025":"phaser_typeXI",
+                "WS 024":"phaser_typeXI",
+                "WS 022":"phaser_typeXI",
+                "WS 019":"phaser_typeXI",
+                "WS 010":"phaser_typeXI",
+                "WS 009":"phaser_typeXI",
+                "WS 007":"phaser_typeXI",
+                "WS 006":"phaser_typeXI",
+                "WS 005":"phaser_typeXI"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 031":"quantumTorpedo_standard"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 032":"phased_plasma_torpedo"
+            }
+        }
+    ]
+}

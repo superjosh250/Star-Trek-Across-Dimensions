@@ -1,0 +1,324 @@
+{
+    "hullName":"Nebula",
+    "hullId":"fed_nebula",
+    "hullSize":"CRUISER",
+    "style":"HIGH_TECH",
+    "spriteName":"graphics/ships/fed_nebula.png",
+    "height":454,
+    "width":454,
+    "center":[
+        227, 227
+    ],
+    "collisionRadius":364,
+    "coversColor":"",
+    "shieldCenter":[
+        0, 0
+    ],
+    "shieldRadius":350,
+    "viewOffset":0,
+    "builtInMods":[
+        "power_delivery",
+        "sensorArray",
+        "main_power_failure",
+        "engine_mount",
+        "shieldMount",
+        "federationShieldRecovery"
+    ],
+    "builtInWings":[],
+    "builtInModules":null,
+    "weaponSlots":[
+        {
+            "id":"FWD Phaser 001",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                   158.5,    -35.5
+            ]
+        },
+        {
+            "id":"FWD Phaser 000",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                   158.5,     35.5
+            ]
+        },
+        {
+            "id":"FWD Phaser 002",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":312.5,
+            "locations":[
+                   134.5,     -102
+            ]
+        },
+        {
+            "id":"FWD Phaser 003",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                   134.5,      102
+            ]
+        },
+        {
+            "id":"STBD Phaser 000",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":291,
+            "locations":[
+                    86.5,   -147.5
+            ]
+        },
+        {
+            "id":"PORT Phaser 000",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":69,
+            "locations":[
+                    86.5,    147.5
+            ]
+        },
+        {
+            "id":"STBD Phaser 001",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":269,
+            "locations":[
+                      42,   -159.5
+            ]
+        },
+        {
+            "id":"PORT Phaser 001",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":91,
+            "locations":[
+                      42,    159.5
+            ]
+        },
+        {
+            "id":"STBD Phaser 002",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":253.5,
+            "locations":[
+                   -15.5,   -138.5
+            ]
+        },
+        {
+            "id":"PORT Phaser 002",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":106.5,
+            "locations":[
+                   -15.5,    138.5
+            ]
+        },
+        {
+            "id":"AFT Phaser 001",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":204,
+            "locations":[
+                     -51,    -94.5
+            ]
+        },
+        {
+            "id":"AFT Phaser 000",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":156,
+            "locations":[
+                     -51,     94.5
+            ]
+        },
+        {
+            "id":"PORT Phaser 003",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":270,
+            "locations":[
+                    -113,   -113.5
+            ]
+        },
+        {
+            "id":"STBD Phaser 003",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":90,
+            "locations":[
+                    -113,    113.5
+            ]
+        },
+        {
+            "id":"FWD Launcher 000",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":0,
+            "locations":[
+                   224.5,      0.5
+            ]
+        },
+        {
+            "id":"FWD Launcher 005",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                   -68.5,     22.5
+            ]
+        },
+        {
+            "id":"FWD Launcher 002",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                     -81,       45
+            ]
+        },
+        {
+            "id":"FWD Launcher 004",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                   -69.5,      -25
+            ]
+        },
+        {
+            "id":"FWD Launcher 003",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                     -82,      -46
+            ]
+        },
+        {
+            "id":"AFT Launcher 000",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":178.5,
+            "locations":[
+                  -215.5,       17
+            ]
+        },
+        {
+            "id":"AFT Launcher 001",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":181.5,
+            "locations":[
+                  -215.5,      -17
+            ]
+        },
+        {
+            "id":"LB 000",
+            "size":"SMALL",
+            "type":"LAUNCH_BAY",
+            "mount":"HIDDEN",
+            "arc":0,
+            "angle":0,
+            "locations":[
+                     -45,       -1,
+                     -60,    -21.5,
+                     -61,     21.5
+            ]
+        }
+    ],
+    "engineSlots":[],
+    "bounds":[
+          -215.5,       18,
+          -226.5,     38.5,
+          -217.5,      104,
+            -209,      127,
+          -167.5,      122,
+        
+            -154,      111,
+          -150.5,    127.5,
+            -144,    135.5,
+             -97,    134.5,
+           -65.5,      171,
+        
+             -33,      197,
+              -2,    211.5,
+              41,    220.5,
+              89,    213.5,
+           121.5,    199.5,
+        
+           159.5,    170.5,
+             191,    128.5,
+           214.5,     77.5,
+             224,     20.5,
+             224,    -20.5,
+        
+           214.5,    -77.5,
+             191,   -128.5,
+           159.5,   -170.5,
+           121.5,   -199.5,
+              89,   -213.5,
+        
+              41,   -220.5,
+              -2,   -211.5,
+             -33,     -197,
+           -65.5,     -171,
+             -97,   -134.5,
+        
+            -144,   -135.5,
+          -150.5,   -127.5,
+            -154,     -111,
+          -167.5,     -122,
+            -209,     -127,
+        
+          -217.5,     -104,
+          -226.5,    -38.5,
+          -215.5,      -18
+    # 38 points total.
+    ]
+}

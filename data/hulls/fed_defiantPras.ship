@@ -1,0 +1,319 @@
+{
+    "hullName":"Defiant",
+    "hullId":"fed_defiantPras",
+    "hullSize":"FRIGATE",
+    "style":"HIGH_TECH",
+    "spriteName":"graphics/ships/fed_defiantPras.png",
+    "height":140,
+    "width":108,
+    "center":[
+        54, 70
+    ],
+    "collisionRadius":175,
+    "coversColor":"",
+    "shieldCenter":[
+        0, 0
+    ],
+    "shieldRadius":150,
+    "viewOffset":0,
+    "builtInMods":[
+        "power_delivery",
+        "sensorArray",
+        "main_power_failure",
+        "engine_mount",
+        "shieldMount",
+        "federationShieldRecovery"
+    ],
+    "builtInWings":[],
+    "builtInModules":null,
+    "weaponSlots":[
+        {
+            "id":"WS 000",
+            "size":"SMALL",
+            "type":"BALLISTIC",
+            "mount":"HIDDEN",
+            "arc":45,
+            "angle":0,
+            "locations":[
+                     8.5,    -37.5
+            ]
+        },
+        {
+            "id":"WS 001",
+            "size":"SMALL",
+            "type":"BALLISTIC",
+            "mount":"HIDDEN",
+            "arc":45,
+            "angle":0,
+            "locations":[
+                     8.5,     37.5
+            ]
+        },
+        {
+            "id":"WS 002",
+            "size":"SMALL",
+            "type":"BALLISTIC",
+            "mount":"HIDDEN",
+            "arc":45,
+            "angle":0,
+            "locations":[
+                      30,      -30
+            ]
+        },
+        {
+            "id":"WS 003",
+            "size":"SMALL",
+            "type":"BALLISTIC",
+            "mount":"HIDDEN",
+            "arc":45,
+            "angle":0,
+            "locations":[
+                      30,       30
+            ]
+        },
+        {
+            "id":"WS 004",
+            "size":"SMALL",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":0,
+            "locations":[
+                       5,     51.5
+            ]
+        },
+        {
+            "id":"WS 005",
+            "size":"SMALL",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":0,
+            "locations":[
+                       5,    -51.5
+            ]
+        },
+        {
+            "id":"WS 006",
+            "size":"SMALL",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":179.5,
+            "locations":[
+                     -34,      -29
+            ]
+        },
+        {
+            "id":"WS 007",
+            "size":"SMALL",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":180.5,
+            "locations":[
+                     -34,       29
+            ]
+        },
+        {
+            "id":"WS 008",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":360,
+            "angle":0,
+            "locations":[
+                      24,     -5.5
+            ]
+        },
+        {
+            "id":"WS 009",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":360,
+            "angle":0,
+            "locations":[
+                      24,        7
+            ]
+        },
+        {
+            "id":"WS 010",
+            "size":"SMALL",
+            "type":"BALLISTIC",
+            "mount":"HIDDEN",
+            "arc":45,
+            "angle":0,
+            "locations":[
+                      50,      -10
+            ]
+        },
+        {
+            "id":"WS 011",
+            "size":"SMALL",
+            "type":"BALLISTIC",
+            "mount":"HIDDEN",
+            "arc":45,
+            "angle":0,
+            "locations":[
+                      50,     10.5
+            ]
+        },
+        {
+            "id":"WS 012",
+            "size":"SMALL",
+            "type":"BALLISTIC",
+            "mount":"HIDDEN",
+            "arc":45,
+            "angle":180,
+            "locations":[
+                     -36,       26
+            ]
+        },
+        {
+            "id":"WS 013",
+            "size":"SMALL",
+            "type":"BALLISTIC",
+            "mount":"HIDDEN",
+            "arc":45,
+            "angle":180,
+            "locations":[
+                     -36,      -25
+            ]
+        },
+        {
+            "id":"WS 014",
+            "size":"SMALL",
+            "type":"BALLISTIC",
+            "mount":"HIDDEN",
+            "arc":45,
+            "angle":180,
+            "locations":[
+                   -45.5,    -23.5
+            ]
+        },
+        {
+            "id":"WS 015",
+            "size":"SMALL",
+            "type":"BALLISTIC",
+            "mount":"HIDDEN",
+            "arc":45,
+            "angle":180,
+            "locations":[
+                   -45.5,     24.5
+            ]
+        },
+        {
+            "id":"WS 016",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":360,
+            "angle":0,
+            "locations":[
+                   -28.5,    -17.5
+            ]
+        },
+        {
+            "id":"WS 017",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":360,
+            "angle":0,
+            "locations":[
+                   -28.5,     17.5
+            ]
+        },
+        {
+            "id":"WS 018",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":45,
+            "angle":270,
+            "locations":[
+                   -10.5,    -18.5
+            ]
+        },
+        {
+            "id":"WS 019",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":45,
+            "angle":90,
+            "locations":[
+                   -10.5,     18.5
+            ]
+        }
+    ],
+    "engineSlots":[
+        {
+            "location":[
+                -38, -29
+            ],
+            "length":0.5,
+            "width":5,
+            "angle":180,
+            "contrailSize":16,
+            "style":"impulseEngines_standard"
+        },
+        {
+            "location":[
+                -38, 30.5
+            ],
+            "length":0.5,
+            "width":5,
+            "angle":180,
+            "contrailSize":12,
+            "style":"impulseEngines_standard"
+        }
+    ],
+    "bounds":[
+             -70,       15,
+           -61.5,     17.5,
+           -61.5,       21,
+           -45.5,       23,
+           -45.5,     29.5,
+        
+             -34,     28.5,
+           -34.5,       50,
+             -14,     51.5,
+               3,     52.5,
+             7.5,       38,
+        
+              18,       36,
+              27,     32.5,
+              35,       27,
+              42,     22.5,
+            46.5,       16,
+        
+            49.5,     10.5,
+              62,      8.5,
+            69.5,      6.5,
+            69.5,       -5,
+            62.5,       -7,
+        
+            49.5,       -9,
+            46.5,    -15.5,
+            41.5,    -20.5,
+            32.5,    -27.5,
+              25,    -31.5,
+        
+              14,    -35.5,
+             8.5,      -36,
+               3,      -52,
+             -14,    -50.5,
+             -35,      -49,
+        
+           -34.5,      -29,
+             -46,    -27.5,
+           -45.5,      -23,
+             -62,      -20,
+           -61.5,      -16,
+        
+             -70,      -15
+    # 36 points total.
+    ]
+}

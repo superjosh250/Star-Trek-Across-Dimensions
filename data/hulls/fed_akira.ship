@@ -1,0 +1,545 @@
+{
+    "hullName":"Akira",
+    "hullId":"fed_akira",
+    "hullSize":"CRUISER",
+    "style":"HIGH_TECH",
+    "spriteName":"graphics/ships/fed_akira.png",
+    "height":490,
+    "width":300,
+    "center":[
+        148.5, 242
+    ],
+    "collisionRadius":512,
+    "coversColor":"",
+    "shieldCenter":[
+        0, 0
+    ],
+    "shieldRadius":440,
+    "viewOffset":0,
+    "builtInMods":[
+        "power_delivery",
+        "main_power_failure",
+        "sensorArray",
+        "shieldMount",
+        "engine_mount",
+        "federationShieldRecovery"
+    ],
+    "builtInWings":[],
+    "builtInModules":null,
+    "weaponSlots":[
+        {
+            "id":"FWD Phaser 000",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                   215.5,     13.5
+            ]
+        },
+        {
+            "id":"FWD Phaser 001",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                   215.5,    -13.5
+            ]
+        },
+        {
+            "id":"FWD Phaser 002",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":324.5,
+            "locations":[
+                     203,    -53.5
+            ]
+        },
+        {
+            "id":"FWD Phaser 003",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":35.5,
+            "locations":[
+                     202,     53.5
+            ]
+        },
+        {
+            "id":"STBD Phaser 000",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":299,
+            "locations":[
+                   172.5,      -88
+            ]
+        },
+        {
+            "id":"PORT Phaser 000",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":61,
+            "locations":[
+                     172,       86
+            ]
+        },
+        {
+            "id":"STBD Phaser 001",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":271,
+            "locations":[
+                     139,     -103
+            ]
+        },
+        {
+            "id":"PORT Phaser 001",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":89,
+            "locations":[
+                   143.5,      100
+            ]
+        },
+        {
+            "id":"STBD Phaser 002",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":258,
+            "locations":[
+                   100.5,     -104
+            ]
+        },
+        {
+            "id":"PORT Phaser 002",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":102,
+            "locations":[
+                   101.5,      101
+            ]
+        },
+        {
+            "id":"AFT Phaser 001",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":228.5,
+            "locations":[
+                    -146,     -118
+            ]
+        },
+        {
+            "id":"AFT Phaser 000",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":131.5,
+            "locations":[
+                  -146.5,    114.5
+            ]
+        },
+        {
+            "id":"AFT Phaser 003",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":180,
+            "locations":[
+                    -164,     -118
+            ]
+        },
+        {
+            "id":"AFT Phaser 002",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":180,
+            "locations":[
+                    -163,      115
+            ]
+        },
+        {
+            "id":"STBD Phaser 003",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":270,
+            "locations":[
+                    -129,     -118
+            ]
+        },
+        {
+            "id":"PORT Phaser 003",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":90,
+            "locations":[
+                  -128.5,      115
+            ]
+        },
+        {
+            "id":"FWD Launcher 001",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":346.5,
+            "locations":[
+                     -61,      -11
+            ]
+        },
+        {
+            "id":"FWD Launcher 002",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":0,
+            "locations":[
+                   -57.5,       -6
+            ]
+        },
+        {
+            "id":"FWD Launcher 003",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":0,
+            "locations":[
+                   -57.5,        3
+            ]
+        },
+        {
+            "id":"FWD Launcher 000",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":21.5,
+            "locations":[
+                   -61.5,        9
+            ]
+        },
+        {
+            "id":"Quantum Launcher 000",
+            "size":"LARGE",
+            "type":"SYNERGY",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":0,
+            "locations":[
+                   -43.5,       10
+            ]
+        },
+        {
+            "id":"Quantum Launcher 001",
+            "size":"LARGE",
+            "type":"SYNERGY",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":0,
+            "locations":[
+                     -42,       -2
+            ]
+        },
+        {
+            "id":"Quantum Launcher 002",
+            "size":"LARGE",
+            "type":"SYNERGY",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":0,
+            "locations":[
+                     -44,    -12.5
+            ]
+        },
+        {
+            "id":"STBD Launcher 000",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":270.5,
+            "locations":[
+                     123,     -117
+            ]
+        },
+        {
+            "id":"PORT Launcher 000",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":89.5,
+            "locations":[
+                     123,      117
+            ]
+        },
+        {
+            "id":"STBD Launcher 001",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":270,
+            "locations":[
+                     116,   -116.5
+            ]
+        },
+        {
+            "id":"PORT Launcher 001",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":90,
+            "locations":[
+                     116,    116.5
+            ]
+        },
+        {
+            "id":"STBD Launcher 002",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":270,
+            "locations":[
+                  -113.5,      -27
+            ]
+        },
+        {
+            "id":"PORT Launcher 002",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":90,
+            "locations":[
+                    -113,       25
+            ]
+        },
+        {
+            "id":"AFT Launcher 001",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":225,
+            "locations":[
+                    -123,      -21
+            ]
+        },
+        {
+            "id":"AFT Launcher 000",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":135,
+            "locations":[
+                  -122.5,     18.5
+            ]
+        },
+        {
+            "id":"AFT Launcher 003",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":180,
+            "locations":[
+                  -143.5,     -5.5
+            ]
+        },
+        {
+            "id":"AFT Launcher 002",
+            "size":"LARGE",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":178,
+            "locations":[
+                  -143.5,      3.5
+            ]
+        },
+        {
+            "id":"LB 000",
+            "size":"SMALL",
+            "type":"LAUNCH_BAY",
+            "mount":"HIDDEN",
+            "arc":0,
+            "angle":0,
+            "locations":[
+                    15.5,      -17,
+                      10,      -17,
+                   237.5,    -11.5
+            ]
+        },
+        {
+            "id":"LB 001",
+            "size":"SMALL",
+            "type":"LAUNCH_BAY",
+            "mount":"HIDDEN",
+            "arc":0,
+            "angle":0,
+            "locations":[
+                    15.5,       16,
+                      10,       16,
+                   237.5,       12
+            ]
+        },
+        {
+            "id":"LB 002",
+            "size":"SMALL",
+            "type":"LAUNCH_BAY",
+            "mount":"HIDDEN",
+            "arc":0,
+            "angle":0,
+            "locations":[
+                    11.5,     -0.5,
+                     8.5,     -0.5,
+                   237.5,     -1.5
+            ]
+        }
+    ],
+    "engineSlots":[
+        {
+            "location":[
+                30.5, -91.5
+            ],
+            "length":0.5,
+            "width":32,
+            "angle":214,
+            "contrailSize":20,
+            "style":"impulseEngines_standard"
+        },
+        {
+            "location":[
+                31, 90
+            ],
+            "length":0.5,
+            "width":32,
+            "angle":146,
+            "contrailSize":20,
+            "style":"impulseEngines_standard"
+        }
+    ],
+    "bounds":[
+            -143,        5,
+          -111.5,     25.5,
+          -104.5,     25.5,
+          -152.5,     80.5,
+            -182,    115.5,
+        
+          -227.5,      118,
+          -228.5,    129.5,
+            -220,    144.5,
+            -216,    147.5,
+               6,    145.5,
+        
+               6,    142.5,
+              13,      142,
+              19,    135.5,
+              19,    129.5,
+              16,      125,
+        
+               7,    121.5,
+               7,    118.5,
+            -113,      118,
+           -94.5,       82,
+             -57,     67.5,
+        
+           -32.5,       63,
+            12.5,     64.5,
+            20.5,       78,
+              38,    100.5,
+            66.5,      113,
+        
+              71,      117,
+              98,    126.5,
+             133,    126.5,
+             160,    118.5,
+             181,    107.5,
+        
+           204.5,       90,
+           217.5,     73.5,
+             225,       59,
+             231,       46,
+           233.5,       38,
+        
+             221,       30,
+             227,     27.5,
+             227,      -30,
+           222.5,      -32,
+             234,      -41,
+        
+           223.5,    -66.5,
+           204.5,    -92.5,
+             182,   -110.5,
+           160.5,     -122,
+           130.5,   -127.5,
+        
+            97.5,     -128,
+            72.5,     -121,
+            68.5,     -117,
+            38.5,   -104.5,
+              13,    -68.5,
+        
+           -37.5,    -68.5,
+             -82,      -81,
+             -94,    -85.5,
+            -112,     -120,
+               7,     -121,
+        
+               7,     -125,
+            13.5,     -126,
+              19,     -132,
+              19,   -139.5,
+            13.5,   -144.5,
+        
+             6.5,     -146,
+               6,     -149,
+            -1.5,     -148,
+           -16.5,   -147.5,
+            -217,     -150,
+        
+            -228,     -132,
+            -228,   -121.5,
+          -223.5,   -119.5,
+            -182,   -119.5,
+            -153,    -84.5,
+        
+            -105,    -29.5,
+          -112.5,    -28.5,
+            -143,       -8
+    # 73 points total.
+    ]
+}

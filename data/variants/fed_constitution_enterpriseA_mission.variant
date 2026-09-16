@@ -1,0 +1,46 @@
+{
+    "displayName": "Mission",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "fed_constitution_enterpriseA",
+    "hullMods": [
+        "warp_core_standard",
+        "impulse_engines",
+        "federationShields"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "fed_constitution_enterpriseA_mission",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "phaser_typeVII",
+                "WS 002": "phaser_typeVII",
+                "WS 007": "phaser_typeVII",
+                "WS 008": "phaser_typeVII"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 017": "photonTorpedo_tmp_x1",
+                "WS 018": "photonTorpedo_tmp_x1"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "phaser_typeVII",
+                "WS 004": "phaser_typeVII",
+                "WS 005": "phaser_typeVII",
+                "WS 006": "phaser_typeVII"
+            }
+        }
+    ],
+    "wings": []
+}

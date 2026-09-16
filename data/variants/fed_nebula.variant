@@ -1,0 +1,55 @@
+{
+    "displayName":"Standard",
+    "fluxCapacitors":0,
+    "fluxVents":0,
+    "goalVariant":true,
+    "hullId":"fed_nebula",
+    "hullMods":[
+        "impulse_engines",
+        "warp_core_galaxy",
+        "federationShields"
+    ],
+    "quality":0.0,
+    "variantId":"fed_nebula",
+    "weaponGroups":[
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "AFT Phaser 001":"phaser_typeX",
+                "AFT Phaser 000":"phaser_typeX",
+                "FWD Phaser 003":"phaser_typeX",
+                "FWD Phaser 002":"phaser_typeX",
+                "FWD Phaser 001":"phaser_typeX",
+                "FWD Phaser 000":"phaser_typeX"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "AFT Launcher 001":"photonTorpedo_x2_standard",
+                "AFT Launcher 000":"photonTorpedo_x2_standard",
+                "FWD Launcher 002":"photonTorpedo_x1_standard",
+                "FWD Launcher 003":"photonTorpedo_x1_standard",
+                "FWD Launcher 004":"photonTorpedo_x1_standard",
+                "FWD Launcher 005":"photonTorpedo_x1_standard",
+                "FWD Launcher 000":"photonTorpedo_standard"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "PORT Phaser 003":"phaser_typeX",
+                "STBD Phaser 003":"phaser_typeX",
+                "STBD Phaser 002":"phaser_typeX",
+                "PORT Phaser 002":"phaser_typeX",
+                "STBD Phaser 001":"phaser_typeX",
+                "PORT Phaser 001":"phaser_typeX",
+                "STBD Phaser 000":"phaser_typeX",
+                "PORT Phaser 000":"phaser_typeX"
+            }
+        }
+    ]
+}

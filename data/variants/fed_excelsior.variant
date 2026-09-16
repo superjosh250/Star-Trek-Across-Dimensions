@@ -1,0 +1,49 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "fed_excelsior",
+    "hullMods": [
+        "warp_core_standard",
+        "impulse_engines",
+        "federationShields"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "fed_excelsior",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "phaser_typeVIII",
+                "WS 002": "phaser_typeVIII",
+                "WS 006": "phaser_typeVIII",
+                "WS 007": "phaser_typeVIII",
+                "WS 011": "photonTorpedo_x1_standard",
+                "WS 012": "photonTorpedo_x1_standard",
+                "WS 013": "photonTorpedo_x1_standard",
+                "WS 014": "photonTorpedo_x1_standard"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "phaser_typeVIII",
+                "WS 004": "phaser_typeVIII",
+                "WS 005": "phaser_typeVIII",
+                "WS 008": "phaser_typeVIII",
+                "WS 009": "phaser_typeVIII",
+                "WS 010": "phaser_typeVIII"
+            }
+        }
+    ],
+    "wings": []
+}

@@ -1,0 +1,67 @@
+{
+    "displayName":"Carrier",
+    "fluxCapacitors":0,
+    "fluxVents":0,
+    "goalVariant":true,
+    "hullId":"fed_sovereign",
+    "hullMods":[
+        "impulse_engines_capital",
+        "warp_core_sovereign",
+        "federationShields"
+    ],
+    "quality":0.0,
+    "variantId":"fed_sovereign_carrier",
+    "weaponGroups":[
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "AFT Phaser 004":"phaser_typeX",
+                "AFT Phaser 005":"phaser_typeX",
+                "AFT Phaser 001":"phaser_typeX",
+                "AFT Phaser 000":"phaser_typeX",
+                "AFT Phaser 002":"phaser_typeX",
+                "AFT Phaser 003":"phaser_typeX",
+                "FWD Phaser 003":"phaser_typeX",
+                "FWD Phaser 000":"phaser_typeX",
+                "FWD Phaser 004":"phaser_typeX",
+                "FWD Phaser 001":"phaser_typeX",
+                "FWD Phaser 002":"phaser_typeX"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 009":"photonTorpedo_standard",
+                "WS 008":"photonTorpedo_standard"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 007":"phaser_typeX",
+                "WS 005":"phaser_typeX",
+                "WS 003":"phaser_typeX",
+                "WS 001":"phaser_typeX",
+                "WS 006":"phaser_typeX",
+                "WS 004":"phaser_typeX",
+                "WS 002":"phaser_typeX",
+                "WS 000":"phaser_typeX"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 010":"quantumTorpedo_standard"
+            }
+        }
+    ],
+    "wings":[
+        "shuttle_type6_x3_wing",
+        "shuttle_type9_wing",
+        "shuttle_type11_wing"
+    ]
+}

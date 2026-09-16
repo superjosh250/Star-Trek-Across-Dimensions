@@ -1,0 +1,7 @@
+name,id,demand class,base price,export value,price variability,utility,origin,tags,stack size,cargo space,icon,sound id,sound id drop,order,economyTier,econUnitOrigUnused,econUnit,baseRaidDanger,eU * base value,iconWidthMult,plugin,desc
+Civilian,civilian,civilian,20,10,3,1,,"crew, personnel",1000,0,graphics/icons/civilian.png,ui_cargo_crew,ui_cargo_crew_drop,0.8,3.1,200,500,,25000,0.6,,
+Cadets,cadets,cadets,20,10,2,1,,"crew, personnel",1000,0,graphics/icons/cadet.png,ui_cargo_crew,ui_cargo_crew_drop,0.8,3.1,200,500,,25000,0.6,,
+Starfleet Officer,starfleetOfficer,starfleetOfficer,20,10,2,1,,"crew, personnel",1000,0,graphics/icons/starfleetOfficers.png,ui_cargo_crew,ui_cargo_crew_drop,0.8,3.1,200,500,,25000,0.6,,
+Researcher,scientist,scientist,20,10,5,1,,"crew, personnel",1000,0,graphics/icons/researcher.png,ui_cargo_crew,ui_cargo_crew_drop,0.8,3.1,200,500,,25000,0.6,,
+Dilithium Ore,dilithium_ore,dilithium_ore,500,5400,3,1,,"military, expensive",100,1,graphics/icons/dilithiumOre.png,ui_cargo_ore,ui_cargo_ore_drop,0.35,1,500,5000,HIGH,20000,1,,
+Dilithium,dilithium,dilithium,3250,15350,5,1,,"military, expensive",10,1,graphics/icons/dilithium.png,ui_cargo_metals,ui_cargo_metals_drop,0.65,4,4500,9575,HIGH,60000,1,,

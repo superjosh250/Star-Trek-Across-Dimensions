@@ -1,0 +1,47 @@
+{
+    "displayName":"Standard",
+    "fluxCapacitors":0,
+    "fluxVents":0,
+    "goalVariant":true,
+    "hullId":"fed_ambassador_enterpriseC",
+    "hullMods":[
+        "warp_core_large",
+        "impulse_engines_capital",
+        "federationShields"
+    ],
+    "quality":0.0,
+    "variantId":"fed_ambassador_enterpriseC",
+    "weaponGroups":[
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 009":"phaser_typeIX",
+                "WS 008":"phaser_typeIX",
+                "WS 001":"phaser_typeIX",
+                "WS 010":"phaser_typeIX",
+                "WS 000":"phaser_typeIX"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 012":"photonTorpedo_standard",
+                "WS 011":"photonTorpedo_standard"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 003":"phaser_typeIX",
+                "WS 005":"phaser_typeIX",
+                "WS 007":"phaser_typeIX",
+                "WS 002":"phaser_typeIX",
+                "WS 004":"phaser_typeIX",
+                "WS 006":"phaser_typeIX"
+            }
+        }
+    ]
+}

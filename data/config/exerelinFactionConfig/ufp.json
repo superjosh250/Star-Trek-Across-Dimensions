@@ -1,0 +1,111 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+    
+    "rebelFleetSuffix":"Maquis Raiders",
+    
+    "directoryUseShortName":true,
+    
+    "marketSpawnWeight":1,
+     
+    "startRelationships":{ "pirates": -1, "luddic_church":-1, "luddic_path":-1, "cabal":0.1 },
+    "maxRelationships":{ "luddic_church":-1, "luddic_path":-1, "pirates":-0.25, "borg":-1, "terran_empire":-1 },
+    "diplomacyPositiveChance":{ "tritachyon":0.1, "luddic_path":-1, "luddic_church":-1 },
+    "diplomacyNegativeChance":{ "luddic_church":10, "luddic_path":10 },
+    "morality":"good",
+    
+    "alignments":{
+        "technocratic":1,
+        "diplomatic":1,
+        "ideological":0.75,
+        "militarist":0.5,
+        "hierarchical":0.5,
+        "corporate":0.3
+    },
+    "diplomacyTraits":["monopolist", "neutralist", "helps_allies", "pacifist", "law_and_order", "stalwart"],
+    
+    "freeMarket":true,
+    
+    # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
+    "colonyExpeditionChance":1, # some expansion for captive markets and more resources
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+    
+    #"stabilizeCommodities":["lobster", "gamma_core"],	# luckily this was a test, if not, lol
+    
+    "groundBattleSettings":{
+        "moraleDamageTakenMult":1.1,
+    },
+    
+    "specialForcesNamerClass":"exerelin.campaign.intel.specialforces.namer.FactionListNamer",
+        
+    "startShipsSolo":[
+      ["fed_centaur_start"],
+      ["fed_defiant"],
+      ["fed_ventureScout", "fed_ventureScout", "fed_ventureScout", "fed_ventureScout"],
+    ],
+  
+    "startShipsTradeSmall":[
+      ["fed_miranda_freighter", "fed_ventureScout",],
+      ["fed_miranda_freighter", "fed_miranda_freighter", "fed_ventureScout"],
+    ],
+    "startShipsTradeLarge":[
+      ["fed_miranda_freighterMKIII", "fed_miranda_freighter", "fed_nova"],
+      ["fed_miranda_freighterMKIII", "fed_miranda_freighterMKII", "fed_nova"],
+    ],
+    "startShipsCombatSmall":[
+      ["fed_miranda_freighter", "fed_centaur_start"],
+      ["fed_miranda_freighter", "fed_centaur_start", "fed_ventureScout"],
+    ],
+    "startShipsCombatLarge":[
+      ["fed_excelsior", "fed_miranda"],
+      ["fed_excelsior", "fed_defiant"],
+    ],
+    "startShipsExplorerLarge":[
+      ["fed_constellation_explorer", "fed_miranda", "fed_ventureScout"],
+      ["fed_intrepid_explorer"],
+      ["fed_ambassador_explorer"],
+      ["fed_galaxy_explorer"],
+    ],
+    
+    "startShipsCarrierSmall":[
+      ["fed_miranda_carrier", "fed_miranda", "fed_ventureScout"],
+      ["fed_constellation_carrier", "fed_centaur_start", "fed_ventureScout"]
+    ],
+    "startShipsCarrierLarge":[
+      ["fed_ambassador_carrier", "fed_defiant", "fed_centaur_start"],
+      ["fed_galaxy_carrier", "fed_springfield", "fed_ventureScout"],
+      ["fed_sovereign_carrier", "fed_miranda", "fed_miranda"]
+    ],
+    "startShipsSuper":[
+      ["fed_ambassador_retrofit"],
+      ["fed_galaxy"],
+      ["fed_sovereign_standard"],
+    ],
+    
+    "startSpecialItems":[
+        [["ufp_blueprint_package", "orbital_fusion_lamp", "dealmaker_holosuite"]]
+    ],
+    
+    "defenceStations":[
+        {"ids":[
+        "fed_regulaTypeStation_phaserDefense", 
+        "fed_orbitalStationComplex_phaserDefenseMKI", 
+        "fed_jupiterStation_phaserDefense", 
+        "fed_spaceDock"]}
+    ],
+    
+    "industrySeeds":[
+        {"id":"drydock", "mult":0.1},
+        {"id":"mcKinleyStation", "mult":0.1},
+        {"id":"adv_drydock", "mult":0.1},
+        {"id":"industrialReplicator", "mult":0.1},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"nanoforge_corrupted", "count":1},
+        {"id":"aiCore_station", "count":2, "mult":0.2},
+        {"id":"aiCore_military", "mult":0.4},
+        {"id":"aiCore_heavyindustry", "count":1},
+        {"id":"aiCore_any", "mult":1.5},
+    ],
+}

@@ -1,0 +1,121 @@
+{
+    "hullName": "Type 9 Shuttle",
+    "hullId": "fed_shuttle_type9",
+    "hullSize": "FIGHTER",
+    "style": "HIGH_TECH",
+    "spriteName": "graphics/ships/auxiliaryCraft/fed_shuttle_type9.png",
+    "height": 50,
+    "width": 30,
+    "center": [
+        15, 25
+    ],
+    "collisionRadius": 64,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 54,
+    "viewOffset": 0,
+    "builtInMods": [
+        "federationShields",
+        "federationShieldRecovery"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "HIDDEN",
+            "arc": 45,
+            "angle": 0,
+            "locations": [
+                       8,     -6.5
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "HIDDEN",
+            "arc": 45,
+            "angle": 0,
+            "locations": [
+                       8,      5.5
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 90,
+            "angle": 0,
+            "locations": [
+                      -3,      -10
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 90,
+            "angle": 0,
+            "locations": [
+                      -3,        9
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "HIDDEN",
+            "arc": 90,
+            "angle": 0,
+            "locations": [
+                    19.5,     -0.5
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -22, -8
+            ],
+            "length": 0.5,
+            "width": 10,
+            "angle": 180,
+            "contrailSize": 20,
+            "style": "impulseEngines_standard"
+        },
+        {
+            "location": [
+                -22, 7
+            ],
+            "length": 0.5,
+            "width": 10,
+            "angle": 180,
+            "contrailSize": 20,
+            "style": "impulseEngines_standard"
+        }
+    ],
+    "bounds": [
+             -12,        4,
+           -22.5,      4.5,
+           -22.5,     12.5,
+             2.5,     12.5,
+             3.5,        7,
+        
+              22,      3.5,
+              22,     -3.5,
+             3.5,       -7,
+             2.5,    -12.5,
+           -22.5,    -12.5,
+        
+           -22.5,     -4.5,
+             -12,       -4
+    # 12 points total.
+    ]
+}

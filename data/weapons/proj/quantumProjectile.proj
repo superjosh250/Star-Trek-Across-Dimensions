@@ -1,0 +1,50 @@
+{
+	"id":"quantumProjectile",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+	#"missileType":"MISSILE_TWO_STAGE_SECOND_UNGUIDED",
+	"sprite":"graphics/torpedoes/quantum_torpedo.png",
+	"size":[64,64],	
+	"center":[32,32],
+	"collisionRadius":32,
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[211,229,245,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":250, # purely visual
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":125,
+					 "coreRadius":75, # full damage within core radius
+					 "collisionClass":"PROJECTILE_FF",
+					 "collisionClassByFighter":"PROJECTILE_FIGHTER",	
+					 "particleSizeMin":5.0,
+					 "particleSizeRange":3.0,
+					 "particleDuration":1,
+					 "particleCount":150,
+					 "particleColor":[175,209,241,255]},
+	"armingTime":0.5,
+	"engineSpec":{"turnAcc":1250,
+				  "turnRate":175,
+				  "acc":1500,
+				  "dec":500},
+	"engineSlots":[{"id":"ES1",
+					"loc":[0,0],
+				    #"style":"TORPEDO_ATROPOS",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[8,97,179,100],
+						"glowSizeMult":2.0,
+						"glowAlternateColor":[106,171,232,100],
+						"contrailDuration":3,
+						"contrailWidthMult":5,
+						"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0.1, # how far away from engine it starts
+						"contrailColor":[8,97,179,100],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":5.0,
+				    "length":5.0,
+				    "angle":180.0}]
+}

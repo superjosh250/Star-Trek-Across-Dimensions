@@ -1,0 +1,23 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "fed_shuttle_type9",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "fed_shuttle_type9",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 003": "phaser_typeX_auxiliaryCraft",
+                "WS 002": "phaser_typeX_auxiliaryCraft",
+                "WS 001": "pulse_phaser_typeIV",
+                "WS 000": "pulse_phaser_typeIV",
+                "WS 004": "photonTorpedo_micro"
+            }
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order,disruptDanger
+population,Population & Infrastructure,,,10,3,,society,"population, unraidable, no_saturation_bombardment",,graphics/icons/industry/population.png,com.fs.starfarer.api.impl.campaign.econ.impl.PopulationAndInfrastructure,"The basic infrastructure required to support a given population, from rickety orbital hab-modules to megacities and everything between.",100,
+society,Society & Infrastructure,10,30,15,5,population,,"population, unraidable, no_saturation_bombardment",,graphics/industry/society.png,UFP.data.campaign.industry.SocietyandInfanstructure,"Using existing infrastructure, society advances forward, became more technologically stalwart. Populations grow from simple civilizations to massive sprawling societies. Cities grow and spread across the planet, growing into governments and established governance. ",100,
+stationPopulation,Station Crew & Population,,,10,3,population,,"population, unraidable, no_saturation_bombardment",,graphics/industry/stationPopulation.png,UFP.data.campaign.industry.StationPopulation,"The basic infrastructure required to support a given population, from rickety orbital hab-modules to megacities and everything between.",100,
+university,Universities ,20,60,,2,,,"population, university, urban",,graphics/industry/university.png,UFP.data.campaign.industry.University,"Universities mold and create great minds amongst the citizens of its respective governance. These minds often leave universities into fields of research and design. The result is the production of products that continue to propel societies forward. The most brilliant of minds, despotic, and psychopathic minds are cultivated to progress society forward. ",100,
+researchLabs,Laboratories ,12500,700,0.001,5,,,"population, research lab, urban, techmining",,graphics/industry/starfleet_labs.png,UFP.data.campaign.industry.ResearchLabs,"Researchers and Science officers of Starfleet, work in Research labs to understand the science of it all. At times, it ends in distaste. These labs can be on stations or on starships. Entire vessels and stations have been lost to a single ambitious experiment. Still, labs such as things help all to understand the universe around them. Their incredible research produces some incredile items for empirical use.",100,
+starfleetHQ,Starfleet HQ,75,160,,1,,,"patrol, unraidable, tactical_bombardment, structure",,graphics/industry/starfleetHQ.png,UFP.data.campaign.industry.StarfleetHQ,"Starfleet HQ is the the capitol building for the Starfleet. Here you will find admirals and other higher up members of the United Federation fo Planets. A special fleet is under the direct control of Starfleet HQ. This building provides beaucratic stability for the faction, by issuing and maintaining order as the military branch of the United Fedeation of Planets. ",100,
+starfleetAcademy,Starfleet Academy,50,75,,2,,,"population, unraidable, no_saturation_bombardment",,graphics/industry/starfleetAcademy.png,UFP.data.campaign.industry.StarfleetAcademy,"Starfleet Academy is the premier university of the United Federation of planets. Here cadets enter and Starfleet Officers come out. Only the best and brightest within the entire organization can gain entry into this prestigous school and gain a career in Starfleet. The entry and graduation of the academy is a grueling and difficult process but well worth the effort in producing officers that advance science, exploration, and help form the defensive ranks of the United Federation of Planets. ",100,
+starfleet_ops,Starfleet Operations,60,275,0.025,4,highcommand,,"command, unraidable, tactical_bombardment, structure",,graphics/industry/starfleet_ops.png,UFP.data.campaign.industry.StarfleetOperations,"Starfleet Operations is a core corps of the United Federation of planets. Coordinating captains and officers, this part of a vast organization called Starfleet, dispatches fleets and patrols to ensure the safety of Federation worlds. The Ops as well, coordinates exploration and other interstellar missions. ",2600,LOW
+starfleetCommand,Starfleet Command,120,275,,10,highcommand,,"command, unraidable, tactical_bombardment, structure",,graphics/industry/starfleet_command.png,UFP.data.campaign.industry.StarfleetCommand,"Starfleet Command is the operation that sits above Starfleet Operatoins. Command is the final word for any starship in the employ of the United Federation of planets. In regards to this command center, it deploys a unique fleet tasked with guarding the planet (Earth) from any fleet that manages to bypass all of Federation space. This taskforce is perhaps the most lethal fleet in lightyears. ",2600,LOW
+prasFleetCommand,Private Fleet  Command,900,120,,5,highcommand,,"command, unraidable, tactical_bombardment, structure",,graphics/icons/industry/high_command.png,UFP.data.campaign.industry.PrasFleetCommand,"Mr. Pras' wealth allows him to establish a private military force of his own. By investing in mothballed vessels, Mr. Pras has built a substantial private army of former Starfleet fleets. How he was able to get his hands on Federation technology is unknown. Attacking his base of operations is dangerous and likely will lead in a complete and total annihilation.",2600,LOW
+waystation_starfleet,Waystation,20,180,0.075,2,waystation,,"waystation, structure",,graphics/industry/waystation_starfleet.png,UFP.data.campaign.industry.Waystation_Starfleet,A supply and maintenance depot for interstellar fleets. Increases a colony's accessibility.,155,MEDIUM
+starbase,Starbase,75,150,0.1,4,spaceport,,"spaceport, structure",,graphics/industry/starbase_spaceport.png,UFP.data.campaign.industry.Spacedock,"These stations can either be planet side facilities, small stations in orbit of the planet, or even vast Spacedocks in orbit of a planet. Whatever form a starbase takes, it’s often a spaceport where vessels and crews can visit, bringing accessibility to world. ",151,EXTREME
+drydock,Drydock,10,60,0.05,3,,,"heavyindustry, uses_blueprints, industry, industrial",,graphics/industry/drydock.png,UFP.data.campaign.industry.Drydock,"Drydocks are specialized stations used to construct, repair, and refit starships, and Starfleet in particular uses the term specifically for these open-frame facilities rather than just applying it to any place that builds ships. This one would be classified as a Class-7 Drydock—or a Class-4 for its predecessor that looks virtually the same—and it's actually the most common drydock in the entire fleet today. Dating back to the 2270s, it was originally built to handle ships up to the size of a Constitution-class cruiser, but nowadays it’s the go-to for servicing most light cruisers and anything smaller. Since space is a rough place with radiation and cosmic debris being a constant concern, these stations are essential for sheltering a ship from the elements and supplying it with outside power during those long-term projects. They’re a much better choice for extensive refits that might take months or even years, which is a better use of resources than taking up a berth inside a massive spacedock. Basically, if your ship just needs fuel or supplies, you’d probably head to a starbase, but if you’re looking for new engines or more extensive repairs, a Class-7 is where you're going to end up.",100,LOW
+mcKinleyStation,McKinley Shipyard,40,90,,4,,,"heavyindustry, uses_blueprints, industry, industrial",,graphics/industry/mcKinleyStation.png,UFP.data.campaign.industry.McKinleyStation,"The Class-10 is the most advanced drydock in Starfleet service, famously epitomized by Earth Station McKinley. While it shares the foundational capabilities of all drydocks—providing external power, life support, and radiation shielding—it is uniquely equipped to handle the logistical nightmare of maintaining Starfleet's most massive assets.
+
+Key Characteristics:
+> Primary Purpose: Specifically engineered to support Galaxy-class and Nebula-class spaceframes, though its versatile design allows it to service nearly any ship in the fleet.
+>Articulated Architecture: Features a network of highly specialized articulated arms that can be reconfigured to fit the specific geometry of diverse hull types.
+> In-Situ Research: Unlike smaller docks, these stations house extensive onboard design labs and observation areas, allowing engineering teams to troubleshoot complex warp field geometries or structural stresses without leaving the site.
+> Rarity: Because of their massive resource requirements, they are relatively rare. Most major shipyards boast only a handful, reserved strictly for the largest or most specialized vessels.
+
+Habitation and Crew:
+
+The Class-10 stands out as the only drydock class capable of supporting a semi-permanent crew.
+>Ventral Habitation Module: A large module on the station's ""underbelly"" allows repair crews and specialists to live on-site during long-term refits.
+>Rotational Assignment: While not a permanent home like a Starbase, crews typically occupy these modules in rotations, providing a constant, 24-hour maintenance presence for critical projects. ",400,MEDIUM
+adv_drydock,Advanced Drydock,20,160,0.075,5,,,"heavyindustry, uses_blueprints, industry, industrial",,graphics/industry/advancedDrydock.png,UFP.data.campaign.industry.DrydockAdvanced,"Some might refer to this station as an Advanced Drydock due to its sleek looks, but this station is actually a Class-9 drydock. It features a cage-like frame that is simpler in form than the heavy Class-10, yet it has become the standard facility for Starfleet since it can handle any starship class in current service. Like any other drydock, it's fully capable of constructing, repairing, or refitting vessels, and it has notably been seen servicing Sovereign-class ships, which shows it can handle the fleet's larger starships with ease. It even has specialized docking ports that can connect directly to a starship’s shuttle bay for those long-term, extensive repairs where you really need a direct link. When it isn’t occupied by a large vessel, the station is capable of servicing multiple smaller vessels like frigates or escorts at the same time, though its efficiency is a bit diminished in that setup. It also includes habitable command and engineering modules on the upper levels and ends of the frame, allowing the crew to stay on-site while they get the job done, making it a very versatile part of any shipyard.",100,HIGH
+spaceDock,Spacedock,200,180,,3,,,"station, starfortress, unraidable, structure","{
+radius:90,
+variant:fed_spaceDock,
+fleetName:Spacedock,
+}",graphics/industry/spacedock.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"This is the Federation orbital station for operations over major planets and worlds. It also serves as a major defense point. 
+
+Must be reduced before a bombardment can be attempted.",2010,
+spaceDock_museum,Spacedock - Starfleert Museum,200,180,,3,,,"station, starfortress, unraidable, structure","{
+radius:90,
+variant:fed_starfleetMuseum,
+fleetName:Spacedock - Museum,
+}",graphics/industry/spacedock.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"This is the Federation orbital station for operations over major planets and worlds. It also serves as a major defense point. 
+
+Must be reduced before a bombardment can be attempted.",2010,
+prasStation,Pras Defense Network,225,180,,3,,prasStation_platforms,"station, sub_item, unraidable, structure","{
+radius:90,
+variant:fed_prasStation_private,
+fleetName:Pras Defense Platforms,
+}",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"This is the Federation orbital station for operations over major planets and worlds. It also serves as a major defense point. 
+
+Must be reduced before a bombardment can be attempted.",2010,
+prasStation_platforms,Pras Defense Network,200,180,,3,prasStation,,"station, battlestation, unraidable, structure","{
+radius:90,
+variant:fed_prasStation_privateII,
+fleetName:Defense Network,
+}",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"This is the Federation orbital station for operations over major planets and worlds. It also serves as a major defense point. 
+
+Must be reduced before a bombardment can be attempted.",2010,
+utpPlatformDefense,Deployed Defense Platforms,200,180,,3,,,"station, sub_item, unraidable, structure","{
+radius:45,
+variant:fed_utopiaPlanitia,
+fleetName:Defense Platforms,
+}",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"The Utopia Type station is primarily a command center. It is the operational command center for nearby drydocks. Oftentimes the station is used as housing for orbital dock workers. The Utopia Type station also houses impressive labs for R&D, in particular for starship technology and weapons. The station as serves as a fueling and supply depot for smaller vessels. It's often heavily defended by nearby fleets. The Utopia Type station may also have defense platforms nearby to offer support in defending this type of station. A loss of this station is a major hit to the Federation, as oftentimes, it is surrounded by drydocks, which are destroyed as well.  
+
+Must be reduced before a bombardment can be attempted.",2010,
+orbitalComplex,Orbital Complex,200,180,,3,,orbitalComplexI,"station, sub_item, unraidable, structure","{
+radius:90,
+variant:fed_orbitalStationComplex_unarmed,
+fleetName:Spacedock,
+}",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"One of the Federation's most enduring stations, the orbital complex is a station with multipurpose use. It has been used as a staging area, command center, center defense point, research station, outpost, and more. It can even serve as a temporary habitat station. It's a vital station design that has endured the test of time and continues to see use. However, almost all stations come with no defenses save for a few deployable fighters and auxiliary craft. In order to shore up defense, often times, defense platforms are station near these stations when needed. Stations near the core Federation worlds likely do not have defense platforms but vulnerable ones often do.
+
+Must be reduced before a bombardment can be attempted.",2010,
+orbitalComplexI,Orbital Complex Defense,200,180,,3,orbitalComplex,,"station, battlestation, unraidable, structure","{
+radius:90,
+variant:fed_orbitalStationComplex_phaserDefenseMKI,
+fleetName:Spacedock,
+}",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"One of the Federation's most enduring stations, the orbital complex is a station with multipurpose use. It has been used as a staging area, command center, center defense point, research station, outpost, and more. It can even serve as a temporary habitat station. It's a vital station design that has endured the test of time and continues to see use. However, almost all stations come with no defenses save for a few deployable fighters and auxiliary craft. In order to shore up defense, often times, defense platforms are station near these stations when needed. Stations near the core Federation worlds likely do not have defense platforms but vulnerable ones often do.
+
+Must be reduced before a bombardment can be attempted.",2010,
+jupiterType,Jupiter Type Station,200,180,,3,,jupiterTypeI,"station, sub_item, unraidable, structure","{
+radius:90,
+variant:fed_jupiterStation,
+fleetName:Jupiter Type Station,
+}",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"The Jupiter-class station is a highly-modular research installation found in many different configurations around the Federation. First constructed in the 2330s, this design is one of the most common space stations in Federation space because of its ease of construction and versatility. These stations do not come with armanents since they are mostly research stations and serve as supply and fuel depots. As such, they rely heavily on support from fleets. Another option is deploying defense platforms for the station, usually phaser and torpedo platforms that take on the role of defense for the station. Even so, employing these stations as defense platforms isn't really a go to.
+
+Must be reduced before a bombardment can be attempted.",2010,
+jupiterTypeI,Jupiter Type Station,200,180,,3,jupiterType,,"station, battlestation, unraidable, structure","{
+radius:90,
+variant:fed_jupiterStation_MKII,
+fleetName:Jupiter Type Station,
+}",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"The Jupiter-class station is a highly-modular research installation found in many different configurations around the Federation. First constructed in the 2330s, this design is one of the most common space stations in Federation space because of its ease of construction and versatility. These stations do not come with armanents since they are mostly research stations and serve as supply and fuel depots. As such, they rely heavily on support from fleets. Another option is deploying defense platforms for the station, usually phaser and torpedo platforms that take on the role of defense for the station. Even so, employing these stations as defense platforms isn't really a go to.
+
+Must be reduced before a bombardment can be attempted.",2010,
+regulaType,Regula Type Station,200,180,,3,,regulaTypeI,"station, sub_item, unraidable, structure","{
+radius:90,
+variant:fed_regulaTypeStation,
+fleetName:Regular Type Station,
+}",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"The Regula Station type is perhaps one of the most well-known stations in within the Federation. The Orbital Complex owes a lot of it's design to the Regula station. These stations often serve as outposts and starbases. However because of it's design, these stations are limited in their defenses. They are supported by nearby vessels and launchable fighters. Most Regula Type stations are employed for research use. Many have been lost or destroyed wtihout fanfare, oftentimes by their own research or pirates. 
+
+
+An option for weaponizing these stations is deploying defense platforms. These serve to protect the station as the station provides shielding for the platforms or uses its shields to hold out until a vessel or fleet can come and defend the station.
+
+Must be reduced before a bombardment can be attempted.",2010,
+regulaTypeI,Regula Type Station,200,180,,3,regulaType,,"station, battlestation, unraidable, structure","{
+radius:90,
+variant:fed_regulaTypeStation_phaserDefense,
+fleetName:Regular Type Station,
+}",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"The Regula Station type is perhaps one of the most well-known stations in within the Federation. The Orbital Complex owes a lot of it's design to the Regula station. These stations often serve as outposts and starbases. However because of it's design, these stations are limited in their defenses. They are supported by nearby vessels and launchable fighters. Most Regula Type stations are employed for research use. Many have been lost or destroyed wtihout fanfare, oftentimes by their own research or pirates. 
+
+
+An option for weaponizing these stations is deploying defense platforms. These serve to protect the station as the station provides shielding for the platforms or uses its shields to hold out until a vessel or fleet can come and defend the station.
+
+Must be reduced before a bombardment can be attempted.",2010,
+drydockDefenseNetwork,Deployed Platforms - Drydock,200,180,,3,,,"station, battlestation, unraidable, structure","{
+radius:90,
+variant:fed_drydock_defense,
+fleetName:Shipyard Defense Platforms,
+}",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"The Jupiter-class station is a highly-modular research installation found in many different configurations around the Federation. First constructed in the 2330s, this design is one of the most common space stations in Federation space because of its ease of construction and versatility. These stations do not come with armanents since they are mostly research stations and serve as supply and fuel depots. As such, they rely heavily on support from fleets. Another option is deploying defense platforms for the station, usually phaser and torpedo platforms that take on the role of defense for the station. Even so, employing these stations as defense platforms isn't really a go to.
+
+Must be reduced before a bombardment can be attempted.",2010,
+advancedMining,Autonomous Mining,40,90,,3,mining,,"mining, industry, industrial",,graphics/industry/autonomousMining.png,UFP.data.campaign.industry.AdvancedMining,"Mining is hard  work. However, with advanced methods employed for mining, advanced societies can reduce the need for manual labor. Even though sentient creatures are still required in order to mine, the hardest part of the labor is achieved by means of advanced technologies. This also means the hazardous aspects of the work is much reduced. In order to accomplish this, advanced computers (AI Cores) are needed to maintain the operation. Ores, organics, and volatiles are produced from the advanced mining operations employed on the planet. ",300,MEDIUM
+industrialReplicator,Industrial Replicators,30,50,2.05,4,,,"industry, industrial",,graphics/industry/industrialReplicator.png,UFP.data.campaign.industry.IndustrialReplicator,"A cornerstone of Federation civilian logistics, the Industrial Replicator converts raw matter and energy into vital goods through regulated replication arrays. By easing planetary hazards, accelerating population growth, and quietly distributing authorized technology through civilian, Starfleet, and restricted channels, it ensures prosperity, resilience, and material self-sufficiency in accordance with Federation standards.",400,MEDIUM
+processingPlant,Advanced Processing Plant,30,50,,2,,,"industry, industrial",,graphics/industry/advancedProcessingFacility.png,UFP.data.campaign.industry.AdvancedProcessingPlant,"This complex is a highly efficent Federation Industrial processing center that refines raw resources into advanced materials. It's accomplished by using tightly regulated matter processing and automation systems. Designed for stability and output rather than exploitation, it supports planetary self-sufficiency while adhering to Starfleet safety and environmental protocols.",400,MEDIUM
+cleaningOperation,Planetary Junk Sweeper,90,180,,3,,,"industry, industrial, structure",,graphics/industry/advancedProcessingFacility.png,UFP.data.campaign.industry.PlanetSweeper,,400,MEDIUM
+coalitionPatrol,Coalition Research Command,50,140,,1,,,"patrol, unraidable, tactical_bombardment, structure",,graphics/industry/starfleetHQ.png,UFP.data.campaign.industry.CoalitionCommand,This Command facility manages the deployment of Coalition type fleets. These fleets of course protect the stations or planets they are assigned too. ,100,

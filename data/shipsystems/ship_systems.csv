@@ -1,0 +1,34 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+# Maneuvering Jets,maneuveringjets,,,,,,,,,,1,5,1,5,,,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
+#name,#id,#flux/second,#f/s (base rate),#f/s (base cap),#flux/use,#f/u (base rate),#f/u (base cap),#cr/u,#max uses,#regen,#charge up,#active,#down,#cooldown,#toggle,#noDissipation,#noHardDissipation,#hardFlux,#noFiring,#noTurning,#noStrafing,#noAccel,#noShield,#noVent,#isPhaseCloak,#tags,#icon
+Saucer Separation,saucer_separation,0,,,,,,,,,1,1,1,10,,,,FALSE,,,,,,,,defensive,graphics/icons/icon_saucerSeparation.png
+Saucer Separation,enterpriseD_separation,0,,,,,,,,,1,1,1,10,,,,FALSE,,,,,,,,defensive,graphics/icons/icon_saucerSeparation.png
+Deployable Armor,deployable_armor,0,,,,,,,,,1,1,1,10,,,,FALSE,,,,,,,,defensive,graphics/icons/icon_saucerSeparation.png
+Corbormite Shields,reflex_shields,375,,,1200,,,,,,1,20,3,60,,TRUE,,FALSE,,,,,,,,defensive,graphics/icons/icon_reflexShield.png
+Hull Polarization,polarized_hull,0,,,2000,,,,,,1,20,3,40,,TRUE,,TRUE,,,,,,,,defensive,graphics/icons/icon_polarizedHull.png
+Self Destruct,self_destruct,0,,,,,,,,,1,3.25,0.5,10,,,,FALSE,,,,,,,,defensive,graphics/icons/icon_selfDestruct.png
+Reactor Ejection,reactor_ejection,0,,,,,,,1,,1,5,3,999,,,,FALSE,,,,,,,,defensive,graphics/icons/icon_coreEject.png
+Holo Fleet Emitters,holographic_fleet,25,,,4250,,,,,,1,120,5,60,TRUE,,,FALSE,,,,,,FALSE,,defensive,graphics/icons/icon_holographicFleet.png
+Romulan Cloak,romulan_cloak,100,,,1500,,,,,,1,1300,5,10,TRUE,,,TRUE,,,,,TRUE,,,defensive,graphics/icons/icon_selfDestruct.png
+Veteran Protocols,veteran_protocols,5,,,3200,,,,,,1,30,5,40,,,,,,,,,,,,,graphics/icons/icon_veteranProtocols.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Impulse Overload,impulse_overload,100,,,1000,,,,,,1,20,3,40,TRUE,,,FALSE,,,,,FALSE,,,defensive,graphics/icons/icon_impulseOverload.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Gravity Well,gravity_well,275,,,1750,,,,,,1,30,5,75,TRUE,TRUE,,TRUE,,,,,,,,defensive,graphics/icons/gravityWell.png
+Tractor Beam,tractorBeam,250,,,750,,,,,,1,10,3,25,,TRUE,,TRUE,,,,,,,,defensive,graphics/icons/icon_tracorBeam.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sensor Pod Platform,sensorPod_system,820,,,1700,,,,,,1,20,2,40,,,,FALSE,,,,,,,,defensive,graphics/icons/icon_sensors.png
+Surveyor Sensors,surveyor_sensors,250,,,1500,,,,,,1,15,3,30,TRUE,,,TRUE,,,,,,,,defensive,graphics/icons/icon_sensors.png
+Synced Sensor Suite,synced_sensors,200,,,,,,,,,1,15,1,60,,,,TRUE,,,,,,,,defensive,graphics/icons/icon_sensors.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Proximity Detonator,proximity_torpedo_launcher,40,,,750,,,,3,,1,15,5,40,,,,TRUE,,,,,,,,offensive,graphics/icons/icon_proximityDetonation.png
+Photonic Overload,critical_photon,,,,2000,,,,10,,1,10,2,25,,,,TRUE,,,,,,,,offensive,graphics/icons/icon_criticalPhoton.png
+Engine Power Diversion,impulse_diversion,125,,,450,,,,3,,1,10,5,40,,,,TRUE,,,,,,,,offensive,graphics/icons/icon_impulseOverload.png
+,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#name,#id,#flux/second,#f/s (base rate),#f/s (base cap),#flux/use,#f/u (base rate),#f/u (base cap),#cr/u,#max uses,#regen,#charge up,#active,#down,#cooldown,#toggle,#noDissipation,#noHardDissipation,#hardFlux,#noFiring,#noTurning,#noStrafing,#noAccel,#noShield,#noVent,#isPhaseCloak,#tags,#icon
+Shield Emitter Battery,shield_battery,75,,,750,,,,2,,1,40,5,60,TRUE,,,TRUE,,,,,,,,offensive,graphics/icons/icon_shieldBattery.png
+Flagship Authority,command_authority,0,,,0,,,,,,1,40,5,60,TRUE,,,TRUE,,,,,,,,offensive,graphics/icons/icon_commandAuthority.png
+Picard Maneuver,picard_maneuver,0,,,4500,,,,,,1,12,5,35,TRUE,,,FALSE,,,,,,TRUE,,offensive,graphics/icons/icon_picardManuever.png
+Field Repairs,field_repairs,50,,,2750,,,,,,1,30,5,25,TRUE,,,FALSE,,,,,,FALSE,,offensive,graphics/icons/icon_fieldRepairs.png
+Command Coordination,command_coordination,40,,,3000,,,,,,1,30,5,60,TRUE,,,TRUE,,,,,,,,offensive,graphics/icons/icon_commandAuthority.png
+Undocking Procedures,undocking_procedures,0,,,3000,,,,,,1,5,5,999,FALSE,,,FALSE,,,,,,,,offensive,graphics/icons/icon_commandAuthority.png

@@ -1,0 +1,47 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "rom_vMelak",
+    "hullMods": [
+        "warp_core_large",
+        "impulse_engines_capital",
+        "federationShields"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "rom_vMelak_mission",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "rom_disruptor_TLE",
+                "WS 005": "rom_disruptor_TLE",
+                "WS 006": "rom_disruptor_TLE",
+                "WS 007": "rom_disruptor_TLE",
+                "WS 008": "rom_disruptor_TLE",
+                "WS 009": "rom_disruptor_TLE"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "photonTorpedo_standard",
+                "WS 010": "photonTorpedo_standard"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "disruptorBeam_TLE",
+                "WS 001": "disruptorBeam_TLE",
+                "WS 002": "disruptorBeam_TLE"
+            }
+        }
+    ],
+    "wings": []
+}

@@ -1,0 +1,47 @@
+{
+  "id": "neutrino_matter_launcherS",
+  "specClass": "projectile",
+  "projectileSpecId": "neutrino_matter",
+  "type": "COMPOSITE",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/neutrino_matter_launcherS.png",
+  "turretGlowSprite": "graphics/weapons/neutrino_matter_launcherS_glow.png",
+  "turretGunSprite": "graphics/weapons/neutrino_matter_launcherS.png",
+  "hardpointSprite": "",
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    18,
+    0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    28,
+    0.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 20,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "particleDuration": 0.5,
+    "particleCount": 10,
+    "particleColor": [
+      255,
+      255,
+      255,
+      255
+    ]
+  }
+}

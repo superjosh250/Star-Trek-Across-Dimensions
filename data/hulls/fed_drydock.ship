@@ -1,0 +1,151 @@
+{
+    "bounds": [
+        174,
+        -352,
+        137,
+        -352,
+        116,
+        -338,
+        115,
+        -351,
+        -114,
+        -351,
+        -114,
+        -339,
+        -135,
+        -353,
+        -172,
+        -356,
+        -172,
+        352,
+        -133,
+        352,
+        -115,
+        339,
+        -114,
+        351,
+        115,
+        351,
+        115,
+        337,
+        135,
+        352,
+        173,
+        352
+    ],
+    "builtInMods": [
+        "power_delivery",
+        "main_power_failure",
+        "shieldMount",
+        "federationShieldRecovery",
+        "sensorArray"
+    ],
+    "builtInModules": null,
+    "builtInWings": [],
+    "center": [
+        384,
+        216
+    ],
+    "collisionRadius": 396,
+    "coversColor": "",
+    "engineSlots": [],
+    "height": 432,
+    "hullId": "fed_drydock",
+    "hullName": "Drydock",
+    "hullSize": "CRUISER",
+    "shieldCenter": [
+        0,
+        0
+    ],
+    "shieldRadius": 575,
+    "spriteName": "graphics/ships/fed_drydock.png",
+    "style": "HIGH_TECH",
+    "viewOffset": 0,
+    "weaponSlots": [
+        {
+            "angle": 0,
+            "arc": 90,
+            "id": "WS 000",
+            "locations": [
+                259,
+                -372
+            ],
+            "mount": "TURRET",
+            "size": "LARGE",
+            "type": "STATION_MODULE"
+        },
+        {
+            "angle": 0,
+            "arc": 90,
+            "id": "WS 001",
+            "locations": [
+                259,
+                372
+            ],
+            "mount": "TURRET",
+            "size": "LARGE",
+            "type": "STATION_MODULE"
+        },
+        {
+            "angle": 180,
+            "arc": 90,
+            "id": "WS 002",
+            "locations": [
+                -268,
+                -377.5
+            ],
+            "mount": "TURRET",
+            "size": "LARGE",
+            "type": "STATION_MODULE"
+        },
+        {
+            "angle": 180,
+            "arc": 90,
+            "id": "WS 003",
+            "locations": [
+                -268,
+                377.5
+            ],
+            "mount": "TURRET",
+            "size": "LARGE",
+            "type": "STATION_MODULE"
+        },
+        {
+            "angle": 269,
+            "arc": 90,
+            "id": "WS 004",
+            "locations": [
+                1,
+                -532.5
+            ],
+            "mount": "TURRET",
+            "size": "LARGE",
+            "type": "STATION_MODULE"
+        },
+        {
+            "angle": 91,
+            "arc": 90,
+            "id": "WS 005",
+            "locations": [
+                1,
+                532.5
+            ],
+            "mount": "TURRET",
+            "size": "LARGE",
+            "type": "STATION_MODULE"
+        },
+        {
+            "angle": 270,
+            "arc": 90,
+            "id": "WS 006",
+            "locations": [
+                0,
+                0
+            ],
+            "mount": "TURRET",
+            "size": "LARGE",
+            "type": "STATION_MODULE"
+        }
+    ],
+    "width": 768
+}

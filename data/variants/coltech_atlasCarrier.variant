@@ -1,0 +1,53 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "coltech_atlasCarrier",
+    "hullMods": [
+        "advancedshieldemitter",
+        "colTechShields",
+        "advancedoptics"
+    ],
+    "quality": 0.0,
+    "variantId": "coltech_atlasCarrier",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "exotic_particle_emitter",
+                "WS 005": "exotic_particle_emitterM",
+                "WS 006": "exotic_particle_emitterM",
+                "WS 010": "exotic_particle_emitterM",
+                "WS 011": "exotic_particle_emitterM",
+                "WS 008": "exotic_particle_emitterM",
+                "WS 009": "exotic_particle_emitterM"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "neutrino_matter_launcherM"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "coalition_neutrino_slugS",
+                "WS 003": "coalition_neutrino_slugS",
+                "WS 001": "coalition_neutrino_slugS",
+                "WS 002": "coalition_neutrino_slugS"
+            }
+        }
+    ],
+    "wings": [
+        "broadsword_wing",
+        "borer_wing",
+        "talon_wing",
+        "warthog_wing",
+        "warthog_wing"
+    ]
+}

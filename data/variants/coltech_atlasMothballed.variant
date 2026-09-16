@@ -1,0 +1,54 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "coltech_atlasMothballed",
+    "hullMods": [
+        "colTechShields",
+        "surveying_equipment"
+    ],
+    "permaMods": [
+        "civgrade",
+        "comp_armor",
+        "delicate"
+    ],
+    "sMods": [
+        "shielded_holds"
+    ],
+    "quality": 0.0,
+    "variantId": "coltech_atlasMothballed",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "coalition_antishieldS",
+                "WS 011": "coalition_antishieldS",
+                "WS 006": "coalition_antishieldS",
+                "WS 008": "coalition_antishieldS",
+                "WS 007": "coalition_antishieldS",
+                "WS 005": "coalition_antishieldS",
+                "WS 000": "coalition_antishieldS",
+                "WS 001": "coalition_antishieldS"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "cyclone",
+                "WS 002": "typhoon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "exotic_particle_emitter",
+                "WS 003": "exotic_particle_emitter",
+                "WS 004": "exotic_particle_emitter"
+            }
+        }
+    ]
+}

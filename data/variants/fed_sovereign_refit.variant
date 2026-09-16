@@ -1,0 +1,62 @@
+{
+    "displayName":"Refit",
+    "fluxCapacitors":0,
+    "fluxVents":0,
+    "goalVariant":true,
+    "hullId":"fed_sovereign",
+    "hullMods":[
+        "impulse_engines_capital",
+        "warp_core_sovereign",
+        "federationShields"
+    ],
+    "quality":0.0,
+    "variantId":"fed_sovereign_refit",
+    "weaponGroups":[
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "AFT Phaser 004":"phaser_typeXII",
+                "AFT Phaser 005":"phaser_typeXII",
+                "AFT Phaser 001":"phaser_typeXII",
+                "AFT Phaser 000":"phaser_typeXII",
+                "AFT Phaser 002":"phaser_typeXII",
+                "AFT Phaser 003":"phaser_typeXII",
+                "FWD Phaser 003":"phaser_typeXII",
+                "FWD Phaser 000":"phaser_typeXII",
+                "FWD Phaser 004":"phaser_typeXII",
+                "FWD Phaser 001":"phaser_typeXII",
+                "FWD Phaser 002":"phaser_typeXII"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 009":"photonTorpedo_standard",
+                "WS 008":"photonTorpedo_standard"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 007":"phaser_typeXII",
+                "WS 005":"phaser_typeXII",
+                "WS 003":"phaser_typeXII",
+                "WS 001":"phaser_typeXII",
+                "WS 006":"phaser_typeXII",
+                "WS 004":"phaser_typeXII",
+                "WS 002":"phaser_typeXII",
+                "WS 000":"phaser_typeXII"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 010":"quantumTorpedo_standard"
+            }
+        }
+    ]
+}

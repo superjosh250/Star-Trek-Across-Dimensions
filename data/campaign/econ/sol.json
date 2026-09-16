@@ -1,0 +1,153 @@
+{
+	"starSystem": "Sol",
+	"markets": [
+		{
+			"entities": [
+				"utopia_planitia_station"
+			],
+			"faction": "ufp",
+			"size": 5,
+			"startingConditions": [
+				"population_5",
+				"habitable",
+				"headquarters",
+				"hydroponics_complex",
+				"mild_climate",
+				"established_polity",
+			],
+			"industries": [
+				"stationPopulation",
+				"megaport",
+				"industrialReplicator",
+				"techmining",
+				"heavybatteries",
+				"utpPlatformDefense",
+				"highcommand"
+			],
+		},
+		{
+			"entities": [
+				"mcKinleyStation"
+			],
+			"faction": "ufp",
+			"size": 5,
+			"submarkets":["open_market", "fed_militaryMarkets", "mcKinleyMarket", "black_market"],
+			"startingConditions": [
+				"population_5",
+				"habitable",
+				"shipbreaking_center",
+				"mild_climate",
+				"industrial_polity",
+			],
+			"industries": [
+				"stationPopulation",
+				"megaport",
+				"techmining",
+				["mcKinleyStation", "corrupted_nanoforge", "alpha_core"],
+				"highcommand"
+			],
+		},
+		{
+			"entities": ["advDrydock1"],
+			"faction": "ufp",
+			"size": 5,
+			"submarkets":["open_market", "fed_militaryMarkets", "black_market"],
+			"startingConditions": [
+				"population_5",
+				"shipbreaking_center",
+				"habitable",
+				"mild_climate",
+				"industrial_polity",
+			],
+			"industries": [
+				"stationPopulation",
+				"megaport",
+				"techmining",
+				["adv_drydock", "pristine_nanoforge", "alpha_core"],
+				"highcommand"
+			],
+		},
+		{
+			"entities": ["advDrydock2"],
+			"faction": "ufp",
+			"size": 5,
+			"submarkets":["open_market", "fed_militaryMarkets", "black_market"],
+			"startingConditions": [
+				"population_5",
+				"shipbreaking_center",
+				"habitable",
+				"mild_climate",
+				"industrial_polity",
+			],
+			"industries": [
+				"stationPopulation",
+				"megaport",
+				"techmining",
+				["adv_drydock", "pristine_nanoforge", "alpha_core"],
+				"highcommand"
+			],
+		},
+		{
+			"entities": ["drydock_station"],
+			"faction": "ufp",
+			"size": 5,
+			"submarkets":["open_market", "fed_militaryMarkets", "black_market"],
+			"startingConditions": [
+				"population_5",
+				"shipbreaking_center",
+				"habitable",
+				"mild_climate",
+				"industrial_polity",
+			],
+			"industries": [
+				"stationPopulation",
+				"megaport",
+				"techmining",
+				["drydock", "corrupted_nanoforge", "gamma_core"],
+				"highcommand"
+			],
+		},
+		{
+			"entities": ["jupiterStation"],
+			"faction": "ufp",
+			"size": 5,
+			"submarkets":["open_market", "generic_military", "black_market", "local_resources",  "storage"],
+			"startingConditions": [
+				"population_5",
+				"trade_center",
+				"habitable",
+				"mild_climate",
+				"urbanized_polity",
+			],
+			"industries": [
+				"stationPopulation",
+				"megaport",
+				"researchLabs",
+				"techmining",
+				["utpPlatformDefense", "gamma_core"],
+				"highcommand"
+			],
+		},
+		{
+			"entities": ["orbitalComplex"],
+			"faction": "ufp",
+			"size": 5,
+			"submarkets":["open_market", "generic_military", "black_market", "local_resources", "storage"],
+			"startingConditions": [
+				"population_5",
+				"trade_center",
+				"habitable",
+				"mild_climate",
+				"urbanized_polity"
+			],
+			"industries": [
+				"stationPopulation",
+				"megaport",
+				"university",
+				"techmining",
+				["orbitalComplexI", "alpha_core"],
+				"highcommand"
+			],
+		}
+	]	
+}

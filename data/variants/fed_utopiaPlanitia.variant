@@ -1,0 +1,24 @@
+{
+    "displayName": "Utopia Planitia",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "fed_utopiaPlanitia",
+    "hullMods": [
+        "mainReactor"
+    ],
+    "modules": {
+        "WS 000": "fed_phaserTurret_typeIX",
+        "WS 001": "fed_phaserTurret_typeIX",
+        "WS 002": "fed_phaserTurret_typeIX",
+        "WS 003": "fed_phaserTurret_typeIX",
+        "WS 004": "fed_photonTurret",
+        "WS 005": "fed_photonTurret"
+    },
+    "permaMods": [],
+    "quality": 0,
+    "sMods": [],
+    "variantId": "fed_utopiaPlanitia",
+    "weaponGroups": [],
+    "wings": []
+}

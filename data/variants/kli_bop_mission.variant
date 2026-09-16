@@ -1,0 +1,41 @@
+{
+    "displayName": "Mission",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "kli_bop_beta",
+    "hullMods": [
+        "warp_core_small",
+        "impulseEngines_small",
+        "romulanShield"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "kli_bop_mission",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "kli_disruptor_beta",
+                "WS 002": "kli_disruptor_beta"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "photonTorpedo_x1_standard_small"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "kli_disruptor_compressed_beta",
+                "WS 005": "kli_disruptor_compressed_beta"
+            }
+        }
+    ],
+    "wings": []
+}

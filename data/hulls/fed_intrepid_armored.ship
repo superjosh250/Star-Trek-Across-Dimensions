@@ -1,0 +1,197 @@
+{
+    "hullName":"Intrepid",
+    "hullId":"fed_intrepid_armored",
+    "hullSize":"CRUISER",
+    "style":"HIGH_TECH",
+    "spriteName":"graphics/ships/fed_intrepid_armored.png",
+    "height":384,
+    "width":172,
+    "center":[
+        86, 192
+    ],
+    "collisionRadius":300,
+    "coversColor":"",
+    "shieldCenter":[
+        0, 0
+    ],
+    "shieldRadius":250,
+    "viewOffset":0,
+    "builtInMods":[
+        "power_delivery",
+        "main_power_failure",
+        "shieldMount",
+        "engine_mount",
+        "sensorArray",
+        "federationShieldRecovery"
+    ],
+    "builtInWings":[],
+    "builtInModules":null,
+    "weaponSlots":[
+        {
+            "id":"WS 000",
+            "size":"MEDIUM",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":0,
+            "locations":[
+                     187,      -13
+            ]
+        },
+        {
+            "id":"WS 001",
+            "size":"MEDIUM",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":0,
+            "locations":[
+                     187,       13
+            ]
+        },
+        {
+            "id":"WS 002",
+            "size":"MEDIUM",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":180,
+            "locations":[
+                    -102,     -5.5
+            ]
+        },
+        {
+            "id":"WS 003",
+            "size":"MEDIUM",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":180,
+            "locations":[
+                    -102,      5.5
+            ]
+        }
+    ],
+    "engineSlots":[
+        {
+            "location":[
+                -149, -41.5
+            ],
+            "length":0.5,
+            "width":12,
+            "angle":220,
+            "contrailSize":15,
+            "style":"impulseEngines_standard"
+        },
+        {
+            "location":[
+                -149, 41.5
+            ],
+            "length":0.5,
+            "width":12,
+            "angle":140,
+            "contrailSize":15,
+            "style":"impulseEngines_standard"
+        }
+    ],
+    "bounds":[
+            -188,        7,
+            -182,     15.5,
+            -174,     19.5,
+            -158,     27.5,
+            -158,     34.5,
+        
+            -152,     34.5,
+            -153,     36.5,
+          -145.5,       46,
+          -139.5,       47,
+          -138.5,       50,
+        
+            -163,       51,
+          -169.5,     56.5,
+          -169.5,       63,
+          -165.5,     67.5,
+            -156,     70.5,
+        
+             -86,       70,
+             -79,     66.5,
+           -66.5,     66.5,
+             -60,     62.5,
+             -60,       58,
+        
+             -63,     54.5,
+           -87.5,       51,
+             -96,       44,
+             -97,     34.5,
+           -92.5,     34.5,
+        
+           -92.5,     29.5,
+             -97,       29,
+             -97,       25,
+             -75,     26.5,
+             -50,       42,
+        
+              -8,       64,
+            23.5,       72,
+              53,       73,
+              94,       70,
+           117.5,     64.5,
+        
+           141.5,     54.5,
+           166.5,       38,
+             180,     25.5,
+             188,        4,
+             188,       -4,
+        
+             180,    -25.5,
+           166.5,      -38,
+           141.5,    -54.5,
+           117.5,    -64.5,
+              94,      -70,
+        
+              53,      -73,
+            23.5,      -72,
+              -8,      -64,
+             -50,      -42,
+             -75,    -26.5,
+        
+           -97.5,      -25,
+           -97.5,      -29,
+           -92.5,    -29.5,
+           -92.5,    -34.5,
+             -97,    -34.5,
+        
+           -95.5,      -43,
+             -93,      -49,
+           -87.5,      -51,
+             -63,    -54.5,
+             -60,    -58.5,
+        
+             -60,      -61,
+           -66.5,    -66.5,
+           -82.5,      -68,
+             -86,    -69.5,
+            -156,    -70.5,
+        
+          -165.5,    -67.5,
+          -169.5,      -63,
+          -169.5,    -56.5,
+            -163,      -51,
+          -138.5,      -50,
+        
+            -138,    -46.5,
+          -145.5,      -46,
+            -153,    -36.5,
+            -153,      -33,
+            -159,    -33.5,
+        
+            -159,      -31,
+            -156,      -29,
+          -157.5,    -27.5,
+            -174,    -19.5,
+            -182,    -15.5,
+        
+            -188,       -7
+    # 81 points total.
+    ]
+}

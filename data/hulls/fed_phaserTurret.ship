@@ -1,0 +1,143 @@
+{
+    "hullName":"Defense Platform",
+    "hullId":"fed_phaserTurret",
+    "hullSize":"DESTROYER",
+    "style":"HIGH_TECH",
+    "spriteName":"graphics/ships/phaserDefensePlatform.png",
+    "height":128,
+    "width":128,
+    "center":[
+        64, 64
+    ],
+    "collisionRadius":128,
+    "coversColor":"",
+    "shieldCenter":[
+        0, 0
+    ],
+    "shieldRadius":118,
+    "viewOffset":0,
+    "builtInMods":[
+        "federationShields",
+        "federationShieldRecovery",
+        "power_delivery",
+        "main_power_failure",
+        "mainReactor"
+    ],
+    "builtInWings":[],
+    "builtInModules":null,
+    "weaponSlots":[
+        {
+            "id":"WS 000",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":341.5,
+            "locations":[
+                      31,       -1
+            ]
+        },
+        {
+            "id":"WS 001",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":18.5,
+            "locations":[
+                      31,        1
+            ]
+        },
+        {
+            "id":"WS 002",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":153.5,
+            "locations":[
+                     -31,        1
+            ]
+        },
+        {
+            "id":"WS 003",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":206.5,
+            "locations":[
+                     -31,       -1
+            ]
+        },
+        {
+            "id":"WS 004",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":277,
+            "locations":[
+                       1,      -31
+            ]
+        },
+        {
+            "id":"WS 005",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":100,
+            "locations":[
+                      -1,       31
+            ]
+        },
+        {
+            "id":"WS 006",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":260,
+            "locations":[
+                      -1,      -31
+            ]
+        },
+        {
+            "id":"WS 007",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":83,
+            "locations":[
+                       1,       31
+            ]
+        }
+    ],
+    "engineSlots":[],
+    "bounds":[
+           -62.5,      3.5,
+             -59,     24.5,
+             -45,     44.5,
+             -25,       58,
+               2,       63,
+        
+              26,       58,
+              45,       45,
+            58.5,     23.5,
+              63,      3.5,
+              63,     -3.5,
+        
+            58.5,    -23.5,
+              45,      -45,
+              26,      -58,
+               2,      -63,
+             -25,      -58,
+        
+             -45,    -44.5,
+             -59,    -24.5,
+           -62.5,     -3.5
+    # 18 points total.
+    ]
+}

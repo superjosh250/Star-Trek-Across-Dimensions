@@ -1,0 +1,164 @@
+{
+    "hullName": "Freighter",
+    "hullId": "fed_freighter",
+    "hullSize": "FRIGATE",
+    "style": "HIGH_TECH",
+    "spriteName": "graphics/ships/freighter.png",
+    "height": 200,
+    "width": 72,
+    "center": [
+        36, 100
+    ],
+    "collisionRadius": 175,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 160,
+    "viewOffset": 0,
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 322,
+            "locations": [
+                    65.5,     -5.5
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 39.5,
+            "locations": [
+                      65,      6.5
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 0,
+            "locations": [
+                    97.5,        0
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 0,
+            "locations": [
+                    32.5,      -11
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "HIDDEN",
+            "arc": 100,
+            "angle": 0,
+            "locations": [
+                    32.5,       11
+            ]
+        },
+        {
+            "id": "LB 000",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                       0,        0,
+                     -12,      -20,
+                     -12,       20
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -96, 9.5
+            ],
+            "length": 1.5,
+            "width": 10,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "impulseEngines_standard"
+        },
+        {
+            "location": [
+                -96, 0
+            ],
+            "length": 1.5,
+            "width": 10,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "impulseEngines_standard"
+        },
+        {
+            "location": [
+                -96, -9.5
+            ],
+            "length": 1.5,
+            "width": 10,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "impulseEngines_standard"
+        }
+    ],
+    "bounds": [
+             -97,      3.5,
+             -87,      3.5,
+             -87,        6,
+             -97,        6,
+             -97,       13,
+        
+             -88,       13,
+             -88,       18,
+             -12,       18,
+             -12,       22,
+             -11,       22,
+        
+             -11,       27,
+              43,       27,
+              43,       19,
+              73,       19,
+            92.5,        4,
+        
+              96,        1,
+              96,       -1,
+            92.5,       -4,
+              73,      -19,
+              43,      -19,
+        
+              43,      -27,
+             -11,      -27,
+             -11,      -22,
+             -12,      -22,
+             -12,      -18,
+        
+             -88,      -18,
+             -88,      -13,
+             -97,      -13,
+             -97,       -6,
+             -87,       -6,
+        
+             -87,     -3.5,
+             -97,     -3.5
+    # 32 points total.
+    ]
+}

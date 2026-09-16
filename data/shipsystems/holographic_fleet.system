@@ -1,0 +1,25 @@
+{
+	"id":"holographic_fleet",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"UFP.data.ai.StationHolographicFleet_AI",	
+	
+	"runScriptWhileIdle":true,
+	#"canUseWhileRightClickSystemOn":true,
+	
+	"statsScript":"UFP.data.systems.HolographicFleet",
+	
+	"useSound":"energy_lash_activate",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"threatRange":1500,
+		"threatAmount":4,
+		"threatAngle":0,
+		"threatArc":360,
+	}
+}
+
+
+
+

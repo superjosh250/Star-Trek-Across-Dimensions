@@ -1,0 +1,44 @@
+{
+    "displayName":"Standard",
+    "fluxCapacitors":0,
+    "fluxVents":0,
+    "goalVariant":true,
+    "hullId":"fed_defiant",
+    "hullMods":[
+        "impulseEngines_small",
+        "warp_core_small",
+        "federationShields"
+    ],
+    "quality":0.0,
+    "variantId":"fed_defiant",
+    "weaponGroups":[
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 000":"pulse_phaser_typeX",
+                "WS 001":"pulse_phaser_typeX",
+                "WS 002":"pulse_phaser_typeX",
+                "WS 003":"pulse_phaser_typeX"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 006":"photon_torpedo_type6_s",
+                "WS 007":"photon_torpedo_type6_s",
+                "WS 004":"photon_torpedo_type6_s",
+                "WS 005":"photon_torpedo_type6_s"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 008":"phaser_typeX_small",
+                "WS 009":"phaser_typeX_small"
+            }
+        }
+    ]
+}

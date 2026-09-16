@@ -1,0 +1,247 @@
+{
+    "hullName":"Saber",
+    "hullId":"fed_saber",
+    "hullSize":"FRIGATE",
+    "style":"HIGH_TECH",
+    "spriteName":"graphics/ships/fed_saber.png",
+    "height":210,
+    "width":184,
+    "center":[
+        92, 105
+    ],
+    "collisionRadius":256,
+    "coversColor":"",
+    "shieldCenter":[
+        0, 0
+    ],
+    "shieldRadius":175,
+    "viewOffset":0,
+    "builtInMods":[
+        "power_delivery",
+        "sensorArray",
+        "main_power_failure",
+        "engine_mount",
+        "shieldMount",
+        "federationShieldRecovery"
+    ],
+    "builtInWings":[],
+    "builtInModules":null,
+    "weaponSlots":[
+        {
+            "id":"FWD Phaser 001",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                      76,      -19
+            ]
+        },
+        {
+            "id":"FWD Phaser 000",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                      76,       19
+            ]
+        },
+        {
+            "id":"FWD Phaser  000",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                      67,    -39.5
+            ]
+        },
+        {
+            "id":"FWD Phaser  001",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                      67,     39.5
+            ]
+        },
+        {
+            "id":"PORT Phaser 001",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":284,
+            "locations":[
+                    48.5,    -47.5
+            ]
+        },
+        {
+            "id":"PORT Phaser 000",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":76,
+            "locations":[
+                    48.5,       47
+            ]
+        },
+        {
+            "id":"STBD Phaser 001",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":270,
+            "locations":[
+                      33,    -49.5
+            ]
+        },
+        {
+            "id":"PORT Phaser 002",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":90,
+            "locations":[
+                      33,       49
+            ]
+        },
+        {
+            "id":"FWD Launcher 000",
+            "size":"SMALL",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":180.5,
+            "locations":[
+                    -104,     -0.5
+            ]
+        },
+        {
+            "id":"AFT Launcher 000",
+            "size":"SMALL",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                    95.5,       -3
+            ]
+        },
+        {
+            "id":"LB 000",
+            "size":"SMALL",
+            "type":"LAUNCH_BAY",
+            "mount":"HIDDEN",
+            "arc":0,
+            "angle":0,
+            "locations":[
+                      92,      -11,
+                    98.5,    -11.5
+            ]
+        },
+        {
+            "id":"LB 001",
+            "size":"SMALL",
+            "type":"LAUNCH_BAY",
+            "mount":"HIDDEN",
+            "arc":0,
+            "angle":0,
+            "locations":[
+                      92,      6.5,
+                    98.5,      8.5
+            ]
+        }
+    ],
+    "engineSlots":[
+        {
+            "location":[
+                -16, -51
+            ],
+            "length":0.5,
+            "width":20,
+            "angle":217.5,
+            "contrailSize":15,
+            "style":"impulseEngines_standard"
+        },
+        {
+            "location":[
+                -16, 50
+            ],
+            "length":0.5,
+            "width":20,
+            "angle":142.5,
+            "contrailSize":12,
+            "style":"impulseEngines_standard"
+        }
+    ],
+    "bounds":[
+            -104,      4.5,
+          -100.5,       15,
+             -73,       25,
+           -68.5,     21.5,
+             -28,     34.5,
+        
+               1,     74.5,
+             -64,       75,
+             -64,       74,
+             -83,     74.5,
+             -84,     82.5,
+        
+             -79,       90,
+             -51,       90,
+             -51,       89,
+              10,       89,
+              10,       91,
+        
+            23.5,     88.5,
+            34.5,       85,
+            55.5,     76.5,
+            74.5,       72,
+              84,       63,
+        
+              95,       45,
+           100.5,     26.5,
+           103.5,        8,
+           103.5,       -8,
+             102,      -21,
+        
+             101,    -27.5,
+              95,      -45,
+              84,      -63,
+              75,    -72.5,
+              56,      -77,
+        
+            29.5,      -88,
+              10,      -92,
+              10,      -90,
+             -51,      -90,
+             -51,      -91,
+        
+           -78.5,      -91,
+           -84.5,    -83.5,
+           -82.5,    -74.5,
+           -63.5,    -74.5,
+           -63.5,      -76,
+        
+               1,      -76,
+               1,    -74.5,
+             -28,    -34.5,
+           -68.5,    -21.5,
+             -73,      -25,
+        
+           -75.5,      -25,
+          -100.5,      -15,
+            -104,     -4.5
+    # 48 points total.
+    ]
+}

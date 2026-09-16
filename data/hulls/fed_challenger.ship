@@ -1,0 +1,233 @@
+{
+    "hullName":"Challenger",
+    "hullId":"fed_challenger",
+    "hullSize":"DESTROYER",
+    "style":"HIGH_TECH",
+    "spriteName":"graphics/ships/fed_challenger.png",
+    "height":414,
+    "width":260,
+    "center":[
+        130, 207
+    ],
+    "collisionRadius":310,
+    "coversColor":"",
+    "shieldCenter":[
+        0, 0
+    ],
+    "shieldRadius":300,
+    "viewOffset":0,
+    "builtInMods":[
+        "power_delivery",
+        "sensorArray",
+        "main_power_failure",
+        "engine_mount",
+        "shieldMount",
+        "federationShieldRecovery"
+    ],
+    "builtInWings":[],
+    "builtInModules":null,
+    "weaponSlots":[
+        {
+            "id":"FWD Phaser 000",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                     170,      0.5
+            ]
+        },
+        {
+            "id":"FWD Phaser 001",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":337.5,
+            "locations":[
+                     162,    -40.5
+            ]
+        },
+        {
+            "id":"FWD Phaser 002",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":22.5,
+            "locations":[
+                     162,     41.5
+            ]
+        },
+        {
+            "id":"STBD Phaser 001",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":284,
+            "locations":[
+                   128.5,      -81
+            ]
+        },
+        {
+            "id":"STBD Phaser 000",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":269,
+            "locations":[
+                    93.5,      -90
+            ]
+        },
+        {
+            "id":"AFT Phaser 000",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":218,
+            "locations":[
+                      58,    -77.5
+            ]
+        },
+        {
+            "id":"AFT Phaser 001",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":187,
+            "locations":[
+                    40.5,    -60.5
+            ]
+        },
+        {
+            "id":"PORT Phaser 000",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":64,
+            "locations":[
+                     129,       81
+            ]
+        },
+        {
+            "id":"PORT Phaser 001",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":89.5,
+            "locations":[
+                    96.5,       91
+            ]
+        },
+        {
+            "id":"AFT Phaser 002",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":140,
+            "locations":[
+                    61.5,     80.5
+            ]
+        },
+        {
+            "id":"AFT Phaser 003",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":180,
+            "locations":[
+                    41.5,       63
+            ]
+        }
+    ],
+    "engineSlots":[
+        {
+            "location":[
+                5, -67
+            ],
+            "length":0.5,
+            "width":12,
+            "angle":180,
+            "contrailSize":12,
+            "style":"impulseEngines_standard"
+        },
+        {
+            "location":[
+                5, 67
+            ],
+            "length":0.5,
+            "width":12,
+            "angle":180,
+            "contrailSize":12,
+            "style":"impulseEngines_standard"
+        }
+    ],
+    "bounds":[
+            -205,        9,
+            -200,     21.5,
+          -191.5,       30,
+          -169.5,       31,
+          -115.5,       30,
+        
+           -61.5,     27.5,
+            -9.5,       26,
+               0,       58,
+             4.5,       62,
+               9,     73.5,
+        
+            28.5,      100,
+              48,      115,
+              69,      124,
+            87.5,      129,
+           109.5,    128.5,
+        
+             123,    125.5,
+           141.5,    118.5,
+           157.5,      107,
+             177,     87.5,
+             193,       62,
+        
+             202,     35.5,
+           206.5,      9.5,
+           206.5,     -9.5,
+             202,    -35.5,
+             193,      -62,
+        
+             177,    -87.5,
+           157.5,     -107,
+           141.5,   -118.5,
+             123,   -125.5,
+           109.5,   -128.5,
+        
+            87.5,     -129,
+              69,     -124,
+              48,     -115,
+            28.5,     -100,
+               9,    -73.5,
+        
+             4.5,      -72,
+             4.5,      -62,
+             6.5,    -60.5,
+             5.5,    -58.5,
+               0,      -58,
+        
+            -9.5,      -26,
+           -61.5,    -27.5,
+          -115.5,      -30,
+          -169.5,      -31,
+          -191.5,      -30,
+        
+            -200,    -21.5,
+            -205,       -9
+    # 47 points total.
+    ]
+}

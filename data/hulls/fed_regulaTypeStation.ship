@@ -1,0 +1,315 @@
+{
+    "hullName":"Regula Type",
+    "hullId":"fed_regulaTypeStation",
+    "hullSize":"CRUISER",
+    "style":"HIGH_TECH",
+    "spriteName":"graphics/ships/fed_regulaTypeStation.png",
+    "height":480,
+    "width":768,
+    "center":[
+        384, 240
+    ],
+    "collisionRadius":768,
+    "coversColor":"",
+    "shieldCenter":[
+        0, 0
+    ],
+    "shieldRadius":700,
+    "viewOffset":0,
+    "builtInMods":[
+        "federationShields",
+        "federationShieldRecovery",
+        "power_delivery",
+        "main_power_failure",
+        "mainReactor",
+        "vastbulk"
+    ],
+    "builtInWeapons":{
+        "WS 000":"blinker_yellowishWhite",
+        "WS 001":"blinker_yellowishWhite",
+        "WS 002":"blinker_yellowishWhite",
+        "WS 003":"blinker_yellowishWhite",
+        "WS 004":"blinker_yellowishWhite",
+        "WS 005":"blinker_yellowishWhite",
+        "WS 006":"blinker_yellowishWhite"
+    },
+    "builtInWings":[],
+    "builtInModules":null,
+    "weaponSlots":[
+        {
+            "id":"WS 000",
+            "size":"MEDIUM",
+            "type":"DECORATIVE",
+            "mount":"TURRET",
+            "arc":360,
+            "angle":180,
+            "locations":[
+                   -72.5,    -23.5
+            ]
+        },
+        {
+            "id":"WS 001",
+            "size":"MEDIUM",
+            "type":"DECORATIVE",
+            "mount":"TURRET",
+            "arc":360,
+            "angle":180,
+            "locations":[
+                   -72.5,     23.5
+            ]
+        },
+        {
+            "id":"WS 002",
+            "size":"MEDIUM",
+            "type":"DECORATIVE",
+            "mount":"TURRET",
+            "arc":360,
+            "angle":270,
+            "locations":[
+                      25,      -74
+            ]
+        },
+        {
+            "id":"WS 003",
+            "size":"MEDIUM",
+            "type":"DECORATIVE",
+            "mount":"TURRET",
+            "arc":360,
+            "angle":90,
+            "locations":[
+                      25,       74
+            ]
+        },
+        {
+            "id":"WS 004",
+            "size":"MEDIUM",
+            "type":"DECORATIVE",
+            "mount":"TURRET",
+            "arc":360,
+            "angle":270,
+            "locations":[
+                     -25,      -73
+            ]
+        },
+        {
+            "id":"WS 005",
+            "size":"MEDIUM",
+            "type":"DECORATIVE",
+            "mount":"TURRET",
+            "arc":360,
+            "angle":0,
+            "locations":[
+                      72,      -24
+            ]
+        },
+        {
+            "id":"WS 006",
+            "size":"MEDIUM",
+            "type":"DECORATIVE",
+            "mount":"TURRET",
+            "arc":360,
+            "angle":0,
+            "locations":[
+                      72,       24
+            ]
+        },
+        {
+            "id":"WS 007",
+            "size":"MEDIUM",
+            "type":"STATION_MODULE",
+            "mount":"TURRET",
+            "arc":360,
+            "angle":305.5,
+            "locations":[
+                   201.5,   -440.5
+            ]
+        },
+        {
+            "id":"WS 008",
+            "size":"MEDIUM",
+            "type":"STATION_MODULE",
+            "mount":"TURRET",
+            "arc":360,
+            "angle":0,
+            "locations":[
+                     313,      384
+            ]
+        },
+        {
+            "id":"WS 009",
+            "size":"MEDIUM",
+            "type":"STATION_MODULE",
+            "mount":"TURRET",
+            "arc":360,
+            "angle":0,
+            "locations":[
+                   322.5,   -184.5
+            ]
+        },
+        {
+            "id":"WS 010",
+            "size":"MEDIUM",
+            "type":"STATION_MODULE",
+            "mount":"TURRET",
+            "arc":360,
+            "angle":292,
+            "locations":[
+                  -338.5,   -159.5
+            ]
+        },
+        {
+            "id":"WS 011",
+            "size":"MEDIUM",
+            "type":"STATION_MODULE",
+            "mount":"TURRET",
+            "arc":360,
+            "angle":124.5,
+            "locations":[
+                    68.5,      504
+            ]
+        },
+        {
+            "id":"LB 000",
+            "size":"SMALL",
+            "type":"LAUNCH_BAY",
+            "mount":"HIDDEN",
+            "arc":0,
+            "angle":0,
+            "locations":[
+                   214.5,     -0.5,
+                   237.5,    -64.5,
+                     238,       65
+            ]
+        },
+        {
+            "id":"LB 001",
+            "size":"SMALL",
+            "type":"LAUNCH_BAY",
+            "mount":"HIDDEN",
+            "arc":0,
+            "angle":0,
+            "locations":[
+                    -214,        0,
+                  -233.5,      -65,
+                    -234,     60.5
+            ]
+        }
+    ],
+    "engineSlots":[],
+    "bounds":[
+            -227,     70.5,
+          -203.5,       71,
+            -189,    108.5,
+            -155,    151.5,
+          -142.5,      163,
+        
+          -163.5,      167,
+            -192,    187.5,
+            -208,    211.5,
+          -214.5,    242.5,
+          -214.5,      248,
+        
+          -208.5,      279,
+            -189,      306,
+            -163,      324,
+            -127,      330,
+           -97.5,    323.5,
+        
+           -69.5,    304.5,
+             -55,    283.5,
+           -27.5,    291.5,
+           -42.5,      311,
+             -45,      330,
+        
+             -42,    345.5,
+           -29.5,      361,
+           -16.5,      369,
+               2,      372,
+            18.5,      369,
+        
+            32.5,      359,
+              42,    343.5,
+              45,    326.5,
+              41,    308.5,
+            26.5,    291.5,
+        
+            55.5,    283.5,
+            70.5,    305.5,
+              97,    323.5,
+             134,    329.5,
+             163,    323.5,
+        
+           190.5,      305,
+             209,      277,
+             214,      242,
+           208.5,      212,
+           191.5,      185,
+        
+             164,    166.5,
+             142,      163,
+           153.5,    154.5,
+           188.5,    110.5,
+           203.5,     70.5,
+        
+           227.5,       71,
+           227.5,      -71,
+           203.5,    -70.5,
+           188.5,   -110.5,
+           153.5,   -154.5,
+        
+             142,     -163,
+             164,   -166.5,
+           191.5,     -185,
+           208.5,     -212,
+             214,     -242,
+        
+             209,     -277,
+           190.5,     -305,
+             163,   -323.5,
+             134,   -329.5,
+              97,   -323.5,
+        
+            70.5,   -305.5,
+            55.5,   -283.5,
+            26.5,   -291.5,
+              41,   -308.5,
+              45,   -326.5,
+        
+              42,   -343.5,
+            32.5,     -359,
+            18.5,     -369,
+               2,     -372,
+            -1.5,     -372,
+        
+           -16.5,     -369,
+           -29.5,     -361,
+             -42,   -345.5,
+             -45,     -330,
+             -45,     -326,
+        
+           -42.5,     -311,
+           -27.5,   -291.5,
+             -55,   -283.5,
+           -69.5,   -304.5,
+           -97.5,   -323.5,
+        
+            -127,     -330,
+          -131.5,     -330,
+            -163,     -324,
+            -189,     -306,
+          -208.5,     -279,
+        
+          -214.5,     -248,
+          -214.5,   -242.5,
+            -208,   -211.5,
+            -192,   -187.5,
+          -163.5,     -167,
+        
+          -142.5,     -163,
+            -155,   -151.5,
+            -189,   -108.5,
+          -203.5,      -71,
+            -227,    -70.5
+    # 95 points total.
+    ]
+}

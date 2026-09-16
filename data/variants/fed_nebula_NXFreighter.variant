@@ -1,0 +1,55 @@
+{
+    "displayName":"Freighter",
+    "fluxCapacitors":0,
+    "fluxVents":0,
+    "goalVariant":true,
+    "hullId":"fed_nebula_NX",
+    "hullMods":[
+        "impulse_engines",
+        "warp_core_galaxy",
+        "federationShields"
+    ],
+    "permaMods":[
+        "fuel_tank_pristine_expansion"
+    ],
+    "quality":0.0,
+    "variantId":"fed_nebula_NXFreighter",
+    "weaponGroups":[
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "AFT Phaser 002":"phaser_typeX",
+                "AFT Phaser 003":"phaser_typeX",
+                "AFT Phaser 001":"phaser_typeX",
+                "AFT Phaser 000":"phaser_typeX",
+                "FWD Phaser 001":"phaser_typeX",
+                "FWD Phaser 000":"phaser_typeX",
+                "FWD Phaser 003":"phaser_typeX",
+                "FWD Phaser 002":"phaser_typeX"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "AFT Torpedo Launcher 000":"photonTorpedo_standard",
+                "FWD Torpedo Launcher 000":"photonTorpedo_standard"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "STBD Phaser 003":"phaser_typeX",
+                "PORT Phaser 003":"phaser_typeX",
+                "PORT Phaser 000":"phaser_typeX",
+                "PORT Phaser 001":"phaser_typeX",
+                "PORT Phaser 002":"phaser_typeX",
+                "STBD Phaser 002":"phaser_typeX",
+                "STBD Phaser 001":"phaser_typeX",
+                "STBD Phaser 000":"phaser_typeX"
+            }
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+	"id":"pulse_phaser_proj",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":140.0,
+	"width":15,
+	"fadeTime":1.1,
+	"fringeColor":[245,167,66,255],
+	"coreColor":[245,159,73,255],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"passThroughFighters":true,
+	"passThroughFightersOnlyWhenDestroyed":true,
+	"bulletSprite":"graphics/fx/phaser_pulseC.png"	
+}

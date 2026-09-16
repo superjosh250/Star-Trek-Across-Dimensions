@@ -1,0 +1,19 @@
+{
+	"id":"disruptor_pulse",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"onHitEffect":"UFP.data.plugins.DisruptorDamageEffect",
+	"length":140.0,
+	"width":24,
+	"fadeTime":1.1,
+	"fringeColor":[92,179,122,255],
+	"coreColor":[191,255,210,255],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"passThroughFighters":true,
+	"passThroughFightersOnlyWhenDestroyed":true,
+	"bulletSprite":"graphics/fx/disruptorPulse_c.png"	
+}

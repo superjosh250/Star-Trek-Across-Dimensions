@@ -1,0 +1,64 @@
+{
+  "id": "tractorBeam",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "mountTypeOverride": "UNIVERSAL",
+  "size": "MEDIUM",
+  "beamEffect": "UFP.data.plugins.TractorEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/weapons/tractorBeam_turretM.png",
+  "turretGlowSprite": "graphics/weapons/tractorBeam_turret_glowM.png",
+  "turretGunSprite": "graphics/weapons/tractorBeam_turretM.png",
+  "turretUnderSprite": "graphics/weapons/tractorBeam_turretM.png",
+  "hardpointSprite": "graphics/weapons/tractorbeamEmitter.png",
+  "hardpointGlowSprite": "graphics/weapons/tracorBeam_glow.png",
+  "glowColor": [
+    188,
+    208,
+    230,
+    175
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    0.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    15,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    181,
+    214,
+    245,
+    175
+  ],
+  "coreColor": [
+    104,
+    139,
+    250,
+    255
+  ],
+  "width": 128,
+  "textureType": [
+    "graphics/fx/beamfringeb.png",
+    "graphics/fx/tractorBeam2.png"
+  ],
+  "textureScrollSpeed": 256,
+  "pixelsPerTexel": 64,
+  "fireSoundOne": "tractor_beam_fire",
+  "fireSoundTwo": "tractor_beam_loop",
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "coalition_antishieldM",
+  "specClass": "projectile",
+  "projectileSpecId": "silvered_nadion_slug",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/nadion_ballasticTurretM.png",
+  "turretGlowSprite": "graphics/weapons/nadion_ballasticTurretM_glow.png",
+  "turretGunSprite": "graphics/weapons/nadion_ballasticTurretM.png",
+  "hardpointSprite": "",
+  "glowColor": [
+    255,
+    138,
+    0,
+    255
+  ],
+  "turretOffsets": [
+    31,
+    -0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    2,
+    -0.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 20,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "particleDuration": 0.5,
+    "particleCount": 10,
+    "particleColor": [
+      255,
+      255,
+      255,
+      255
+    ]
+  }
+}

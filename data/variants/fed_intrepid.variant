@@ -1,0 +1,59 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "fed_intrepid",
+    "hullMods": [
+        "impulse_engines",
+        "warp_core_intrepid",
+        "federationShields"
+    ],
+    "permaMods": [],
+    "quality": 0,
+    "sMods": [],
+    "variantId": "fed_intrepid",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "FWD Phaser 000": "phaser_typeX_medium",
+                "FWD Phaser 001": "phaser_typeX_medium",
+                "FWD Phaser 002": "phaser_typeX_medium",
+                "FWD Phaser 003": "phaser_typeX_medium"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "AFT Torpedo Tube 000": "photon_torpedo_type6",
+                "AFT Torpedo Tube 001": "photon_torpedo_type6",
+                "FWD Torpedo Tube 000": "photon_torpedo_type6",
+                "FWD Torpedo Tube 001": "photon_torpedo_type6"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "Phaser 000": "phaser_typeX_medium",
+                "Phaser 001": "phaser_typeX_medium",
+                "Phaser 002": "phaser_typeX_medium",
+                "Phaser 003": "phaser_typeX_medium",
+                "Phaser 004": "phaser_typeX_medium",
+                "Phaser 005": "phaser_typeX_medium"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "AFT Phaser 000": "phaser_typeX_medium",
+                "AFT Phaser 001": "phaser_typeX_medium"
+            }
+        }
+    ],
+    "wings": []
+}

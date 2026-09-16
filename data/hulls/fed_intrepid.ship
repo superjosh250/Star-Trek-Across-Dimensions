@@ -1,0 +1,362 @@
+{
+    "hullName":"Intrepid",
+    "hullId":"fed_intrepid",
+    "hullSize":"CRUISER",
+    "style":"HIGH_TECH",
+    "spriteName":"graphics/ships/fed_intrepid.png",
+    "height":364,
+    "width":154,
+    "center":[
+        77, 182
+    ],
+    "collisionRadius":270,
+    "coversColor":"",
+    "shieldCenter":[
+        0, 0
+    ],
+    "shieldRadius":250,
+    "viewOffset":0,
+    "builtInMods":[
+        "power_delivery",
+        "sensorArray",
+        "main_power_failure",
+        "engine_mount",
+        "shieldMount",
+        "federationShieldRecovery"
+    ],
+    "builtInWings":[],
+    "builtInModules":null,
+    "weaponSlots":[
+        {
+            "id":"FWD Torpedo Tube 000",
+            "size":"MEDIUM",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                   179.5,       -8
+            ]
+        },
+        {
+            "id":"FWD Torpedo Tube 001",
+            "size":"MEDIUM",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                   179.5,        9
+            ]
+        },
+        {
+            "id":"AFT Torpedo Tube 001",
+            "size":"MEDIUM",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":180,
+            "locations":[
+                   -47.5,      4.5
+            ]
+        },
+        {
+            "id":"AFT Torpedo Tube 000",
+            "size":"MEDIUM",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":180,
+            "locations":[
+                   -47.5,     -4.5
+            ]
+        },
+        {
+            "id":"FWD Phaser 001",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":0,
+            "locations":[
+                     131,     15.5
+            ]
+        },
+        {
+            "id":"FWD Phaser 000",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":0,
+            "locations":[
+                     131,    -15.5
+            ]
+        },
+        {
+            "id":"FWD Phaser 003",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":320,
+            "locations":[
+                   107.5,    -34.5
+            ]
+        },
+        {
+            "id":"FWD Phaser 002",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":64,
+            "locations":[
+                    86.5,       42
+            ]
+        },
+        {
+            "id":"Phaser 000",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":296,
+            "locations":[
+                    86.5,      -42
+            ]
+        },
+        {
+            "id":"Phaser 001",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":59,
+            "locations":[
+                   107.5,     34.5
+            ]
+        },
+        {
+            "id":"Phaser 002",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":281.5,
+            "locations":[
+                      62,      -47
+            ]
+        },
+        {
+            "id":"Phaser 003",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":78.5,
+            "locations":[
+                      62,       47
+            ]
+        },
+        {
+            "id":"Phaser 004",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":270,
+            "locations":[
+                      41,      -48
+            ]
+        },
+        {
+            "id":"Phaser 005",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":90,
+            "locations":[
+                      41,       48
+            ]
+        },
+        {
+            "id":"AFT Phaser 000",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":120,
+            "angle":226.5,
+            "locations":[
+                   -25.5,    -42.5
+            ]
+        },
+        {
+            "id":"AFT Phaser 001",
+            "size":"MEDIUM",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":120,
+            "angle":133.5,
+            "locations":[
+                   -25.5,     42.5
+            ]
+        },
+        {
+            "id":"FWD_Tractor_Emitter",
+            "size":"MEDIUM",
+            "type":"SYSTEM",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                   153.5,      0.5
+            ]
+        },
+        {
+            "id":"LB 000",
+            "size":"MEDIUM",
+            "type":"LAUNCH_BAY",
+            "mount":"HIDDEN",
+            "arc":0,
+            "angle":0,
+            "locations":[
+                  -143.5,        0,
+                    -162,       11,
+                    -155,      0.5,
+                    -162,      -11
+            ]
+        }
+    ],
+    "engineSlots":[
+        {
+            "location":[
+                -147, -42.5
+            ],
+            "length":0.1,
+            "width":8,
+            "angle":217,
+            "contrailSize":12,
+            "style":"impulseEngines_standard"
+        },
+        {
+            "location":[
+                -147, 42.5
+            ],
+            "length":0.1,
+            "width":8,
+            "angle":143,
+            "contrailSize":12,
+            "style":"impulseEngines_standard"
+        }
+    ],
+    "bounds":[
+            -175,        9,
+          -173.5,       12,
+          -169.5,       19,
+            -165,       22,
+          -154.5,     25.5,
+        
+          -154.5,       31,
+            -154,     36.5,
+            -151,     37.5,
+            -148,     39.5,
+            -150,     39.5,
+        
+            -146,       45,
+          -141.5,     46.5,
+          -139.5,       53,
+            -161,       53,
+          -163.5,       58,
+        
+            -163,       67,
+          -158.5,     71.5,
+           -80.5,     70.5,
+             -70,     69.5,
+             -64,       66,
+        
+             -64,       58,
+           -68.5,     54.5,
+           -92.5,       53,
+             -96,     46.5,
+             -99,     39.5,
+        
+             -99,       25,
+             -78,     27.5,
+             -48,       31,
+             -27,       46,
+           -14.5,       55,
+        
+              -2,       62,
+             9.5,       67,
+            16.5,       69,
+            31.5,       71,
+            67.5,     70.5,
+        
+            85.5,     67.5,
+           104.5,     63.5,
+           122.5,       58,
+             138,       52,
+           154.5,     42.5,
+        
+             168,     31.5,
+             178,       18,
+             181,        7,
+             181,       -7,
+             178,      -18,
+        
+             168,    -31.5,
+           154.5,    -42.5,
+             138,      -52,
+           122.5,      -58,
+           104.5,    -63.5,
+        
+            85.5,    -67.5,
+            67.5,    -70.5,
+            31.5,      -71,
+            16.5,      -69,
+             9.5,      -67,
+        
+              -2,      -62,
+           -14.5,      -55,
+             -27,      -46,
+             -48,      -31,
+             -78,    -27.5,
+        
+             -99,      -25,
+             -99,    -39.5,
+             -96,    -46.5,
+           -92.5,      -53,
+             -88,    -53.5,
+        
+           -68.5,    -54.5,
+             -64,      -58,
+             -64,      -66,
+             -70,    -69.5,
+           -80.5,    -70.5,
+        
+          -158.5,    -71.5,
+            -163,      -67,
+          -163.5,      -58,
+            -161,      -53,
+          -138.5,      -52,
+        
+          -141.5,    -46.5,
+            -146,      -45,
+            -150,    -39.5,
+            -148,    -39.5,
+            -150,      -37,
+        
+            -154,    -36.5,
+          -154.5,      -31,
+            -153,      -30,
+          -154.5,    -25.5,
+          -165.5,      -22,
+        
+          -169.5,      -19,
+          -173.5,      -12,
+            -175,       -9
+    # 88 points total.
+    ]
+}

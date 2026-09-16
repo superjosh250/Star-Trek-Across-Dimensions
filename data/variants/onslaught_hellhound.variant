@@ -1,0 +1,62 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "onslaught_hellhound",
+    "hullMods": [
+        "advancedshieldemitter",
+        "colTechShields",
+        "targetingunit",
+        "hiressensors",
+        "ballistic_rangefinder"
+    ],
+    "permaMods": [
+        "heg_militarized",
+        "rugged"
+    ],
+    "quality": 0.0,
+    "variantId": "onslaught_hellhound",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "typeV_laser",
+                "WS 000": "typeV_laser",
+                "WS 004": "typeV_laser",
+                "WS 002": "typeV_laser",
+                "WS 003": "typeV_laser",
+                "WS 006": "typeV_laser",
+                "WS 005": "typeV_laser",
+                "WS 020": "phasebeam",
+                "WS 021": "phasebeam",
+                "WS 023": "phasebeam",
+                "WS 022": "phasebeam"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 019": "neutrino_matter_launcher",
+                "WS 007": "neutrino_matter_launcherM",
+                "WS 008": "neutrino_matter_launcherM"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 018": "kineticblaster",
+                "WS 017": "kineticblaster",
+                "WS 014": "kineticblaster",
+                "WS 015": "kineticblaster",
+                "WS 011": "coalition_neutrino_slugS",
+                "WS 012": "coalition_neutrino_slugS",
+                "WS 013": "coalition_neutrino_slugS",
+                "WS 016": "coalition_neutrino_slugS"
+            }
+        }
+    ]
+}

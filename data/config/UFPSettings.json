@@ -1,0 +1,266 @@
+{
+  ## UFPSettings.json This is for mod settings specifically for the UFP mod. 
+
+    "ShieldGraphics": {
+      "Shields264": false,
+      "Shields384": false,
+      "BubbleShield64": false,
+      "BubbleShield128": false,
+      "BubbleShield192": false,
+      "BubbleShield256": false,
+      "BubbleShield320": true,
+      "BubbleShield448": false,
+      "BubbleShield": false
+    },
+   "RomulanShields": {
+      "Shields264": false,
+      "Shields384": false,
+      "BubbleShield64": true,
+      "BubbleShield128": false,
+      "BubbleShield192": false,
+      "BubbleShield256": false,
+      "BubbleShield320": false,
+      "BubbleShield": false
+    },
+    "Borg_Shields": {
+      "Shields264": false,
+      "Shields384": false,
+      "BubbleShield64": false,
+      "BubbleShield128": false,
+      "BubbleShield192": false,
+      "BubbleShield256": false,
+      "BubbleShield320": false,
+      "BubbleShield384": true,
+      "BubbleShield": false
+    },
+    "Kol_Shields": {
+      "Shields264": false,
+      "Shields384": false,
+      "BubbleShield64": false,
+      "BubbleShield128": false,
+      "BubbleShield192": false,
+      "BubbleShield256": false,
+      "BubbleShield320": false,
+      "BubbleShield448": true,
+      "BubbleShield": false
+    },
+    "ColTech_Shields": {
+      "Shields264": false,
+      "Shields384": true,
+      "BubbleShield64": false,
+      "BubbleShield128": false,
+      "BubbleShield192": false,
+      "BubbleShield256": false,
+      "BubbleShield320": false,
+      "BubbleShield448": false,
+      "BubbleShield": false
+    },
+  "graphics":{
+    "sprites": {
+      "self_destruct_ring": "graphics/fx/ring_self_destruct.png",
+      "sd_ring1": "graphics/fx/ring_self_destruct.png",
+      "sd_ring2": "graphics/fx/ring_self_destruct.png",
+      "sd_ring3": "graphics/fx/ring_self_destruct.png",
+      "sd_ring4": "graphics/fx/ring_self_destruct.png",
+      "sd_ring5": "graphics/fx/ring_self_destruct.png",
+      "sd_ring6": "graphics/fx/ring_self_destruct.png",
+    },
+    "fx":{
+      "tractor_core": "graphics/fx/tractorBeam.png",
+      "tractor_fringe": "graphics/fx/beam_Phaser.png",
+    },
+    "GravityWellGraphics":{   
+      "prefix": "vortex_",
+      "frameCount": 73,
+      "frameRate": 30
+    }
+  },
+  "Sprites_Extra": {
+    "hpBAR": "graphics/fx/frame.png",
+    "RingSpin4OPTIONAL": true,
+    "RingSpin4SpinSpeed": 20,
+    "ringSpin1": "graphics/fx/ringSpin1.png",
+    "ringSpin2": "graphics/fx/ringSpin2.png",
+    "ringSpin3": "graphics/fx/ringSpin3.png",
+    "ringSpin4": "graphics/fx/ringSpin4.png",
+    "supportSpinOverride": true,
+    "supportSpin1": "graphics/fx/support1.png",
+    "supportSpin2": "graphics/fx/support2.png",
+    "supportSpin3": "graphics/fx/support3.png",
+    "supportSpin4": "graphics/fx/support4.png",
+    "supportEngineeringSymbol": "graphics/fx/engineeringLogo.png",
+    "supportLockON": "graphics/fx/supportLock.png",
+  },
+  "Debug_Logging": true,
+  "BaseShieldHitpointsRecovery": true,
+  "ShieldHPStatusBar": false,
+  "SaucerSeparation_LOGGING": false,
+  "ShieldCustomColor": {
+    "r": 52,
+    "g": 161,
+    "b": 255,
+    "a": 100
+  },
+  "ShieldHP_Logging": {
+  "damage_data_log": "false",
+  "weapon_data_log": "false",
+  "shield_data_log": "false",
+  "per_hit_log": "false",
+  "mismatch_log": "false",
+  "rate_limit": "false",
+  "min_interval_sec": "0.25"
+  },
+  
+  "PhaserDMG_Weapons": {
+    "override": false,
+    "BURN_DURATION": 5,
+    "TOTAL_BURN_DAMAGE": 1000,
+    "override_id":false,
+    "phaser_typeX": 0.2,
+    "phaser_typeIX": 0.1,
+    "phaser_typeX_medium": 0.1
+  },
+  
+    "TrekShieldsVENTING": {
+      "Override": true,
+      "VentingPercentage": 0.15,
+      "RequireFlux": 3000,    
+     },
+     
+     "PolarizedHull_COLOR_Override": {
+      "Override": true,
+      "HEX_Color": "#9DABBCFF", 
+     },
+
+     "CoreEjection": {
+      "Override": true,
+      "wing_id": "warp_core", 
+      "valid_hullmod_ids": [
+        "warp_core_small",
+        "warp_core_standard",
+        "warp_core_large",
+        "warp_core_intrepid",
+        "warp_core_galaxy",
+        "warp_core_sovereign",
+        "fusion_reactor"
+      ],
+      "valid_shield_ids": [
+        "federationShields"
+      ]
+    },
+     "EPS_SYSTEMS": {
+      "Override": true,
+      "power_delivery_system": [
+        "power_delivery"
+      ],
+      "reactor_validation": [
+        "warp_core_small",
+        "warp_core_standard",
+        "warp_core_large",
+        "warp_core_intrepid",
+        "warp_core_galaxy",
+        "warp_core_sovereign",
+        "fusion_reactor",
+        "mainReactor"
+      ],
+      "auxiliary_power_system": [
+        "main_power_failure"
+      ]
+     },
+
+    "EnginePowerDiversion": {
+      "Override": true,
+      "valid_weapons_id": [
+        "pulse_phaser_typeX",
+        "phaser_typeX_small",
+      ] 
+     },
+    "CapacitorConversion": {
+      "Override": true,
+      "valid_hullmods_id": [
+        "federationShields"
+      ] 
+     },
+    "GalaxyWarpCore_Eligible": {
+      "hull_id_validation": [
+        "fed_galaxy",
+        "fed_galaxy_saucer",
+        "fed_galaxy_stardrive",
+        "fed_enterpriseD",
+        "fed_nebula",
+        "fed_nebula_NX",
+        "fed_nebula_sensor",
+        "fed_nebula_warp"
+        
+      ] 
+     },
+     "HolographicFleet_variants": {
+      "variant_ids": [
+        "fed_ambassador",
+        "fed_excelsior",
+        "fed_intrepid",
+        "fed_miranda",
+        "fed_nebula_sensor",
+        "fed_cheyenne",
+        "fed_saber",
+        "fed_centaur"
+      ] 
+     },
+     "ImpulseEngine_Hullmods": {
+      "hullmod_ids": [
+        "impulse_engines",
+        "impulseEngines_small",
+        "impulse_engines_capital",
+      ] 
+     },
+     "StarfleetCommand_Variants": {
+      "variant_ids": [
+        "fed_akira",
+        "fed_ambassador",
+        "fed_ambassador_refit",
+        "fed_ambassador_retrofit",
+        "fed_centaur",
+        "fed_challenger",
+        "fed_cheyenne",
+        "fed_constellation",
+        "fed_defiant",
+        "fed_excelsior",
+        "fed_freedom",
+        "fed_galaxy",
+        "fed_galaxy_saucer",
+        "fed_galaxy_stardrive",
+        "fed_intrepid",
+        "fed_miranda",
+        "fed_miranda_freighter",
+        "fed_miranda_freighterMKII",
+        "fed_miranda_freighterMKIII",
+        "fed_nebula",
+        "fed_nebula_NX",
+        "fed_nebula_NXFreighter",
+        "fed_nebula_sensor",
+        "fed_nebula_warp",
+        "fed_newOrleans",
+        "fed_norway",
+        "fed_nova",
+        "fed_saber",
+        "fed_springfield",
+        "fed_steamrunner",
+        "fed_ventureScout"
+      ] 
+     },
+    "ShieldMount_Valid_Installation": {
+      "Shield_Hullmods": [
+        "federationShields",
+        "ludditeShields",
+        "colTechShields",
+        "romulanShield",
+        "borgShield"
+      ]
+    },
+    "Console_Installation": {
+      "Console_Hullmods": [
+        "dummy_console"
+      ]
+    }
+}
+  

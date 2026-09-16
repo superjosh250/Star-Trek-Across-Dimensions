@@ -1,0 +1,22 @@
+{
+    "displayName": "Jupiter Type II",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "fed_jupiterStation",
+    "hullMods": [],
+    "modules": {
+        "WS 000": "fed_photonTurret_qunatum",
+        "WS 001": "fed_phaserTurret",
+        "WS 002": "fed_phaserTurret",
+        "WS 003": "fed_phaserTurret",
+        "WS 004": "fed_photonTurret_qunatum",
+        "WS 005": "fed_phaserTurret_typeIX"
+    },
+    "permaMods": [],
+    "quality": 0,
+    "sMods": [],
+    "variantId": "fed_jupiterStation_MKII",
+    "weaponGroups": [],
+    "wings": []
+}

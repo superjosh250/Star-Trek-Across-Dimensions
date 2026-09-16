@@ -1,0 +1,55 @@
+{
+  "id": "phaser_typeVII",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "beamEffect": "UFP.data.plugins.PhaserDamageEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/phaserTurret.png",
+  "turretGlowSprite": "graphics/weapons/phaserTurret_glow.png",
+  "turretGunSprite": "graphics/weapons/phaserTurret.png",
+  "hardpointSprite": "",
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    201,
+    153,
+    101,
+    100
+  ],
+  "coreColor": [
+    255,
+    63,
+    52,
+    200
+  ],
+  "width": 30,
+  "textureType": [
+    "graphics/fx/beam_tmp_pulse.png",
+    "graphics/fx/beam_tmp_pulse.png"
+  ],
+  "textureScrollSpeed": 128,
+  "pixelsPerTexel": 128,
+  "fireSoundOne": "typeVIII_phaser_fire",
+  "fireSoundTwo": "typeVIII_phaser_loop"
+}

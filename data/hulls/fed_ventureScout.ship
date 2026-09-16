@@ -1,0 +1,139 @@
+{
+    "hullName":"Venture",
+    "hullId":"fed_ventureScout",
+    "hullSize":"FRIGATE",
+    "style":"HIGH_TECH",
+    "spriteName":"graphics/ships/fed_ventureScout.png",
+    "height":52,
+    "width":35,
+    "center":[
+        17.5, 26
+    ],
+    "collisionRadius":65,
+    "coversColor":"",
+    "shieldCenter":[
+        0, 0
+    ],
+    "shieldRadius":50,
+    "viewOffset":0,
+    "builtInMods":[
+        "power_delivery",
+        "sensorArray",
+        "main_power_failure",
+        "engine_mount",
+        "shieldMount",
+        "federationShieldRecovery"
+    ],
+    "builtInWings":[],
+    "builtInModules":null,
+    "weaponSlots":[
+        {
+            "id":"WS 000",
+            "size":"SMALL",
+            "type":"BALLISTIC",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":0,
+            "locations":[
+                       7,     -8.5
+            ]
+        },
+        {
+            "id":"WS 001",
+            "size":"SMALL",
+            "type":"BALLISTIC",
+            "mount":"HIDDEN",
+            "arc":90,
+            "angle":0,
+            "locations":[
+                       7,      8.5
+            ]
+        },
+        {
+            "id":"WS 002",
+            "size":"SMALL",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":180,
+            "angle":0,
+            "locations":[
+                    23.5,        0
+            ]
+        },
+        {
+            "id":"WS 003",
+            "size":"SMALL",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                      -1,       16
+            ]
+        },
+        {
+            "id":"WS 004",
+            "size":"SMALL",
+            "type":"MISSILE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                      -1,      -16
+            ]
+        }
+    ],
+    "engineSlots":[
+        {
+            "location":[
+                -16, -9.5
+            ],
+            "length":0.5,
+            "width":10,
+            "angle":225,
+            "contrailSize":12,
+            "style":"impulseEngines_standard"
+        },
+        {
+            "location":[
+                -16, 9.5
+            ],
+            "length":0.5,
+            "width":10,
+            "angle":135,
+            "contrailSize":12,
+            "style":"impulseEngines_standard"
+        }
+    ],
+    "bounds":[
+             -24,      5.5,
+             -21,      5.5,
+             -21,      6.5,
+             -20,      6.5,
+             -11,     16.5,
+        
+              -2,     16.5,
+               6,      8.5,
+               6,      7.5,
+            10.5,      7.5,
+            18.5,        4,
+        
+              25,      3.5,
+              25,     -3.5,
+            18.5,       -4,
+            10.5,     -7.5,
+               6,     -7.5,
+        
+               6,     -8.5,
+              -2,    -16.5,
+             -11,    -16.5,
+             -20,     -6.5,
+             -21,     -6.5,
+        
+             -21,     -5.5,
+             -24,     -5.5,
+             -25,       -4,
+             -25,      3.5
+    # 24 points total.
+    ]
+}

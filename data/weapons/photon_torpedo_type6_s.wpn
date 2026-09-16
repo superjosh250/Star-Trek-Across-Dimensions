@@ -1,0 +1,50 @@
+{
+  "id": "photon_torpedo_type6_s",
+  "specClass": "projectile",
+  "projectileSpecId": "photonProj",
+  "fireSoundTwo":"photon_type6_fire",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/photonLauncher_S.png",
+  "turretGlowSprite": "graphics/weapons/photonLauncher_S_glow.png",
+  "turretGunSprite": "graphics/weapons/photonLauncher_S.png",
+  "turretUnderSprite": "graphics/weapons/photonLauncher_S.png",
+  "hardpointSprite": "",
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    7,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 20,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "particleDuration": 0.5,
+    "particleCount": 10,
+    "particleColor": [
+      255,
+      255,
+      255,
+      255
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "hullName": "Federation Shields",
+    "hullId": "fed_shield",
+    "hullSize": "FIGHTER",
+    "style": "HIGH_TECH",
+    "spriteName": "graphics/ships/none.png",
+    "height": 21,
+    "width": 18,
+    "center": [
+        9, 10.5
+    ],
+    "collisionRadius": 80,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 90,
+    "viewOffset": 0,
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [],
+    "engineSlots": [],
+    "bounds": []
+}

@@ -1,0 +1,68 @@
+{
+    "displayName": "Private II",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "fed_prasStation",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "fed_prasStation_privateII",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "station_phaser_typeX",
+                "WS 008": "station_phaser_typeX",
+                "WS 009": "station_phaser_typeX",
+                "WS 014": "station_phaser_typeX",
+                "WS 012": "station_phaser_typeX",
+                "WS 015": "station_phaser_typeX",
+                "WS 016": "station_phaser_typeX",
+                "WS 019": "phaser_typeX_medium",
+                "WS 022": "phaser_typeX_medium",
+                "WS 026": "station_phaser_typeX"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "quantumTorpedo_standard",
+                "WS 001": "quantumTorpedo_standard",
+                "WS 003": "quantumTorpedo_standard",
+                "WS 002": "quantumTorpedo_standard"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "ABEAM 000": "station_phaser_typeX",
+                "ABEAM 001": "station_phaser_typeX",
+                "ABEAM 003": "station_phaser_typeX",
+                "ABEAM 002": "phaser_typeX_medium",
+                "ABEAM 005": "phaser_typeX_medium",
+                "ABEAM 004": "phaser_typeX_medium"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 021": "photonTorpedo_x2_standard_medium",
+                "WS 020": "photon_torpedo_type6",
+                "WS 024": "photon_torpedo_type6",
+                "WS 023": "photon_torpedo_type6",
+                "WS 025": "photon_torpedo_type6_s",
+                "WS 005": "photon_torpedo_type6_s",
+                "WS 004": "photon_torpedo_type6_s"
+            }
+        }
+    ],
+    "modules": {
+        "WS 006": "fed_pulseTurret",
+        "WS 011": "fed_photonTurret_qunatum",
+        "WS 010": "fed_pulseTurret"
+    }
+}

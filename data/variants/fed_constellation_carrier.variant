@@ -1,0 +1,49 @@
+{
+    "displayName":"Carrier",
+    "fluxCapacitors":0,
+    "fluxVents":0,
+    "goalVariant":true,
+    "hullId":"fed_constellation",
+    "hullMods":[
+        "impulse_engines",
+        "warp_core_standard",
+        "federationShields"
+    ],
+    "quality":0.0,
+    "variantId":"fed_constellation_carrier",
+    "weaponGroups":[
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 002":"phaser_typeVIII",
+                "WS 003":"phaser_typeVIII"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 011":"photonTorpedo_x1_standard",
+                "WS 008":"photonTorpedo_x1_standard",
+                "WS 009":"photonTorpedo_x1_standard",
+                "WS 010":"photonTorpedo_x1_standard"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "WS 004":"phaser_typeVIII",
+                "WS 006":"phaser_typeVIII",
+                "WS 007":"phaser_typeVIII",
+                "WS 005":"phaser_typeVIII"
+            }
+        }
+    ],
+    "wings":[
+        "shuttle_type6_wing",
+        "shuttle_type6_wing",
+        "shuttle_type6_x4_wing"
+    ]
+}

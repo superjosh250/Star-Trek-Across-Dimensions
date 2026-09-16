@@ -1,0 +1,13 @@
+{
+    "displayName":"Standard",
+    "fluxCapacitors":0,
+    "fluxVents":0,
+    "goalVariant":false,
+    "hullId":"fed_shieldDeploymentPlatform",
+    "hullMods":[
+        "federationShields"
+    ],
+    "quality":0.0,
+    "variantId":"fed_shieldDeploymentPlatform",
+    "weaponGroups":[]
+}

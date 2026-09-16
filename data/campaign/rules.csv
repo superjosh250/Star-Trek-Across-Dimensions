@@ -1,0 +1,482 @@
+id,trigger,conditions,script,text,options,notes
+# + ENTERPRISE C OUTCOMES,,,,,,
+museumGeordiLaForge_sim_ent_c_win,PopulateOptions,"$isPerson
+$id == ufp_geordi_la_forge
+$global.ufp_sim_ent_c_won",unset $global.ufp_sim_ent_c_won; unset $ufp_sim_ent_c_won,"""Outstanding tactical performance, Captain! You managed to destroy at least one Romulan Warbird before going down. The USS Enterprise C has been awarded to your fleet.""","1:museumGeordiLaForge_sim_yes:Try another simulation.
+2:cutCommLink:Cut the comm link",Displays reward dialogue on victory condition.
+museumGeordiLaForge_sim_ent_c_loss,PopulateOptions,"$isPerson
+$id == ufp_geordi_la_forge
+$global.ufp_sim_ent_c_failed",unset $global.ufp_sim_ent_c_failed; unset $ufp_sim_ent_c_failed,"""Simulation complete. You were overwhelmed before disabling any of the enemy vessels. Review your tactical logs and feel free to attempt the simulation again.""","1:museumGeordiLaForge_sim_yes:Try again.
+2:cutCommLink:Cut the comm link",Displays failure dialogue if 0 kills achieved.
+museumGeordiLaForge_sim_ent_c_has_ship,PopulateOptions,"$isPerson
+$id == ufp_geordi_la_forge
+$global.ufp_has_enterprise_c",unset $global.ufp_has_enterprise_c; unset $ufp_has_enterprise_c,"""Sensors indicate the USS Enterprise C is already commissioned in your fleet. Holodeck rules permit only one active Enterprise C at a time. If yours is ever lost, you may attempt the simulation again.""","1:museumGeordiLaForge_sim_yes:Try a different simulation.
+2:cutCommLink:Cut the comm link",Replaces dialogue if player already owns the ship.
+,,,,,,
+# + BASE DIALOGUE TREE,,,,,,
+museumGeordiLaForge_init,PopulateOptions,"$isPerson
+$id == ufp_geordi_la_forge
+!$ufp_metGeordi
+!$global.ufp_sim_ent_c_won
+!$global.ufp_sim_ent_c_failed
+!$global.ufp_has_enterprise_c",,,1:museumGeordiLaForge_visitor:Introduce myself.,First time introduction option.
+museumGeordiLaForge_main,PopulateOptions,"$isPerson
+$id == ufp_geordi_la_forge
+$ufp_metGeordi
+!$global.ufp_sim_ent_c_won
+!$global.ufp_sim_ent_c_failed
+!$global.ufp_has_enterprise_c",,"""Welcome back to the Starfleet Museum, Captain. How can I help you today?""","1:museumGeordiLaForge_sim_yes:Try a different simulation.
+2:cutCommLink:Cut the comm link",Main menu for returning visits.
+museumGeordiLaForge_visitor,DialogOptionSelected,$option == museumGeordiLaForge_visitor,SetLater $ufp_metGeordi 0,"""Good afternoon captain. Welcome to Spacedock Museum, the Starfleet Museum.""",1:museumGeordiLaForge_sim_info1:Ask about interactive simulations.,Sets memory flag using built-in SetLater command.
+museumGeordiLaForge_sim_info1,DialogOptionSelected,$option == museumGeordiLaForge_sim_info1,,"""We offer historical holodeck fleet simulations right here in the museum to test your tactical skills.""",1:museumGeordiLaForge_sim_info2:Continue.,
+museumGeordiLaForge_sim_info2,DialogOptionSelected,$option == museumGeordiLaForge_sim_info2,,"""If you complete a simulation while meeting specific combat parameters, you can win a prize for your fleet.""",1:museumGeordiLaForge_sim_info3:Continue.,
+museumGeordiLaForge_sim_info3,DialogOptionSelected,$option == museumGeordiLaForge_sim_info3,,"""Would you like to give one a try?""","1:museumGeordiLaForge_sim_yes:Yes
+2:museumGeordiLaForge_sim_no:No",
+museumGeordiLaForge_sim_yes,DialogOptionSelected,$option == museumGeordiLaForge_sim_yes,,"""Select a historical starship simulation to attempt:""","1:museumGeordiLaForge_sim_ent_a:USS Enterprise A
+2:museumGeordiLaForge_sim_excelsior:USS Excelsior
+3:museumGeordiLaForge_sim_stargazer:USS Stargazer
+4:museumGeordiLaForge_sim_ent_c:USS Enterprise C
+5:museumGeordiLaForge_sim_ent_d:USS Enterprise D
+6:museumGeordiLaForge_sim_ent_e:USS Enterprise E
+7:museumGeordiLaForge_sim_defiant:USS Defiant
+8:museumGeordiLaForge_sim_voyager:USS Voyager
+9:cutCommLink:Never mind, cut the comm link.",Added USS Enterprise A option.
+museumGeordiLaForge_sim_no,DialogOptionSelected,$option == museumGeordiLaForge_sim_no,,"""Understood, Captain. Feel free to look around the museum at your leisure.""",1:cutCommLink:Cut the comm link,
+,,,,,,
+# + ENTERPRISE C MISSION INTERACTION,,,,,,
+museumGeordiLaForge_sim_ent_c_ask,DialogOptionSelected,$option == museumGeordiLaForge_sim_ent_c,,"""Are you ready?""","1:museumGeordiLaForge_sim_ent_c_start:Yes
+2:museumGeordiLaForge_sim_ent_c_no:No",Asks confirmation before launching sim.
+museumGeordiLaForge_sim_ent_c_no,DialogOptionSelected,$option == museumGeordiLaForge_sim_ent_c_no,,"""Understood, Captain.""",1:cutCommLink:Cut the comm link,Declining options to cut comm link.
+museumGeordiLaForge_sim_ent_c_start,DialogOptionSelected,$option == museumGeordiLaForge_sim_ent_c_start,StartEnterpriseCSimulation,,,
+,,,,,,
+# + ENTERPRISE D OUTCOMES,,,,,,
+museumGeordiLaForge_sim_ent_d_win,PopulateOptions,"$isPerson
+$id == ufp_geordi_la_forge
+$global.ufp_sim_ent_d_won",unset $global.ufp_sim_ent_d_won; unset $ufp_sim_ent_d_won,"""Brilliant tactical execution, Captain! By executing the Picard Maneuver three times during combat, you successfully outmaneuvered the USS Enterprise D. The USS Enterprise D has been awarded to your fleet.""","1:museumGeordiLaForge_sim_yes:Try another simulation.
+2:cutCommLink:Cut the comm link",Displays reward dialogue on victory condition.
+museumGeordiLaForge_sim_ent_d_loss,PopulateOptions,"$isPerson
+$id == ufp_geordi_la_forge
+$global.ufp_sim_ent_d_failed",unset $global.ufp_sim_ent_d_failed; unset $ufp_sim_ent_d_failed,"""Simulation complete. Tactical parameters were not met during the engagement. Review your strategy and feel free to attempt the simulation again.""","1:museumGeordiLaForge_sim_yes:Try again.
+2:cutCommLink:Cut the comm link",Displays failure dialogue if Picard Maneuver target was not reached.
+museumGeordiLaForge_sim_ent_d_has_ship,PopulateOptions,"$isPerson
+$id == ufp_geordi_la_forge
+$global.ufp_has_enterprise_d",unset $global.ufp_has_enterprise_d; unset $ufp_has_enterprise_d,"""Sensors indicate the USS Enterprise D is already commissioned in your fleet. Holodeck rules permit only one active Enterprise D at a time. If yours is ever lost, you may attempt the simulation again.""","1:museumGeordiLaForge_sim_yes:Try a different simulation.
+2:cutCommLink:Cut the comm link",Replaces dialogue if player already owns the ship.
+,,,,,,
+# + ENTERPRISE D MISSION INTERACTION,,,,,,
+museumGeordiLaForge_sim_ent_d_ask,DialogOptionSelected,$option == museumGeordiLaForge_sim_ent_d,,"""Are you ready to attempt the USS Enterprise D simulation?""","1:museumGeordiLaForge_sim_ent_d_start:Yes
+2:museumGeordiLaForge_sim_ent_d_no:No",Asks confirmation before launching sim.
+museumGeordiLaForge_sim_ent_d_no,DialogOptionSelected,$option == museumGeordiLaForge_sim_ent_d_no,,"""Understood, Captain.""",1:cutCommLink:Cut the comm link,Declining options to cut comm link.
+museumGeordiLaForge_sim_ent_d_start,DialogOptionSelected,$option == museumGeordiLaForge_sim_ent_d_start,StartEnterpriseDSimulation,,,
+,,,,,,
+# + USS VOYAGER OUTCOMES,,,,,,
+museumGeordiLaForge_sim_voyager_win,PopulateOptions,"$isPerson
+$id == ufp_geordi_la_forge
+$global.ufp_sim_voyager_won",unset $global.ufp_sim_voyager_won; unset $ufp_sim_voyager_won,"""Incredible tactical performance, Captain! You managed to destroy both Borg Cubes against overwhelming odds. The USS Voyager has been awarded to your fleet.""","1:museumGeordiLaForge_sim_yes:Try another simulation.
+2:cutCommLink:Cut the comm link",Displays reward dialogue on victory condition.
+museumGeordiLaForge_sim_voyager_loss,PopulateOptions,"$isPerson
+$id == ufp_geordi_la_forge
+$global.ufp_sim_voyager_failed",unset $global.ufp_sim_voyager_failed; unset $ufp_sim_voyager_failed,"""Simulation complete. Your vessel was destroyed before neutralizing both Borg Cubes. Review your tactical logs and feel free to attempt the simulation again.""","1:museumGeordiLaForge_sim_yes:Try again.
+2:cutCommLink:Cut the comm link",Displays failure dialogue if defeated or incomplete victory.
+museumGeordiLaForge_sim_voyager_has_ship,PopulateOptions,"$isPerson
+$id == ufp_geordi_la_forge
+$global.ufp_has_voyager",unset $global.ufp_has_voyager; unset $ufp_has_voyager,"""Sensors indicate the USS Voyager is already commissioned in your fleet. Holodeck rules permit only one active USS Voyager at a time. If yours is ever lost, you may attempt the simulation again.""","1:museumGeordiLaForge_sim_yes:Try a different simulation.
+2:cutCommLink:Cut the comm link",Replaces dialogue if player already owns the ship.
+,,,,,,
+# + USS VOYAGER MISSION INTERACTION,,,,,,
+museumGeordiLaForge_sim_voyager_ask,DialogOptionSelected,$option == museumGeordiLaForge_sim_voyager,,"""Are you ready to engage two Borg Cubes aboard the USS Voyager?""","1:museumGeordiLaForge_sim_voyager_start:Yes
+2:museumGeordiLaForge_sim_voyager_no:No",Asks confirmation before launching sim.
+museumGeordiLaForge_sim_voyager_no,DialogOptionSelected,$option == museumGeordiLaForge_sim_voyager_no,,"""Understood, Captain.""",1:cutCommLink:Cut the comm link,Declining options to cut comm link.
+museumGeordiLaForge_sim_voyager_start,DialogOptionSelected,$option == museumGeordiLaForge_sim_voyager_start,StartVoyagerSimulation,,,
+,,,,,,
+# + EXCELSIOR OUTCOMES,,,,,,
+museumGeordiLaForge_sim_excelsior_win,PopulateOptions,"$isPerson
+$id == ufp_geordi_la_forge
+$global.ufp_sim_excelsior_won",unset $global.ufp_sim_excelsior_won; unset $ufp_sim_excelsior_won,"""Impressive marksmanship, Captain! You successfully neutralized at least two enemy Birds-of-Prey during the engagement. The USS Excelsior has been awarded to your fleet.""","1:museumGeordiLaForge_sim_yes:Try another simulation.
+2:cutCommLink:Cut the comm link",Displays reward dialogue on victory condition.
+museumGeordiLaForge_sim_excelsior_loss,PopulateOptions,"$isPerson
+$id == ufp_geordi_la_forge
+$global.ufp_sim_excelsior_failed",unset $global.ufp_sim_excelsior_failed; unset $ufp_sim_excelsior_failed,"""Simulation complete. Tactical parameters were not met during the engagement. Review your strategy and feel free to attempt the simulation again.""","1:museumGeordiLaForge_sim_yes:Try again.
+2:cutCommLink:Cut the comm link",Displays generic failure dialogue without disclosing exact requirements.
+museumGeordiLaForge_sim_excelsior_has_ship,PopulateOptions,"$isPerson
+$id == ufp_geordi_la_forge
+$global.ufp_has_excelsior",unset $global.ufp_has_excelsior; unset $ufp_has_excelsior,"""Sensors indicate the USS Excelsior is already commissioned in your fleet. Holodeck rules permit only one active Excelsior at a time. If yours is ever lost, you may attempt the simulation again.""","1:museumGeordiLaForge_sim_yes:Try a different simulation.
+2:cutCommLink:Cut the comm link",Replaces dialogue if player already owns the ship.
+,,,,,,
+# + EXCELSIOR MISSION INTERACTION,,,,,,
+museumGeordiLaForge_sim_excelsior_ask,DialogOptionSelected,$option == museumGeordiLaForge_sim_excelsior,,"""Are you ready to attempt the USS Excelsior simulation?""","1:museumGeordiLaForge_sim_excelsior_start:Yes
+2:museumGeordiLaForge_sim_excelsior_no:No",Asks confirmation before launching sim.
+museumGeordiLaForge_sim_excelsior_no,DialogOptionSelected,$option == museumGeordiLaForge_sim_excelsior_no,,"""Understood, Captain.""",1:cutCommLink:Cut the comm link,Declining options to cut comm link.
+museumGeordiLaForge_sim_excelsior_start,DialogOptionSelected,$option == museumGeordiLaForge_sim_excelsior_start,StartExcelsiorSimulation,,,Launches the Excelsior simulation plugin.
+,,,,,,
+# + DEFIANT OUTCOMES,,,,,,
+museumGeordiLaForge_sim_defiant_win,PopulateOptions,"$isPerson
+$id == ufp_geordi_la_forge
+$global.ufp_sim_defiant_won",unset $global.ufp_sim_defiant_won; unset $ufp_sim_defiant_won,"""Exceptional tactical piloting, Captain! You successfully neutralized the USS Lakota in combat. The USS Defiant has been added to your fleet.""","1:museumGeordiLaForge_sim_yes:Try another simulation.
+2:cutCommLink:Cut the comm link",Displays reward dialogue on victory condition.
+museumGeordiLaForge_sim_defiant_loss,PopulateOptions,"$isPerson
+$id == ufp_geordi_la_forge
+$global.ufp_sim_defiant_failed",unset $global.ufp_sim_defiant_failed; unset $ufp_sim_defiant_failed,"""Simulation complete. You were unable to disable or destroy the USS Lakota. Adjust your strategy and feel free to attempt the simulation again.""","1:museumGeordiLaForge_sim_yes:Try again.
+2:cutCommLink:Cut the comm link",Displays failure dialogue on loss condition.
+museumGeordiLaForge_sim_defiant_has_ship,PopulateOptions,"$isPerson
+$id == ufp_geordi_la_forge
+$global.ufp_has_defiant",unset $global.ufp_has_defiant; unset $ufp_has_defiant,"""Sensors indicate the USS Defiant is already commissioned in your fleet. Holodeck rules permit only one active Defiant at a time. If yours is ever lost, you may attempt the simulation again.""","1:museumGeordiLaForge_sim_yes:Try a different simulation.
+2:cutCommLink:Cut the comm link",Replaces dialogue if player already owns the ship.
+,,,,,,
+# + DEFIANT MISSION INTERACTION,,,,,,
+museumGeordiLaForge_sim_defiant_ask,DialogOptionSelected,$option == museumGeordiLaForge_sim_defiant,,"""Are you ready to test the prototype escort vessel against the USS Lakota?""","1:museumGeordiLaForge_sim_defiant_start:Yes
+2:museumGeordiLaForge_sim_defiant_no:No",Asks confirmation before launching sim.
+museumGeordiLaForge_sim_defiant_no,DialogOptionSelected,$option == museumGeordiLaForge_sim_defiant_no,,"""Understood, Captain.""",1:cutCommLink:Cut the comm link,Declining options to cut comm link.
+museumGeordiLaForge_sim_defiant_start,DialogOptionSelected,$option == museumGeordiLaForge_sim_defiant_start,StartDefiantSimulation,,,Launches the Defiant simulation plugin.
+,,,,,,
+# + STARGAZER OUTCOMES,,,,,,
+museumGeordiLaForge_sim_stargazer_win,PopulateOptions,"$isPerson
+$id == ufp_geordi_la_forge
+$global.ufp_sim_stargazer_won",unset $global.ufp_sim_stargazer_won; unset $ufp_sim_stargazer_won,"""Incredible tactical composure, Captain! By allowing your shields to collapse under the Stargazer's initial assault before striking back, you successfully baited their attack vectors and neutralized the vessel. The USS Stargazer has been added to your fleet.""","1:museumGeordiLaForge_sim_yes:Try another simulation.
+2:cutCommLink:Cut the comm link",Displays reward dialogue explaining shield bait win condition.
+museumGeordiLaForge_sim_stargazer_loss,PopulateOptions,"$isPerson
+$id == ufp_geordi_la_forge
+$global.ufp_sim_stargazer_failed",unset $global.ufp_sim_stargazer_failed; unset $ufp_sim_stargazer_failed,"""Simulation complete. Tactical parameters were not satisfied during the engagement. Review your strategy and feel free to attempt the simulation again.""","1:museumGeordiLaForge_sim_yes:Try again.
+2:cutCommLink:Cut the comm link",Displays generic failure dialogue without disclosing shield requirement.
+museumGeordiLaForge_sim_stargazer_has_ship,PopulateOptions,"$isPerson
+$id == ufp_geordi_la_forge
+$global.ufp_has_stargazer",unset $global.ufp_has_stargazer; unset $ufp_has_stargazer,"""Sensors indicate the USS Stargazer is already commissioned in your fleet. Holodeck rules permit only one active Stargazer at a time. If yours is ever lost, you may attempt the simulation again.""","1:museumGeordiLaForge_sim_yes:Try a different simulation.
+2:cutCommLink:Cut the comm link",Replaces dialogue if player already owns the ship.
+,,,,,,
+# + STARGAZER MISSION INTERACTION,,,,,,
+museumGeordiLaForge_sim_stargazer_ask,DialogOptionSelected,$option == museumGeordiLaForge_sim_stargazer,,"""Are you ready to attempt the USS Stargazer simulation?""","1:museumGeordiLaForge_sim_stargazer_start:Yes
+2:museumGeordiLaForge_sim_stargazer_no:No",Asks confirmation before launching sim.
+museumGeordiLaForge_sim_stargazer_no,DialogOptionSelected,$option == museumGeordiLaForge_sim_stargazer_no,,"""Understood, Captain.""",1:cutCommLink:Cut the comm link,Declining options to cut comm link.
+museumGeordiLaForge_sim_stargazer_start,DialogOptionSelected,$option == museumGeordiLaForge_sim_stargazer_start,StartStargazerSimulation,,,Launches the Stargazer simulation plugin.
+,,,,,,
+# + ENTERPRISE A OUTCOMES,,,,,,
+museumGeordiLaForge_sim_ent_a_win,PopulateOptions,"$isPerson
+$id == ufp_geordi_la_forge
+$global.ufp_sim_ent_a_won",unset $global.ufp_sim_ent_a_won; unset $ufp_sim_ent_a_won,"""Remarkable tactical insight, Captain! By breaking the Enterprise A's defenses without destroying her, and accepting the destruction of your own ship in the line of duty, you satisfied the historical simulation criteria. The USS Enterprise A has been added to your fleet.""","1:museumGeordiLaForge_sim_yes:Try another simulation.
+2:cutCommLink:Cut the comm link",Displays reward dialogue when win conditions are met.
+museumGeordiLaForge_sim_ent_a_loss,PopulateOptions,"$isPerson
+$id == ufp_geordi_la_forge
+$global.ufp_sim_ent_a_failed",unset $global.ufp_sim_ent_a_failed; unset $ufp_sim_ent_a_failed,"""Simulation complete. Tactical parameters were not satisfied during the engagement. Review your strategy and feel free to attempt the simulation again.""","1:museumGeordiLaForge_sim_yes:Try again.
+2:cutCommLink:Cut the comm link",Displays generic failure dialogue.
+museumGeordiLaForge_sim_ent_a_has_ship,PopulateOptions,"$isPerson
+$id == ufp_geordi_la_forge
+$global.ufp_has_enterprise_a",unset $global.ufp_has_enterprise_a; unset $ufp_has_enterprise_a,"""Sensors indicate the USS Enterprise A is already commissioned in your fleet. Holodeck rules permit only one active Enterprise A at a time. If yours is ever lost, you may attempt the simulation again.""","1:museumGeordiLaForge_sim_yes:Try a different simulation.
+2:cutCommLink:Cut the comm link",Replaces dialogue if player already owns the ship.
+,,,,,,
+# + ENTERPRISE A MISSION INTERACTION,,,,,,
+museumGeordiLaForge_sim_ent_a_ask,DialogOptionSelected,$option == museumGeordiLaForge_sim_ent_a,,"""Are you ready to attempt the USS Enterprise A simulation?""","1:museumGeordiLaForge_sim_ent_a_start:Yes
+2:museumGeordiLaForge_sim_ent_a_no:No",Asks confirmation before launching sim.
+museumGeordiLaForge_sim_ent_a_no,DialogOptionSelected,$option == museumGeordiLaForge_sim_ent_a_no,,"""Understood, Captain.""",1:cutCommLink:Cut the comm link,Declining options to cut comm link.
+museumGeordiLaForge_sim_ent_a_start,DialogOptionSelected,$option == museumGeordiLaForge_sim_ent_a_start,StartEnterpriseASimulation,,,Launches the Enterprise A simulation plugin.
+,,,,,,
+# + ENTERPRISE E OUTCOMES,,,,,,
+museumGeordiLaForge_sim_ent_e_win,PopulateOptions,"$isPerson
+$id == ufp_geordi_la_forge
+$global.ufp_sim_ent_e_won",unset $global.ufp_sim_ent_e_won; unset $ufp_sim_ent_e_won,"""Incredible tactical leadership, Captain! You successfully neutralized the Borg Cube without suffering a single vessel loss. The USS Enterprise E has been commissioned into your fleet.""","1:museumGeordiLaForge_sim_yes:Try another simulation.
+2:cutCommLink:Cut the comm link",Displays reward dialogue when Borg Cube is destroyed and all fleet ships survive.
+museumGeordiLaForge_sim_ent_e_loss,PopulateOptions,"$isPerson
+$id == ufp_geordi_la_forge
+$global.ufp_sim_ent_e_failed",unset $global.ufp_sim_ent_e_failed; unset $ufp_sim_ent_e_failed,"""Simulation complete. Tactical parameters were not satisfied—either the Borg Cube survived or friendly vessels were lost during combat. Every fleet ship must survive the engagement. Review your strategy and try again.""","1:museumGeordiLaForge_sim_yes:Try again.
+2:cutCommLink:Cut the comm link",Displays failure dialogue if the Cube survives or any allied ship is destroyed.
+museumGeordiLaForge_sim_ent_e_has_ship,PopulateOptions,"$isPerson
+$id == ufp_geordi_la_forge
+$global.ufp_has_enterprise_e",unset $global.ufp_has_enterprise_e; unset $ufp_has_enterprise_e,"""Sensors indicate the USS Enterprise E is already commissioned in your fleet. Holodeck rules permit only one active Enterprise E at a time. If yours is ever lost, you may attempt the simulation again.""","1:museumGeordiLaForge_sim_yes:Try a different simulation.
+2:cutCommLink:Cut the comm link",Replaces dialogue if player already owns the ship.
+,,,,,,
+# + ENTERPRISE E MISSION INTERACTION,,,,,,
+museumGeordiLaForge_sim_ent_e_ask,DialogOptionSelected,$option == museumGeordiLaForge_sim_ent_e,,"""Are you ready to face the Borg threat in the USS Enterprise E simulation?""","1:museumGeordiLaForge_sim_ent_e_start:Yes
+2:museumGeordiLaForge_sim_ent_e_no:No",Asks confirmation before launching sim.
+museumGeordiLaForge_sim_ent_e_no,DialogOptionSelected,$option == museumGeordiLaForge_sim_ent_e_no,,"""Understood, Captain.""",1:cutCommLink:Cut the comm link,Declining options to cut comm link.
+museumGeordiLaForge_sim_ent_e_start,DialogOptionSelected,$option == museumGeordiLaForge_sim_ent_e_start,StartEnterpriseESimulation,,,Launches the Enterprise E simulation plugin.
+,,,,,,
+# + PRAS GREETING AND INITIAL CONTACT,,,,,,
+prasGreeting,PopulateOptions,"$isPerson
+$id == pras_mr_contact
+!$ufp_pras_met
+!$ufp_pras_rewardClaimed",,,1:ufp_pras_visitor:Speak with Mr. Pras.,First contact option
+prasGreeting_main,PopulateOptions,"$isPerson
+$id == pras_mr_contact
+$ufp_pras_met
+!$ufp_pras_rewardClaimed",,Greetings Captain. How can I help you?,"1:ufp_pras_visitor:I'm a visitor
+2:aiCores_startTurnIn:Turn in AI Cores
+3:never_mind:Never mind",Main returning menu
+prasGreeting_alt,PopulateOptions,"$isPerson
+$id == pras_mr_contact
+$ufp_pras_rewardClaimed",,Greetings Captain. How can I help you?,"1:ufp_pras_visitor_ally:Good to see you!
+2:aiCores_startTurnIn:Turn in AI Cores
+3:never_mind:Never mind",Returning ally greeting
+,,,,,,
+# + NAVIGATION AND EXIT,,,,,,
+prasNeverMind,DialogOptionSelected,$option == never_mind,"EndConversation
+DismissDialog",You cut the comm link.,,
+prasVisitor,DialogOptionSelected,"$option == ufp_pras_visitor
+!$ufp_pras_hasAttacked","SetLater $ufp_pras_met 0
+Event_PrasVerification hello
+FireAll pras_visitor_opts",A visitor for me? I don't recognize you captain. Are you an ally?,,
+prasVisitorHostile,DialogOptionSelected,"$option == ufp_pras_visitor
+$ufp_pras_hasAttacked","FireAll pras_hostile_opts
+SetStoryOption ufp_pras_h_sp 1 0 ui_char_spent_story_point ""Convinced Pras to wipe slate clean""",I remember you. You are no friend of mine.,,
+pras_v_yes,pras_visitor_opts,!$ufp_pras_rewardClaimed,,,1:ufp_pras_yes:Yes,
+pras_v_no,pras_visitor_opts,,,,2:ufp_pras_no:No,
+pras_v_leave,pras_visitor_opts,,,,3:ufp_pras_leave:Leave,
+prasNo,DialogOptionSelected,$option == ufp_pras_no,Event_PrasVerification no,Then off with you!,,
+prasLeave,DialogOptionSelected,$option == ufp_pras_leave,"EndConversation
+DismissDialog",Wise of you .... Oaf.,,
+,,,,,,
+# + PIN VERIFICATION,,,,,,
+prasYes,DialogOptionSelected,$option == ufp_pras_yes,"Event_PrasVerification yes
+FireAll pras_pin_opts","If you are an ally, you will need to give me the identification pin to prove so.",,
+pras_p_enter,pras_pin_opts,!$ufp_pras_verificationAttempted,,,1:ufp_pras_enterPin:Enter Identification Pin,
+pras_p_leave,pras_pin_opts,,,,2:ufp_pras_leave:Leave,
+prasEnterPin,DialogOptionSelected,$option == ufp_pras_enterPin,Event_PrasVerification openInput,Please enter your pin.,,
+,,,,,,
+# + PIN VERIFICATION OUTCOMES,,,,,,
+prasVerifySuccess,DialogOptionSelected,$option == ufp_pras_verify_success_trigger,FireAll pras_success_opts,AH! Your pin identifies you as a fellow curator! It's a pleasure to meet you captain!,,
+pras_s_yes,pras_success_opts,!$ufp_pras_rewardClaimed,,,1:ufp_pras_path_yes:Yes?,
+pras_s_sure,pras_success_opts,!$ufp_pras_rewardClaimed,,,2:ufp_pras_path_sure:Sure?,
+pras_s_not,pras_success_opts,,,,3:ufp_pras_path_not:I'm not.,
+pras_s_done,pras_success_opts,$ufp_pras_rewardClaimed,,,1:ufp_pras_leave:Leave,
+prasVerifyFail,DialogOptionSelected,$option == ufp_pras_verify_fail_trigger,"$ufp_pras_hasAttacked = true
+$rel = 0
+Event_PrasVerification attack
+EndConversation
+DismissDialog",Wrong! Security!,,
+,,,,,,
+# + HOSTILE LOOP,,,,,,
+pras_h_sorry,pras_hostile_opts,,,,1:ufp_pras_h_sorry:Sorry for my behavior last time.,
+pras_h_right,pras_hostile_opts,,,,2:ufp_pras_h_right:You're right.,
+pras_h_sp,pras_hostile_opts,,,,3:ufp_pras_h_sp:Convince him your past friction was all a misunderstanding.,
+prasHostileSorry,DialogOptionSelected,$option == ufp_pras_h_sorry,,You will have to earn your right to visit me again.,1:ufp_pras_leave:Leave,
+prasHostileRight,DialogOptionSelected,$option == ufp_pras_h_right,"$ufp_pras_hasAttacked = true
+$rel = 0
+Event_PrasVerification attack
+EndConversation
+DismissDialog",Impressive lack of manners.,,
+prasHostileSP,DialogOptionSelected,$option == ufp_pras_h_sp,"$ufp_pras_hasAttacked = false
+FireAll pras_visitor_opts","You do have a persuasive way about you. Fine, let us wipe the slate clean. Are you an ally?",,
+,,,,,,
+# + ALLY VISITOR LOOP,,,,,,
+prasVisitorAlly,DialogOptionSelected,$option == ufp_pras_visitor_ally,FireAll pras_ally_opts,Any new collector's findings captain?,,
+pras_a_nothing,pras_ally_opts,,,,1:ufp_pras_a_nothing:Nothing to speak of.,
+pras_a_you,pras_ally_opts,,,,2:ufp_pras_a_you:No. What about you?,
+prasAllyNothing,DialogOptionSelected,$option == ufp_pras_a_nothing,FireAll pras_main_opts,Hmmm disappointing.,,
+prasAllyYou,DialogOptionSelected,$option == ufp_pras_a_you,FireAll pras_ally_leave_opts,I have many new things. But what I have found is of no interest. You have my ship do you not? Find something new with it. Then we can regale each other with stories of our finds.,,
+pras_al_leave,pras_ally_leave_opts,,,,1:never_mind:Leave,
+,,,,,,
+# + CURATOR BRANCH: OPTION 1 (YES?),,,,,,
+prasPathYes,DialogOptionSelected,$option == ufp_pras_path_yes,FireAll pras_path_yes_opts,"As a fellow curator of the finer things in life, I am certain I can entrust you with my most beloved possession. It's a ship, the finest in the sector. She yearns for the stars. I will entrust her care to you ... as a LOAN. But you may use her as you see fit, so as long as you do not scratch the paint.",,
+pras_py_sure,pras_path_yes_opts,,,,1:ufp_pras_path_yes_sure:Sure?,
+pras_py_refuse,pras_path_yes_opts,,,,2:ufp_pras_refuse:I refuse,
+prasRefuse,DialogOptionSelected,$option == ufp_pras_refuse,FireAll pras_refuse_opts,A shame. You will not be given another chance to pilot this vessel.,,
+pras_pr_ok,pras_refuse_opts,,,,1:ufp_pras_path_yes_sure:Okay I will use your ship.,
+pras_pr_pass,pras_refuse_opts,,,,2:ufp_pras_hard_pass:Hard pass.,
+pras_pr_dumb,pras_refuse_opts,,,,3:ufp_pras_ship_dumb:Your ship is dumb.,
+prasHardPass,DialogOptionSelected,$option == ufp_pras_hard_pass,"EndConversation
+DismissDialog",Suit yourself then. Farewell.,,
+prasShipDumb,DialogOptionSelected,$option == ufp_pras_ship_dumb,"$ufp_pras_hasAttacked = true
+$rel = 0
+Event_PrasVerification attack
+EndConversation
+DismissDialog",Treacherous snake! Snivel and die! SECURITY!,,
+,,,,,,
+# + CURATOR BRANCH: OPTION 2 (SURE?),,,,,,
+prasPathSure,DialogOptionSelected,$option == ufp_pras_path_sure,FireAll pras_sure_opts,You don't seem sure. Do I have to call security?,,
+pras_ps_lie,pras_sure_opts,,,,1:ufp_pras_cant_lie:I can't lie. I'm not.,
+pras_ps_mona,pras_sure_opts,,,,2:ufp_pras_mona_lisa:Mona Lisa.,
+prasCantLie,DialogOptionSelected,$option == ufp_pras_cant_lie,"$ufp_pras_hasAttacked = true
+$rel = 0
+Event_PrasVerification attack
+EndConversation
+DismissDialog",I've been tricked! Security!,,
+prasMonaLisa,DialogOptionSelected,$option == ufp_pras_mona_lisa,FireAll pras_mona_opts,"The, Mona Lisa? Sure you mean THE Mona Lisa?",,
+pras_m_no,pras_mona_opts,,,,1:ufp_pras_of_course_not:Of course not. I'm certain.,
+pras_m_aub,pras_mona_opts,,,,2:ufp_pras_aubrey:Aubrey Hebburn?!,
+pras_m_leave,pras_mona_opts,,,,3:ufp_pras_leave_lie:I should leave ...,
+pras_m_quiet,pras_mona_opts,,,,4:ufp_pras_quiet:Remain quiet ...,
+,,,,,,
+# + MONALISA FAILURES,,,,,,
+prasMonaFail1,DialogOptionSelected,$option == ufp_pras_of_course_not score:1000,"$ufp_pras_hasAttacked = true
+$rel = 0
+Event_PrasVerification attack
+EndConversation
+DismissDialog",Security!,,
+prasMonaFail2,DialogOptionSelected,$option == ufp_pras_aubrey score:1000,"$ufp_pras_hasAttacked = true
+$rel = 0
+Event_PrasVerification attack
+EndConversation
+DismissDialog",Security!,,
+prasMonaFail3,DialogOptionSelected,$option == ufp_pras_leave_lie score:1000,"$ufp_pras_hasAttacked = true
+$rel = 0
+Event_PrasVerification attack
+EndConversation
+DismissDialog",Security!,,
+,,,,,,
+# + MONALISA SUCCESS PATH,,,,,,
+prasQuiet,DialogOptionSelected,$option == ufp_pras_quiet,FireAll pras_quiet_opts,Is there something wrong captain?,,
+pras_pq_grand,pras_quiet_opts,,,,1:ufp_pras_too_grand:It's all too grand.,
+prasTooGrand,DialogOptionSelected,$option == ufp_pras_too_grand,FireAll pras_grand_opts,"Yes, yes, fellow curator. Even those with much can be overwhelmed in this home of mine.",,
+pras_pg_abs,pras_grand_opts,,,,1:ufp_pras_absolutely:Absolutely.,
+prasAbsolutely,DialogOptionSelected,$option == ufp_pras_absolutely,FireAll pras_abs_opts,"Well, knowing you are truly an appreciator of the finer things, I can entrust you with something.",,
+pras_pa_what,pras_abs_opts,,,,1:ufp_pras_what:What?,
+prasWhat,DialogOptionSelected,$option == ufp_pras_what,FireAll pras_reward_opts,My beloved personal ship. It will be a loan... DO NOT SCRATCH THE PAINT!,,
+pras_pw_go,pras_reward_opts,,,,1:ufp_pras_reward:Proceed to dockyard.,
+,,,,,,
+# + SHIP REWARD AND EXIT,,,,,,
+prasReward1,DialogOptionSelected,$option == ufp_pras_reward score:100,"Event_PrasVerification reward
+$ufp_pras_rewardClaimed = true","Received ship: Pras' personal Defiant class, starship.",1:ufp_pras_leave_final:Leave,
+prasReward2,DialogOptionSelected,$option == ufp_pras_path_yes_sure score:100,"Event_PrasVerification reward
+$ufp_pras_rewardClaimed = true","Received ship: Pras' personal Defiant class, starship.",1:ufp_pras_leave_final:Leave,
+prasLeaveFinal,DialogOptionSelected,$option == ufp_pras_leave_final,"EndConversation
+DismissDialog",,,
+prasPathNot,DialogOptionSelected,$option == ufp_pras_path_not,"$ufp_pras_hasAttacked = true
+$rel = 0
+Event_PrasVerification attack
+EndConversation
+DismissDialog",You're not?! How did you get the code?! SECURITY!,,
+,,,,,,
+# INITIAL CONTACT,,,,,,
+vir_daemon_lourd_open,PickGreeting,$id ==vir_daemon_lourd score:2000,"ShowPersonVisual
+SetShortcut cutCommLink ""ESCAPE"" 
+FireAll daemon_open_opts",,,
+FireAll vir_daemon_lourd_opts,,,,,,
+daemon_opt1,daemon_open_opts,,,,1:turnInAICores:I'd like to turn in these AI cores.,
+daemon_opt3,daemon_open_opts,,,,"2:daemon_station_intro:""What is this station?""",
+daemon_opt2,daemon_open_opts,,,,3:cutCommLink:Cut the comm link,
+,,,,,,
+# STATION INTRO HUB,,,,,,
+daemon_station_intro,DialogOptionSelected,$option == daemon_station_intro,FireAll daemon_station_hub_opts,Ah? This station? This is a research facility. It is known as the Coalition Research Facility. This structure was built in response to the fear felt by the power of the United Federation of Planets. That factions of this sector are desparate to be able to combat the Federation an win. Therefore this R&D facility was born. ,,
+daemon_station_hub_opt1,daemon_station_hub_opts,,, ,"1:daemon_coalition_truth:""Whoa, is it a true Coalition?""",
+daemon_station_hub_opt2,daemon_station_hub_opts,,,,"2:daemon_what_done:""What is done here?""",
+daemon_station_hub_opt3,daemon_station_hub_opts,,,,"3:daemon_who_are_you:""Who are you?""",
+daemon_station_hub_opt4,daemon_station_hub_opts,,,,4:cutCommLink:Cut the comm link,
+,,,,,,
+#COALITION TRUTH,,,,,,
+daemon_coalition_truth,DialogOptionSelected,$option == daemon_coalition_truth,FireAll daemon_coalition_opts,"Hmm. That is a good question. The simple answer, is no. There is no true alliance between the factions. Each is seeking their own favor and grandeur. No one is willing to put aside their pursuit of domination to create a true alliance. This station, as I said, is a desparate attempt to create technology to compete with the advent of the Federation's appearance. But for ever step forward, is three to four taken back. No ne wants to be the underdog if something can come of the research facility's tech to destroy the Federation.",,
+daemon_coalition_opt1,daemon_coalition_opts,,,,"1:daemon_coalition_dominance:""Dominance?""",
+daemon_coalition_opt2,daemon_coalition_opts,,,,"2:daemon_what_done:""What is done here?""",
+daemon_coalition_opt3,daemon_coalition_opts,,,,3:cutCommLink:Cut the comm link,
+,,,,,,
+#COALITION DOMINANCE,,,,,,
+daemon_coalition_dominance,DialogOptionSelected,$option == daemon_coalition_dominance,FireAll daemon_dominance_opts,"Yes. If the Federation were defeated, there would be a plethora of Coalition built ships. Likely the vessels to win this futile, fruitless, ignorant war, would likely be the largest fleet of a single faction rather than a combined effort. Each faction is working behind the scenes to procure as much Coalition tech and ships as possible to shore up their fleets, not just to attack the Federation without provocation, but to force the other factions to bow to whomever wins. A fruitless endevaour indeed. ",,
+daemon_dominance_opt1,daemon_dominance_opts,,,,"1:daemon_ignore_fed:""I'm sorry, ignore?""",
+daemon_dominance_opt2,daemon_dominance_opts,,,,"2:daemon_who_wins:""Who is likely to win?""",
+daemon_dominance_opt3,daemon_dominance_opts,,,,"3:daemon_what_done:""What is done here?""",
+daemon_dominance_opt4,daemon_dominance_opts,,,,4:cutCommLink:Cut the comm link,
+,,,,,,
+#IGNORE? ,,,,,,
+daemon_ignore_fed,DialogOptionSelected,$option == daemon_ignore_fed,FireAll daemon_ignore_opts,"Quite. The Coaliton is making efforts to destroy the Federation, but the United Federation of Planets is a peaceful power in the sector. They largely ignore faction attempts to go to war with them. Often, vessels of this universe are sent back home crippled but far from destroyed. I've read accounts, data logs, reports, and sensor data about skirmishes with even a single vessel. It's no contest. Hmmm . . . Really, the largest issue is penetrating those impressive Federation shields. If only that could be done  . . .",,
+daemon_ignore_opt1,daemon_ignore_opts,,,,"1:daemon_what_done:""What is done here?""",
+daemon_ignore_opt2,daemon_ignore_opts,,,,"2:daemon_who_are_you:""Who are you?""",
+daemon_ignore_opt3,daemon_ignore_opts,,,,3:cutCommLink:Cut the comm link,
+,,,,,,
+# WHO WINS?,,,,,,
+daemon_who_wins,DialogOptionSelected,$option == daemon_who_wins,FireAll daemon_who_wins_opts,"HAH! Win? That is an interesting and futile question. Though in my opinion, one faction stands out, the truth is, even the weakest amongst them is capable of keeping themselves from falling completely. The result is no one wins. War will span the sector, possibly causing a collapse for everyone. But winning is beyond them. Even with this facilitiy's assitance, the Federation is far too formidable a PERCIEVED foe. There is only one winner in this, me . . . MERLIN! Merlin is a dealer friend of mine. Yes. (COUGH) Merlin. ",,
+daemon_who_wins_opt1,daemon_who_wins_opts,,,,"1:daemon_okay:""Okay?""",
+daemon_who_wins_opt2,daemon_who_wins_opts,,,,"2:daemon_what_done:""What is done here?""",
+daemon_who_wins_opt3,daemon_who_wins_opts,,,,3:cutCommLink:Cut the comm link,
+,,,,,,
+#OKAY? ,,,,,,
+daemon_okay,DialogOptionSelected,$option == daemon_okay,FireAll daemon_okay_opts,What are you confused about?,,
+daemon_okay_opt1,daemon_okay_opts,,,,"1:daemon_who_are_you:""Who are you?",
+daemon_okay_opt2,daemon_okay_opts,,,,"2:daemon_what_done:""What is done here?""",
+daemon_okay_opt3,daemon_okay_opts,,,,3:cutCommLink:Cut the comm link,
+,,,,,,
+#WHAT IS DONE HERE?,,,,,,
+daemon_what_done,DialogOptionSelected,$option == daemon_what_done,FireAll daemon_whatdone_opts,"What a beautiful question! It's rather simple. We are scientists, engineers, researchers of the finest caliber. Each faction has donated their brightest minds to the task of creating the weapon, the ship, the shield, the technology that will fell the Federation with ease! There are rules in place however. It was a wise suggestion on MY part. ",,
+daemon_whatdone_opt1,daemon_whatdone_opts,,,,"1:daemon_suggestion:""Suggestion?""",
+daemon_whatdone_opt2,daemon_whatdone_opts,,,,"2:cutCommLink:""I think I know what I need to know.""",
+,,,,,,
+#SUGGESTION,,,,,,
+daemon_suggestion,DialogOptionSelected,$option == daemon_suggestion,FireAll daemon_suggestion_opts,"Ah, yes. In order to prevent one faction from dominating another, a few things were put into place. The primary issue of importance is locking down the research. All information, all research, all technology, is explicitly Coalition technology only. It is not allowed to reverse engineer tech created here. All technology is manufactured and sold here and cannot be found in any other faction. If Coalition tech is in the possession of a faction, they got it from here and it was not produced by the faction that is in possession of it. ",,
+daemon_suggestion_opt1,daemon_suggestion_opts,,,,"1:daemon_enforcement:""How do you enforce this?""",
+daemon_suggestion_opt2,daemon_suggestion_opts,,,,"2:daemon_production:""There's production here?!""",
+daemon_suggestion_opt3,daemon_suggestion_opts,,,,3:cutCommLink:Cut the comm link,
+,,,,,,
+# ENFORCEMENT,,,,,,
+daemon_enforcement,DialogOptionSelected,$option == daemon_enforcement,FireAll daemon_enforce_opts,"AHHHHH! Yes. [COUGH] Excuse me. A simple matter. I have secretly implanted nanomachine only controllable by me in all technologies. An attempt to reverse engineer results in severe consequences. Try to reverse engineer a reactor? It detonates and destroys the entire ship. Try to reverse engineer a screen? You and everyone nearby are is afflicted by an arc that permanently blinds you. Got a decent scan of a ship or component of coalition tech? Bad idea. The nanomachine is transferrable by means of any scanning technology. An infection may skew data or worse. I've received data logs ranging from failed component designs that killed their  engineers to total destruction from  a computational error that caused a reactor to detonate. (PLEASED GRUNT) It's wonderful to think about all those people ki . . . THE DATA . . .the data protected to prevent factions from overpowering one another. Yes. We have to keep this powerful new tech from being completely claimed by one faction.
+
+The unfortunate truth, is that the current count of those who've passed on from their attempts is already around 5000. The permanently injured is far higher. Around 72000. Hmmm. Why am I telling you this?",,
+daemon_enforce_opt1,daemon_enforce_opts,,,,"1:daemon_pleased:""You seem pleased with all of this.""",
+daemon_enforce_opt2,daemon_enforce_opts,,,,"2:daemon_benefit:""How do you benefit?""",
+daemon_enforce_opt3,daemon_enforce_opts,,,,"3:daemon_production:""There's production here?!""",
+daemon_enforce_opt4,daemon_enforce_opts,,,,4:cutCommLink:Cut the comm link,
+,,,,,,
+#PLEASED?,,,,,,
+daemon_pleased,DialogOptionSelected,$option == daemon_pleased,FireAll daemon_pleased_opts,"Me? Please? Um . . . Well . . . No! . . .Of course death is a bad thing. No person passing on, no matter how interesting, how brutal, how truly satisfying, how vividly detailed, how wonderfully sculpted by my beautiful little machine workers . . . Wait? Where was I going with this? Uh . . .Ferrying souls to um . . .Harvesting negative emotion and souls to . . .no . . . regain power . . . no . . . AH! Yes. Tragic. Absolutely tragic to have people experience the tragedy of reverse engineering. I find no joy in it. ",,
+daemon_pleased_opt1,daemon_pleased_opts,,,,"1:daemon_name_reveal:Daemon Lourd? Dem . . .""""",
+daemon_pleased_opt2,daemon_pleased_opts,,,,"2:daemon_benefit:""How do you benefit?""",
+daemon_pleased_opt3,daemon_pleased_opts,,,,"3:daemon_who_are_you:""Who are you?""",
+daemon_pleased_opt4,daemon_pleased_opts,,,,4:cutCommLink:Cut the comm link,
+,,,,,,
+#HOW DO YOU BENEFIT?,,,,,,
+daemon_benefit,DialogOptionSelected,$option == daemon_benefit,FireAll daemon_benefit_opts,How do I benefit? Not in a particularly great way. I gained the rights to be director of the facility. I get a cut of funds gained from selling ships and weapons here. Those are all small little benefits to protecting the galaxy from itself. ,,
+daemon_benefit_opt1,daemon_benefit_opts,,,,"1:daemon_wealth:""You must be rich.""",
+daemon_benefit_opt2,daemon_benefit_opts,,,,"2:daemon_what_done:""What is done here?""",
+daemon_benefit_opt3,daemon_benefit_opts,,,,"3:daemon_who_are_you:""Who are you?""",
+daemon_benefit_opt4,daemon_benefit_opts,,,,4:cutCommLink:Cut the comm link,
+,,,,,,
+#YOU MUST BE RICH,,,,,,
+daemon_wealth,DialogOptionSelected,$option == daemon_wealth,,"(COUGH LAUGH) Ah, yes, I do have a small surplus of funds. It's not like I'm using the money to build fleets under everyone's noses, waiting to deploy them to conquer this galaxy and turn it into a hellsca . . . Uh . . . A few credits it but a small gift in trying to destroy the peace of the galaxy . . . maintain the peace of the galaxy. [NERVOUS LAUGH] It would seem you caught me in a druken stupor. Words are just being flipped around and all. Excuse moi. ",,
+daemon_wealth_opt1,daemon_wealth_opts,,,,"1:daemon_name_reveal:""""Daemon Lourd? Dem . . .",
+daemon_wealth_opt2,daemon_wealth_opts,,,,"2:daemon_benefit:""Surely you get more out of it.""",
+daemon_wealth_opt3,daemon_wealth_opts,,,,"3:daemon_who_are_you:""Who are you?""",
+daemon_wealth_opt4,daemon_wealth_opts,,,,4:cutCommLink:Cut the comm link,
+,,,,,,
+#SURE YOU GET MORE OUT OF IT,,,,,,
+daemon_more_out,DialogOptionSelected,$option == daemon_more_out,FireAll daemon_more_out_opts,"What? Harvesting the souls of those taken by my nanomachine or regaining my power from the infighting of the factions? OH! Um . . . Hmmm . . . Did I misunderstand your question? Uh . . . NOOO! I do not gain more. I gain the knowledge that I've done my part to destroy the peace . . . I MEANT, preserve the peace. [NERVOUS LAUGH] HA! It would seem I'm twisting my words.  I should really get some extra sleep these days. ",,
+daemon_more_out_opt1,daemon_more_out_opts,,,,"1:daemon_name_reveal:""Daemon Lourd? Dem. . .""",
+daemon_more_out_opt2,daemon_more_out_opts,,,,"2:daemon_who_are_you:""Who are you?""",
+daemon_more_out_opt3,daemon_more_out_opts,,,,3:cutCommLink:Cut the comm link,
+,,,,,,
+#DAEMON LOURD? DEM . . .,,,,,,
+daemon_name_reveal,DialogOptionSelected,$option == daemon_name_reveal,FireAll daemon_name_reveal_opts,"HUH! Uh . . .What . . . What are you assuming? Careful with your words now. We wouldn't want people to hear you make a BAD joke. My um . . . My name is pronounced DAMIEN! Yes. It's SPELLED Daemon. But it's actually Dem . . . Damien. And Lourd is um . . . um . . . should I have spelled it Lawd? OH! Yes. It's actually a . . . fake last name . . . to . . . uh, let's see. Um. Canyon? Brazen? Polygon? Oi . . . PROTECT! Protect my identity. My real last name is Lord. NO! Wait! It's Lawd. Yes. Wait. No. Ugh. Look you need to leave now. I've entertained you enough. ",,
+daemon_name_reveal_opt1,daemon_name_reveal_opts,,,,1:cutCommLink:Leave,
+,,,,,,
+#THERE'S PRODUCTION HERE? ,,,,,,
+daemon_production,DialogOptionSelected,$option == daemon_production,FireAll daemon_production_opts,"Yes. We have the finest manufacturing facilities in the sector. Without them, we cannot produce the ships, tech, and weapons that the factions demand. If you are interested, you are more than welcome to purchase from us, so long as you have the correct reputation. We only discriminate against non-pirate criminals. Otherwise, feel free to spend your credits here to support my secret operations . . . I MEAN, to continue the functions of this station. 
+
+All purchases made at this station for Coalition Tech is to prevent factions from producing their own Coalition Tech . . . and gives me a hefty profit from a centralized locale . . .",,
+daemon_production_opt1,daemon_production_opts,,,,"1:daemon_wealth:""You must be rich.""",
+daemon_production_opt2,daemon_production_opts,,,,"2:daemon_enforcement:""How do you enforce this?""",
+daemon_production_opt3,daemon_production_opts,,,,"3:daemon_who_are_you:""Who are you?""",
+daemon_production_opt4,daemon_production_opts,,,,4:cutCommLink:Cut the comm link,
+,,,,,,
+#WHO ARE YOU,,,,,,
+daemon_who_are_you,DialogOptionSelected,$option == daemon_who_are_you,FireAll daemon_identity_opts,"Me? Daemon Lourd, Director of this facility. I was given the position to mostly manage the desemination of technology . . . Or rather managing what is sold by the station. I do not truly manage what research is done. That is a field of chaos of it's own. ",,
+daemon_identity_opt1,daemon_identity_opts,,,,"1:daemon_research:""Research?""",
+daemon_identity_opt2,daemon_identity_opts,,,,"2:daemon_name_reveal:""Daemon Lourd? Dem. . .""",
+daemon_identity_opt3,daemon_identity_opts,,,,3:cutCommLink:Cut the comm link,
+,,,,,,
+#RESEARCH,,,,,,
+daemon_research,DialogOptionSelected,$option == daemon_research,FireAll daemon_research_opts,"Yes, this facility does research into technologies implemented in fully built Coalition ships. Factions send their brightest minds here to share knowledge and create new technologies. As I said, it's chaos though. There are few advancements made because of the infighting. Factions will send orders for their specialist to . . . um . . . help another specialist to move on. Many researchers have been found, passed on, in their labs. A lot just disappear. After all, those airlocks are a little loose [WINK, WINK]. Of course, being director has the benefit of the fact that I am far smarter than all the people on this station. Without an intelligence of the highest caliber, one will end up on the wrong side of these pressurized walls. I can't say the vacuum of space is hospitable to life. Besides, their infighting benefits me. I can harvest the sou . . . I mean, maintain the pecking order. It's not like their the negative actions of factions fighting each other helps me to regain the power to turn this galaxy into a hellsca . . . PROTECT the galaxy. It helps me to PROTECT THE GALAXY. Yes.",,
+daemon_research_opt1,daemon_research_opts,,,,"1:daemon_name_reveal:""Daemon Lourd? Dem. . .""",
+daemon_research_opt2,daemon_research_opts,,,,"2:daemon_what_done:""What is done here?""",
+daemon_research_opt3,daemon_research_opts,,,,"3:daemon_coalition_truth:""Is it a true Coalition?""",
+daemon_research_opt4,daemon_research_opts,,,,4:cutCommLink:Cut the comm link,
+,,,,,,
+# + USS SOVEREIGN OUTCOMES,,,,,,
+sovereign_sim_won,PopulateOptions,"$uss_sovereign_event_target
+$global.uss_sovereign_sim_won","unset $global.uss_sovereign_sim_won; 
+unset $uss_sovereign_sim_won; ","""Simulation Complete: Target vessels neutralised!
+
+Congratulations, Captain. For successfully passing the simulation and demonstrating combat proficiency with the Phased Plasma Torpedoes, you have been awarded command of the USS Sovereign. The ship is now transferred to your fleet.""",1:cutCommLink:Leave.,Displays reward dialogue on victory condition.
+sovereign_sim_failed,PopulateOptions,"$uss_sovereign_event_target
+$global.uss_sovereign_sim_failed","unset $global.uss_sovereign_sim_failed; 
+unset $uss_sovereign_sim_failed; ","""Simulation Failed: Your vessel was destroyed. You may attempt the simulation again.""","1:sovereign_recruit_worthy_yes:Attempt test again.
+2:cutCommLink:Leave.",Displays failure dialogue on simulation loss.
+sovereign_has_ship,PopulateOptions,"$uss_sovereign_event_target
+$global.uss_sovereign_recruited",,"""Sensors indicate the USS Sovereign is already commissioned in your fleet. Only one active flagship of this class is permitted at a time.""",1:cutCommLink:Cut the comm link,Blocks dialogue if player already acquired ship.
+,,,,,,
+# + BASE DIALOGUE TREE,,,,,,
+sovereign_init,PopulateOptions,"$uss_sovereign_event_target
+!$global.uss_sovereign_recruited
+!$global.uss_sovereign_sim_won
+!$global.uss_sovereign_sim_failed",,,"1:sovereign_recruit_start:Inquire about recruiting the USS Sovereign.
+2:cutCommLink:Cut the comm link",Initial interaction options.
+sovereign_recruit_start,DialogOptionSelected,$option == sovereign_recruit_start,,"""The USS Sovereign is looking for a new home. Are you worthy?""","1:sovereign_recruit_worthy_yes:Yes.
+2:cutCommLink:No.",First test prompt.
+sovereign_recruit_worthy_yes,DialogOptionSelected,$option == sovereign_recruit_worthy_yes,,"""You must first pass a test. If you do so, you gain this ship. Do you want to proceed?""","1:sovereign_start_sim:Yes, proceed with the test.
+2:cutCommLink:No.",Simulation confirmation dialogue.
+,,,,,,
+# + USS SOVEREIGN MISSION INTERACTION,,,,,,
+sovereign_start_sim,DialogOptionSelected,$option == sovereign_start_sim,USS_SovereignEvent,,,Triggers simulation battle script.

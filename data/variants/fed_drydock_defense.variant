@@ -1,0 +1,36 @@
+{
+    "displayName": "Drydock",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "fed_drydock",
+    "hullMods": [
+        "mainReactor",
+        "federationShields"
+    ],
+    "modules": [
+        {
+            "WS 000": "fed_photonTurret"
+        },
+        {
+            "WS 001": "fed_phaserTurret"
+        },
+        {
+            "WS 002": "fed_phaserTurret"
+        },
+        {
+            "WS 003": "fed_photonTurret"
+        },
+        {
+            "WS 004": "fed_phaserTurret"
+        },
+        {
+            "WS 005": "fed_phaserTurret"
+        }
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "fed_drydock_defense",
+    "weaponGroups": [],
+    "wings": []
+}

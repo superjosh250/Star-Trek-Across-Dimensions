@@ -1,0 +1,59 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "onslaught_galactic",
+    "hullMods": [
+        "advancedshieldemitter",
+        "colTechShields",
+        "militarized_subsystems"
+    ],
+    "permaMods": [
+        "ablative_armor",
+        "efficiency_overhaul"
+    ],
+    "quality": 0.0,
+    "variantId": "onslaught_galactic",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "typeV_laser",
+                "WS 004": "typeV_laser",
+                "WS 007": "typeV_laser",
+                "WS 006": "typeV_laser",
+                "WS 009": "typeV_laser",
+                "WS 008": "typeV_laser",
+                "WS 015": "typeV_laser",
+                "WS 014": "typeV_laser",
+                "WS 021": "ionbeam",
+                "WS 020": "ionbeam"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 022": "neutrino_matter_launcher",
+                "WS 003": "neutrino_matter_launcherM",
+                "WS 002": "harpoonpod",
+                "WS 001": "harpoonpod",
+                "WS 000": "neutron_torpedo"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "coalition_antishieldM",
+                "WS 011": "coalition_antishieldM",
+                "WS 018": "coalition_antishieldS",
+                "WS 019": "coalition_antishieldS",
+                "WS 017": "coalition_antishieldS",
+                "WS 016": "coalition_antishieldS"
+            }
+        }
+    ]
+}

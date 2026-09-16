@@ -1,0 +1,61 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "paragon_signature",
+    "hullMods": [
+        "advancedshieldemitter",
+        "colTechShields",
+        "advancedoptics"
+    ],
+    "permaMods": [
+        "hardenedshieldemitter"
+    ],
+    "quality": 0.0,
+    "variantId": "paragon_signature_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 013": "typeIV_laser",
+                "WS 014": "typeIV_laser",
+                "WS 015": "typeIV_laser",
+                "WS 012": "typeIV_laser",
+                "WS 011": "typeIV_laser",
+                "WS 010": "typeIV_laser",
+                "WS 001": "exotic_particle_emitterS",
+                "WS 002": "exotic_particle_emitterS",
+                "WS 003": "exotic_particle_emitterS",
+                "WS 000": "exotic_particle_emitterS",
+                "WS 009": "typeV_laser",
+                "WS 008": "typeV_laser",
+                "WS 007": "exotic_particle_emitterM",
+                "WS 006": "exotic_particle_emitterM"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 019": "neutrino_matter_launcherM",
+                "WS 018": "neutrino_matter_launcherM",
+                "WS 004": "neutrino_matter_launcherM",
+                "WS 005": "neutrino_matter_launcherM",
+                "WS 017": "neutrino_matter_launcherS",
+                "WS 016": "neutrino_matter_launcherS"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 023": "coalition_neutrino_slugS",
+                "WS 020": "coalition_neutrino_slugS",
+                "WS 021": "coalition_neutrino_slugS",
+                "WS 022": "coalition_neutrino_slugS"
+            }
+        }
+    ]
+}

@@ -1,0 +1,386 @@
+{
+    "hullName":"Starbase",
+    "hullId":"fed_spaceDock",
+    "hullSize":"CAPITAL_SHIP",
+    "style":"HIGH_TECH",
+    "spriteName":"graphics/ships/fed_spaceDock.png",
+    "height":2048,
+    "width":2048,
+    "center":[
+        1024, 1024
+    ],
+    "collisionRadius":1800,
+    "coversColor":"",
+    "shieldCenter":[
+        0, 0
+    ],
+    "shieldRadius":1750,
+    "viewOffset":0,
+    "builtInMods":[
+        "federationShields",
+        "federationShieldRecovery",
+        "power_delivery",
+        "main_power_failure",
+        "mainReactor",
+        "vastbulk"
+    ],
+    "builtInWings":[],
+    "builtInModules":null,
+    "weaponSlots":[
+        {
+            "id":"WS 000",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                   641.5,      -46
+            ]
+        },
+        {
+            "id":"WS 001",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":0,
+            "locations":[
+                   641.5,       46
+            ]
+        },
+        {
+            "id":"WS 002",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":325,
+            "locations":[
+                   625.5,     -160
+            ]
+        },
+        {
+            "id":"WS 003",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":35,
+            "locations":[
+                   625.5,      160
+            ]
+        },
+        {
+            "id":"WS 004",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":323.5,
+            "locations":[
+                     558,     -321
+            ]
+        },
+        {
+            "id":"WS 005",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":36.5,
+            "locations":[
+                     558,      321
+            ]
+        },
+        {
+            "id":"WS 006",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":301.5,
+            "locations":[
+                     337,     -551
+            ]
+        },
+        {
+            "id":"WS 007",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":58.5,
+            "locations":[
+                     337,      551
+            ]
+        },
+        {
+            "id":"WS 008",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":288,
+            "locations":[
+                   234.5,   -598.5
+            ]
+        },
+        {
+            "id":"WS 009",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":72,
+            "locations":[
+                   234.5,    598.5
+            ]
+        },
+        {
+            "id":"WS 010",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":270,
+            "locations":[
+                      91,   -635.5
+            ]
+        },
+        {
+            "id":"WS 011",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":90,
+            "locations":[
+                      91,    635.5
+            ]
+        },
+        {
+            "id":"WS 012",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":270,
+            "locations":[
+                     -47,   -639.5
+            ]
+        },
+        {
+            "id":"WS 013",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":90,
+            "locations":[
+                     -47,    639.5
+            ]
+        },
+        {
+            "id":"WS 014",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":242,
+            "locations":[
+                  -178.5,   -613.5
+            ]
+        },
+        {
+            "id":"WS 015",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":118,
+            "locations":[
+                  -178.5,    613.5
+            ]
+        },
+        {
+            "id":"WS 016",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":231.5,
+            "locations":[
+                    -299,     -567
+            ]
+        },
+        {
+            "id":"WS 017",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":128.5,
+            "locations":[
+                    -299,      567
+            ]
+        },
+        {
+            "id":"WS 018",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":180,
+            "locations":[
+                  -634.5,      -64
+            ]
+        },
+        {
+            "id":"WS 019",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":180,
+            "locations":[
+                  -634.5,       64
+            ]
+        },
+        {
+            "id":"WS 020",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":196.5,
+            "locations":[
+                    -611,   -193.5
+            ]
+        },
+        {
+            "id":"WS 021",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":163.5,
+            "locations":[
+                    -611,    193.5
+            ]
+        },
+        {
+            "id":"WS 022",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":208,
+            "locations":[
+                    -546,   -332.5
+            ]
+        },
+        {
+            "id":"WS 023",
+            "size":"LARGE",
+            "type":"ENERGY",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":152,
+            "locations":[
+                    -546,    332.5
+            ]
+        },
+        {
+            "id":"WS 024",
+            "size":"LARGE",
+            "type":"STATION_MODULE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":309,
+            "locations":[
+                    1015,  -1018.5
+            ]
+        },
+        {
+            "id":"WS 025",
+            "size":"LARGE",
+            "type":"STATION_MODULE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":51,
+            "locations":[
+                    1015,   1018.5
+            ]
+        },
+        {
+            "id":"WS 026",
+            "size":"LARGE",
+            "type":"STATION_MODULE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":230.5,
+            "locations":[
+                   -1018,    -1027
+            ]
+        },
+        {
+            "id":"WS 027",
+            "size":"LARGE",
+            "type":"STATION_MODULE",
+            "mount":"HIDDEN",
+            "arc":100,
+            "angle":129.5,
+            "locations":[
+                   -1018,     1027
+            ]
+        }
+    ],
+    "engineSlots":[],
+    "bounds":[
+            -937,      -38,
+            -937,       38,
+          -930.5,      176,
+          -860.5,    360.5,
+          -787.5,      514,
+        
+            -701,      620,
+            -583,      738,
+          -471.5,    814.5,
+          -327.5,    887.5,
+            -184,    922.5,
+        
+             -14,      939,
+             182,      924,
+           356.5,    879.5,
+           517.5,      788,
+           657.5,    681.5,
+        
+           783.5,      527,
+           861.5,    396.5,
+             920,      216,
+           943.5,       52,
+           943.5,      -52,
+        
+             920,     -216,
+           861.5,   -396.5,
+           783.5,     -527,
+           657.5,   -681.5,
+           517.5,     -788,
+        
+           356.5,   -879.5,
+             182,     -924,
+             -14,     -939,
+            -184,   -922.5,
+          -327.5,   -887.5,
+        
+          -471.5,   -814.5,
+            -583,     -738,
+            -701,     -620,
+          -787.5,     -514,
+          -860.5,   -360.5,
+        
+          -930.5,     -176
+    # 36 points total.
+    ]
+}

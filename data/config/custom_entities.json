@@ -1,0 +1,235 @@
+{
+	"orbital_office_complex":{
+		"defaultName":"Orbital Station Station", # used if name=null in addCustomEntity()
+		"defaultRadius":50, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"station_orbital_complex",
+		"interactionImage":"graphics/illustrations/officeIllustration.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":24,
+		"iconHeight":24,
+		"sprite":"graphics/stations/fed_orbitalComplexStation.png",
+		"spriteWidth":75,
+		"spriteHeight":70,
+		"renderShadow":false, #true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	"regula_station":{
+		"defaultName":"Regula Class Station", # used if name=null in addCustomEntity()
+		"defaultRadius":45, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"station_regulaType",
+		"interactionImage":"graphics/illustrations/regulaIllustration.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":24,
+		"iconHeight":24,
+		"sprite":"graphics/stations/fed_regulaStation.png",
+		"spriteWidth":64,
+		"spriteHeight":70,
+		"renderShadow":false, #true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	"jupiterStation":{
+		"defaultName":"Jupiter Class Station", # used if name=null in addCustomEntity()
+		"defaultRadius":62, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"station_jupiterType",
+		"interactionImage":"graphics/illustrations/jupiterStation_illustration.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":24,
+		"iconHeight":24,
+		"sprite":"graphics/stations/fed_jupiterStation.png",
+		"spriteWidth":120,
+		"spriteHeight":70,
+		"renderShadow":false, #true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	"utopia_planitiaStation":{
+		"defaultName":"Utopia Planitia", # used if name=null in addCustomEntity()
+		"defaultRadius":70, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"station_utopiaPlanitia",
+		"interactionImage":"graphics/illustrations/utopiaPlanitia_station.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":24,
+		"iconHeight":24,
+		"sprite":"graphics/stations/fed_utopiaPlanitiaStation.png",
+		"spriteWidth":64,
+		"spriteHeight":90,
+		"renderShadow":false, #true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	"mcKinley_station":{
+		"defaultName":"McKinley Station", # used if name=null in addCustomEntity()
+		"defaultRadius":40, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"station_mcKinley",
+		"interactionImage":"graphics/illustrations/mcKinleyIllustration.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":14,
+		"iconHeight":14,
+		"sprite":"graphics/stations/fed_McKinleyStation.png",
+		"spriteWidth":60,
+		"spriteHeight":45,
+		"renderShadow":false, #true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	"advanced_drydock":{
+		"defaultName":"Type 4 Orbital Drydock", # used if name=null in addCustomEntity()
+		"defaultRadius":40, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"station_advancedDrydock",
+		"interactionImage":"graphics/illustrations/mcKinleyIllustration.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":14,
+		"iconHeight":14,
+		"sprite":"graphics/stations/fed_advancedDrydock.png",
+		"spriteWidth":64,
+		"spriteHeight":36,
+		"renderShadow":false, #true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	"drydock":{
+		"defaultName":"Type 2 Orbital Drydock", # used if name=null in addCustomEntity()
+		"defaultRadius":40, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"station_drydock",
+		"interactionImage":"graphics/illustrations/mcKinleyIllustration.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":14,
+		"iconHeight":14,
+		"sprite":"graphics/stations/fed_drydock.png",
+		"spriteWidth":64,
+		"spriteHeight":36,
+		"renderShadow":false, #true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	"pras_mansion":{
+		"defaultName":"Mansion Type Station", # used if name=null in addCustomEntity()
+		"defaultRadius":46, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"station_pras_mansion",
+		"interactionImage":"graphics/illustrations/prasMansionIllustration.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":10,
+		"iconHeight":10,
+		"sprite":"graphics/stations/pras_station.png",
+		"spriteWidth":92,
+		"spriteHeight":92,
+		"renderShadow":false, #true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	"spacedock_type":{
+		"defaultName":"Spacedock Type Station", # used if name=null in addCustomEntity()
+		"defaultRadius":80, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"station_spacedock",
+		"interactionImage":"graphics/illustrations/prasMansionIllustration.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":10,
+		"iconHeight":10,
+		"sprite":"graphics/stations/fed_spacedock.png",
+		"spriteWidth":164,
+		"spriteHeight":164,
+		"renderShadow":false, #true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	"starfleet_museum":{
+		"defaultName":"Spacedock Type Station", # used if name=null in addCustomEntity()
+		"defaultRadius":80, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"station_spacedockMuseum",
+		"interactionImage":"graphics/illustrations/prasMansionIllustration.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":10,
+		"iconHeight":10,
+		"sprite":"graphics/stations/fed_starfleetMuseum.png",
+		"spriteWidth":164,
+		"spriteHeight":164,
+		"renderShadow":false, #true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	"coalition_research_station":{
+		"defaultName":"Coalition Station Type 01", # used if name=null in addCustomEntity()
+		"defaultRadius":76, # used if radius<0 in addCustomEntity()
+		"customDescriptionId":"station_research_coalition",
+		"interactionImage":"graphics/illustrations/jangala_station.jpg",
+		"icon":"graphics/icons/station0.png",
+		"iconWidth":10,
+		"iconHeight":10,
+		"sprite":"graphics/stations/col_researchStation.png",
+		"spriteWidth":132,
+		"spriteHeight":74,
+		"renderShadow":false, #true,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":false,
+		"scaleNameWithZoom":false,
+		"scaleIconWithZoom":true,
+		"tags":["station"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	}
+}
+
+

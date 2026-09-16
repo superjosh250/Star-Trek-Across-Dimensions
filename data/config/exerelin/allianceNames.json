@@ -1,0 +1,15 @@
+{
+	# pre-defined names for each founding faction pair
+	# actual naming is insensitive to faction order, so each founding pair has two possible starting names
+	"staticNames":{
+		"ufp":{
+			"luddic_church":["United Federation of Planets"],
+			"luddic_path":["United Federation of Planets"],
+			"persean":["United Federation of Planets"],
+			"sindrian_diktat":["United Federation of Planets"],
+			"tritachyon":["United Federation of Planets"],
+			"independent":["United Federation of Planets"],
+			"pirates":["United Federation of Planets"],
+		},
+	},
+}

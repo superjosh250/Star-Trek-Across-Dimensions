@@ -1,0 +1,36 @@
+{
+    "displayName": "Phaser Turret",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "fed_phaserTurret",
+    "hullMods": [
+        "eps_conversionCapacitor",
+        "axialrotation",
+        "supercomputer"
+    ],
+    "quality": 0.0,
+    "variantId": "fed_phaserTurret",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "phaser_typeX_medium",
+                "WS 001": "phaser_typeX_medium",
+                "WS 002": "phaser_typeX_medium",
+                "WS 003": "phaser_typeX_medium"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "phaser_typeX_medium",
+                "WS 005": "phaser_typeX_medium",
+                "WS 006": "phaser_typeX_medium",
+                "WS 007": "phaser_typeX_medium"
+            }
+        }
+    ]
+}

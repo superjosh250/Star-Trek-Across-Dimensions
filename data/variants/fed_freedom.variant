@@ -1,0 +1,43 @@
+{
+    "displayName":"Standard",
+    "fluxCapacitors":0,
+    "fluxVents":0,
+    "goalVariant":true,
+    "hullId":"fed_freedom",
+    "hullMods":[
+        "impulseEngines_small",
+        "warp_core_standard",
+        "federationShields"
+    ],
+    "quality":0.0,
+    "variantId":"fed_freedom",
+    "weaponGroups":[
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "FWD Phaser 002":"phaser_typeIX_small",
+                "FWD Phaser 001":"phaser_typeIX_small",
+                "FWD Phaser 000":"phaser_typeIX_small"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "FWD Launcher 000":"photonTorpedo_x1_standard_small",
+                "AFT Launcher 000":"photonTorpedo_x1_standard_small"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "AFT Phaser 001":"phaser_typeIX_small",
+                "AFT Phaser 003":"phaser_typeIX_small",
+                "AFT Phaser 000":"phaser_typeIX_small",
+                "AFT Phaser 002":"phaser_typeIX_small"
+            }
+        }
+    ]
+}

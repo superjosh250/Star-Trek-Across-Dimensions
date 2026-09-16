@@ -1,0 +1,13 @@
+{
+    "displayName": "Orbital Complex",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "fed_orbitalStationComplex",
+    "hullMods": [
+        "eps_conversionCapacitor"
+    ],
+    "quality": 0.0,
+    "variantId": "fed_orbitalStationComplex_unarmed",
+    "weaponGroups": []
+}

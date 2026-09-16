@@ -1,0 +1,54 @@
+{
+  "id": "kli_disruptor_compressed_beta",
+  "specClass": "projectile",
+  "projectileSpecId": "kli_disruptor_pulse",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 1200,
+  "turretSprite": "graphics/weapons/romulan_disruptor_turret.png",
+  "turretGlowSprite": "graphics/weapons/romulan_disruptor_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/romulan_disruptor_turret.png",
+  "hardpointGlowSprite": "graphics/weapons/romulan_disruptor_turret_glow.png",
+  "glowColor": [
+    150,
+    204,
+    147,
+    255
+  ],
+  "renderHints": [],
+  "turretOffsets": [
+    16.5,
+    -0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    16.5,
+    -0.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "alwaysAnimate": false,
+  "autocharge": true,
+  "requiresFullCharge": false,
+  "muzzleFlashSpec": {
+    "length": 100,
+    "spread": 5,
+    "particleSizeMin": 20,
+    "particleSizeRange": 20,
+    "particleDuration": 0.25,
+    "particleCount": 25,
+    "particleColor": [
+      227,
+      179,
+      120,
+      255
+    ]
+  },
+  "pierceSet": [],
+  "fireSoundTwo": "kli_disruptorBETA_fire"
+}

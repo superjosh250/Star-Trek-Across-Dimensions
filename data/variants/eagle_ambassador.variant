@@ -1,0 +1,56 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "eagle_ambassador",
+    "hullMods": [
+        "advancedshieldemitter",
+        "colTechShields",
+        "hiressensors",
+        "targetingunit"
+    ],
+    "permaMods": [
+        "missile_reload"
+    ],
+    "quality": 0.0,
+    "variantId": "eagle_ambassador",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 010": "exotic_particle_emitterM",
+                "WS 009": "exotic_particle_emitterM",
+                "WS 004": "mininglaser",
+                "WS 003": "mininglaser",
+                "WS 006": "mininglaser",
+                "WS 005": "mininglaser",
+                "WS 008": "mininglaser",
+                "WS 007": "mininglaser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 019": "neutrino_matter_launcher",
+                "WS 020": "shredder",
+                "WS 018": "shredder",
+                "WS 011": "neutrino_matter_launcherM"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "typeV_laser",
+                "WS 013": "typeV_laser",
+                "WS 015": "typeV_laser",
+                "WS 014": "typeV_laser",
+                "WS 017": "ionbeam",
+                "WS 016": "ionbeam"
+            }
+        }
+    ]
+}

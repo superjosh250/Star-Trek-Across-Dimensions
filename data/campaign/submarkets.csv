@@ -1,0 +1,7 @@
+id,name,faction,desc,script,icon,order
+fed_militaryMarkets,Starfleet Market,ufp,Federation Military Market for selling Federation specific ships. ,UFP.data.campaign.submarket.FedMilitaryMarket,,0
+mcKinleyMarket,McKinley Market,ufp,This Market only sells galaxy class ships. ,UFP.data.campaign.submarket.McKinleyMarket,,0
+prasMarket,Defiant Market,,The only market that GUARANTEES a Defiant class purchase. No refunds.,UFP.data.campaign.submarket.PrasShipMarket,,0
+coalition_market,Coalition Market,,"With great efforts, infighting, plenty of stolen research, numerous deaths unaccounted for, a market was finally established.
+Though each faction is looking out for themselves, it was agreed that all Coalition established items would be sold in a cental location outside of faction control. 
+The Coalition profits in an unwinnable war against the United Federation of Planets. Coalition established items can be found here.",UFP.data.campaign.submarket.CoalitionMarket,,0

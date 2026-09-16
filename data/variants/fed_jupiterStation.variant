@@ -1,0 +1,34 @@
+{
+    "displayName": "Jupiter Type",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "fed_jupiterStation",
+    "hullMods": [],
+    "modules": [
+        {
+            "WS 001": "fed_phaserTurret_typeIX"
+        },
+        {
+            "WS 000": "fed_photonTurret"
+        },
+        {
+            "WS 002": "fed_phaserTurret_typeIX"
+        },
+        {
+            "WS 004": "fed_photonTurret"
+        },
+        {
+            "WS 005": "fed_phaserTurret_typeIX"
+        },
+        {
+            "WS 003": "fed_phaserTurret_typeIX"
+        }
+    ],
+    "permaMods": [],
+    "quality": 0,
+    "sMods": [],
+    "variantId": "fed_jupiterStation",
+    "weaponGroups": [],
+    "wings": []
+}

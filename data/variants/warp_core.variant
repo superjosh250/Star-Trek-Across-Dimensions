@@ -1,0 +1,11 @@
+{
+    "displayName": "Warp Core",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "warp_core",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "warp_core",
+    "weaponGroups": []
+}

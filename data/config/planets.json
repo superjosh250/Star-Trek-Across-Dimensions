@@ -1,0 +1,206 @@
+{
+	"mercury":{
+		"name":"Mercury",
+		"tilt":0, # left-right (>0 tilts to the left)
+		"pitch":4, # towards-away from the viewer (>0 pitches towards)
+		"rotation":0.08, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":0, #  minimum thickness in pixels
+		"atmosphereColor":[255,255,255,255],
+		"texture":"graphics/planets/ssmod_mercury.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[150,140,130,255],
+		"isStar":false,
+		"lightPosition":[6,-1,8], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"cloudTexture":"graphics/planets/clouds_banded01.png", # omit for no cloud layer
+		"cloudColor":[35,240,250,225],
+		"cloudRotation":-1.5, # degrees/second, optional,
+	},
+	"venus":{
+		"name":"Venus",
+		"tilt":3, # left-right (>0 tilts to the left)
+		"pitch":4, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-0.05, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.45, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":60, #  minimum thickness in pixels
+		"atmosphereColor":[220,200,160,200],
+		"texture":"graphics/planets/ssmod_venus.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[155,185,255,255],
+		"isStar":false,
+		"lightPosition":[4,-1,8], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"cloudTexture":"graphics/planets/clouds_banded01.png", # omit for no cloud layer
+		"cloudColor":[35,240,250,225],
+		"cloudRotation":-1.5, # degrees/second, optional,
+	},
+	"earth":{
+		"name":"Earth",
+		"tilt":23, # left-right (>0 tilts to the left)
+		"pitch":6, # towards-away from the viewer (>0 pitches towards)
+		"rotation":0.8, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.25, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":32, #  minimum thickness in pixels
+		"atmosphereColor":[90,150,210,150],
+		"texture":"graphics/planets/earthtexture.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[155,185,255,255],
+		"isStar":false,
+		"lightPosition":[4,-1,8], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"cloudTexture":"graphics/planets/clouds_banded01.png", # omit for no cloud layer
+		"cloudColor":[235,240,250,225],
+		"cloudRotation":0.4, # degrees/second, optional,
+	},
+	"moon":{
+		"name":"Moon",	
+		"tilt":-27, # left-right (>0 tilts to the left)
+		"pitch":2, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":12, #  minimum thickness in pixels
+		"atmosphereColor":[100,140,160,155],
+		"texture":"graphics/planets/moon.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[120,125,130,255],
+		"isStar":false,
+		"lightPosition":[-2,-8,10], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+	},
+	"moon_terraforming":{
+		"name":"Moon",	
+		"tilt":-27, # left-right (>0 tilts to the left)
+		"pitch":2, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":12, #  minimum thickness in pixels
+		"atmosphereColor":[100,140,160,155],
+		"texture":"graphics/planets/moonTerraforming.png",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[120,125,130,255],
+		"isStar":false,
+		"lightPosition":[-2,-8,10], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+	},
+	"moon_terraformed":{
+		"name":"Moon",	
+		"tilt":-27, # left-right (>0 tilts to the left)
+		"pitch":2, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":12, #  minimum thickness in pixels
+		"atmosphereColor":[100,140,160,155],
+		"texture":"graphics/planets/moonTerraformed.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[120,125,130,255],
+		"isStar":false,
+		"lightPosition":[-2,-8,10], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+	},
+	"mars":{
+		"name":"Mars",	
+		"tilt":25, # left-right (>0 tilts to the left)
+		"pitch":2, # towards-away from the viewer (>0 pitches towards)
+		"rotation":0.35, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.04, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":12, #  minimum thickness in pixels
+		"atmosphereColor":[180,140,110,120],
+		"texture":"graphics/planets/marsTexture.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[60,120,100,255],
+		"isStar":false,
+		"lightPosition":[-2,-8,10], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+	},
+	"mars_terraforming":{
+		"name":"Mars",	
+		"tilt":25, # left-right (>0 tilts to the left)
+		"pitch":2, # towards-away from the viewer (>0 pitches towards)
+		"rotation":0.35, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.12, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":14, #  minimum thickness in pixels
+		"atmosphereColor":[180,140,110,120],
+		"texture":"graphics/planets/mars_terraforming.png",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[60,120,100,255],
+		"isStar":false,
+		"lightPosition":[-2,-8,10], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+	},
+	"mars_terraformed":{
+		"name":"Mars",	
+		"tilt":25, # left-right (>0 tilts to the left)
+		"pitch":2, # towards-away from the viewer (>0 pitches towards)
+		"rotation":0.35, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.22, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":16, #  minimum thickness in pixels
+		"atmosphereColor":[180,140,110,120],
+		"texture":"graphics/planets/marsTerraformed.png",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[60,120,100,255],
+		"isStar":false,
+		"lightPosition":[-2,-8,10], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+	},
+	"saturn":{
+		"name":"Saturn",	
+		"tilt":-27, # left-right (>0 tilts to the left)
+		"pitch":2, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":12, #  minimum thickness in pixels
+		"atmosphereColor":[100,140,160,155],
+		"texture":"graphics/planets/ssmod_saturn.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[120,125,130,255],
+		"isStar":false,
+		"lightPosition":[-2,-8,10], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+	},
+	"jupiter":{
+		"name":"Jupiter",	
+		"tilt":-3, # left-right (>0 tilts to the left)
+		"pitch":2, # towards-away from the viewer (>0 pitches towards)
+		"rotation":0.6, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.25, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":14, #  minimum thickness in pixels
+		"atmosphereColor":[180,160,120,170],
+		"texture":"graphics/planets/ssmod_jupiter.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[80,160,120,255],
+		"isStar":false,
+		"lightPosition":[-2,-5,10], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+	},
+	"uranus":{
+		"name":"Neptune",	
+		"tilt":98, # left-right (>0 tilts to the left)
+		"pitch":5, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-0.25, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.18, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":12, #  minimum thickness in pixels
+		"atmosphereColor":[70,120,190,165],
+		"texture":"graphics/planets/ssmod_uranus.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[120,125,130,255],
+		"isStar":false,
+		"lightPosition":[-2,-8,10], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+	},
+	"neptune":{
+		"name":"Neptune",	
+		"tilt":28, # left-right (>0 tilts to the left)
+		"pitch":4, # towards-away from the viewer (>0 pitches towards)
+		"rotation":0.3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.22, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":12, #  minimum thickness in pixels
+		"atmosphereColor":[70,120,190,165],
+		"texture":"graphics/planets/ssmod_neptune.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[80,110,160,255],
+		"isStar":false,
+		"lightPosition":[-2,-6,10], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+	},
+}

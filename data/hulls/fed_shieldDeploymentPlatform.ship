@@ -1,0 +1,50 @@
+{
+    "hullName":"Deployable Shield",
+    "hullId":"fed_shieldDeploymentPlatform",
+    "hullSize":"FRIGATE",
+    "style":"HIGH_TECH",
+    "spriteName":"graphics/ships/fed_shieldGenPlatform.png",
+    "height":110,
+    "width":110,
+    "center":[
+        55.5, 54
+    ],
+    "collisionRadius":1024,
+    "coversColor":"",
+    "shieldCenter":[
+        1, 0.5
+    ],
+    "shieldRadius":900,
+    "viewOffset":0,
+    "builtInMods":[
+        "shieldMount"
+    ],
+    "builtInWings":[],
+    "builtInModules":null,
+    "weaponSlots":[],
+    "engineSlots":[],
+    "bounds":[
+           -50.5,       19,
+             -42,     34.5,
+           -11.5,       21,
+            -6.5,       53,
+             6.5,       53,
+        
+              12,       21,
+            42.5,     33.5,
+              50,     18.5,
+              25,       -1,
+              50,    -18.5,
+        
+            42.5,    -33.5,
+              12,    -20.5,
+             6.5,      -53,
+            -7.5,      -53,
+             -11,      -22,
+        
+             -42,    -34.5,
+           -50.5,      -19,
+             -24,        0
+    # 18 points total.
+    ]
+}

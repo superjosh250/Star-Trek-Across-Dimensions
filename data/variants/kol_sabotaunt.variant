@@ -1,0 +1,59 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "kol_sabotaunt",
+    "hullMods": [
+        "advancedshieldemitter",
+        "ludditeShields"
+    ],
+    "permaMods": [
+        "ill_advised",
+        "increased_maintenance",
+        "repair_gantry",
+        "tow_cable",
+        "advancedcore"
+    ],
+    "quality": 0.0,
+    "variantId": "kol_sabotaunt",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "coalition_neutrino_slugM",
+                "WS 007": "coalition_neutrino_slugM",
+                "WS 004": "coalition_neutrino_slugM",
+                "WS 005": "coalition_neutrino_slugM",
+                "WS 018": "coalition_neutrino_slugS",
+                "WS 017": "coalition_neutrino_slugS",
+                "WS 011": "coalition_neutrino_slugS",
+                "WS 010": "coalition_neutrino_slugS",
+                "WS 002": "coalition_neutrino_slugS",
+                "WS 003": "coalition_neutrino_slugS"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 012": "cyclone",
+                "WS 013": "cyclone",
+                "WS 014": "minelayer1",
+                "WS 015": "minelayer1",
+                "WS 020": "dragon",
+                "WS 019": "dragon",
+                "WS 008": "dragon",
+                "WS 009": "dragon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 016": "sniper_turret"
+            }
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "id": "romulan_cloak",
+    "type": "STAT_MOD",
+    "aiType": "CUSTOM",
+    "runScriptWhileIdle": true,
+    "statsScript": "UFP.data.systems.RomulanCloak",
+    "aiScript":"UFP.data.ai.RomulanCloakAI",	
+    "useSound": "energy_lash_activate",
+    "outOfUsesSound": "gun_out_of_ammo",
+    "aiHints": {
+        "threatRange": 1500,
+        "threatAmount": 4,
+        "threatAngle": 0,
+        "threatArc": 360
+    }
+}

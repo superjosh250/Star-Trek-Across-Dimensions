@@ -1,0 +1,78 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "borg_cube_bobw",
+    "hullMods": [
+        "impulse_engines_capital",
+        "warp_core_large",
+        "borgShield"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "borg_cube_bobw_mission",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "borg_plasma_beam",
+                "WS 002": "borg_plasma_beam",
+                "WS 003": "borg_plasma_beam",
+                "WS 004": "borg_plasma_beam",
+                "WS 005": "borg_plasma_beam",
+                "WS 006": "borg_plasma_beam",
+                "WS 019": "borg_plasma_beam",
+                "WS 020": "borg_plasma_beam",
+                "WS 021": "borg_plasma_beam",
+                "WS 022": "borg_plasma_beam",
+                "WS 023": "borg_plasma_beam",
+                "WS 024": "borg_plasma_beam"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 025": "borg_photon_beta",
+                "WS 026": "borg_photon_beta",
+                "WS 027": "borg_photon_beta",
+                "WS 034": "borg_photon_beta",
+                "WS 035": "borg_photon_beta",
+                "WS 036": "borg_photon_beta"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 007": "borg_plasma_beam",
+                "WS 008": "borg_plasma_beam",
+                "WS 009": "borg_plasma_beam",
+                "WS 010": "borg_plasma_beam",
+                "WS 011": "borg_plasma_beam",
+                "WS 012": "borg_plasma_beam",
+                "WS 013": "borg_plasma_beam",
+                "WS 014": "borg_plasma_beam",
+                "WS 015": "borg_plasma_beam",
+                "WS 016": "borg_plasma_beam",
+                "WS 017": "borg_plasma_beam",
+                "WS 018": "borg_plasma_beam"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 028": "borg_photon_beta",
+                "WS 029": "borg_photon_beta",
+                "WS 030": "borg_photon_beta",
+                "WS 031": "borg_photon_beta",
+                "WS 032": "borg_photon_beta",
+                "WS 033": "borg_photon_beta"
+            }
+        }
+    ],
+    "wings": []
+}

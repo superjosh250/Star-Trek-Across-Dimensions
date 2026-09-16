@@ -1,0 +1,139 @@
+{
+    "hullName": "Shuttle Type 11",
+    "hullId": "fed_shuttle_type11",
+    "hullSize": "FIGHTER",
+    "style": "HIGH_TECH",
+    "spriteName": "graphics/ships/auxiliaryCraft/fed_shuttlecraft_type11.png",
+    "height": 45,
+    "width": 28,
+    "center": [
+        14, 22.5
+    ],
+    "collisionRadius": 64,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 54,
+    "viewOffset": 0,
+    "builtInMods": [
+        "federationShields",
+        "federationShieldRecovery"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 90,
+            "angle": 0,
+            "locations": [
+                       1,       -8
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 90,
+            "angle": 0,
+            "locations": [
+                     0.5,      9.5
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 90,
+            "angle": 0,
+            "locations": [
+                      17,        2
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 90,
+            "angle": 0,
+            "locations": [
+                      17,     -0.5
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "HIDDEN",
+            "arc": 45,
+            "angle": 0,
+            "locations": [
+                       9,       -8
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "HIDDEN",
+            "arc": 45,
+            "angle": 0,
+            "locations": [
+                     8.5,      9.5
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "HIDDEN",
+            "arc": 180,
+            "angle": 0,
+            "locations": [
+                      21,      0.5
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -17.5, 9.5
+            ],
+            "length": 0.5,
+            "width": 6,
+            "angle": 180,
+            "contrailSize": 15,
+            "style": "impulseEngines_standard"
+        },
+        {
+            "location": [
+                -17.5, -8.5
+            ],
+            "length": 0.5,
+            "width": 6,
+            "angle": 180,
+            "contrailSize": 15,
+            "style": "impulseEngines_standard"
+        }
+    ],
+    "bounds": [
+             -20,        5,
+             -18,       11,
+             7.5,       11,
+               8,        5,
+              20,        4,
+        
+              20,       -4,
+               8,       -5,
+             7.5,      -11,
+             -18,      -11,
+             -20,       -5
+    ]
+}

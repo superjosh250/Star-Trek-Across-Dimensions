@@ -1,0 +1,42 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "coltech_atlasColony",
+    "hullMods": [
+        "advancedshieldemitter",
+        "colTechShields",
+        "hiressensors",
+        "targetingunit"
+    ],
+    "permaMods": [
+        "civgrade",
+        "delicate"
+    ],
+    "quality": 0.0,
+    "variantId": "coltech_atlasColony",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "exotic_particle_emitterM",
+                "WS 004": "exotic_particle_emitterM",
+                "WS 006": "exotic_particle_emitterS",
+                "WS 007": "exotic_particle_emitterS",
+                "WS 005": "ionpulser"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "pilum",
+                "WS 000": "neutrino_matter_launcherM",
+                "WS 002": "coalition_neutrino_slugS",
+                "WS 001": "coalition_neutrino_slugS"
+            }
+        }
+    ]
+}

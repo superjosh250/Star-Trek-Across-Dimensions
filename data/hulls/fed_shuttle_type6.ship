@@ -1,0 +1,91 @@
+{
+    "hullName": "Type 6 Shuttle",
+    "hullId": "fed_shuttle_type6",
+    "hullSize": "FIGHTER",
+    "style": "HIGH_TECH",
+    "spriteName": "graphics/ships/auxiliaryCraft/fed_shuttlecraft_type6OG.png",
+    "height": 30,
+    "width": 16,
+    "center": [
+        8, 15
+    ],
+    "collisionRadius": 40,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 32,
+    "viewOffset": 0,
+    "builtInMods": [
+        "federationShields",
+        "federationShieldRecovery"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "HIDDEN",
+            "arc": 90,
+            "angle": 0,
+            "locations": [
+                    10.5,     -0.5
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "HIDDEN",
+            "arc": 45,
+            "angle": 0,
+            "locations": [
+                     3.5,     -4.5
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "HIDDEN",
+            "arc": 45,
+            "angle": 0,
+            "locations": [
+                     3.5,      4.5
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -12, 4.5
+            ],
+            "length": 0.5,
+            "width": 4,
+            "angle": 180,
+            "contrailSize": 20,
+            "style": "impulseEngines_standard"
+        },
+        {
+            "location": [
+                -12, -4.5
+            ],
+            "length": 0.5,
+            "width": 4,
+            "angle": 180,
+            "contrailSize": 20,
+            "style": "impulseEngines_standard"
+        }
+    ],
+    "bounds": [
+             -12,        6,
+               4,        6,
+            11.5,      3.5,
+            11.5,     -3.5,
+               4,       -6,
+        
+             -12,       -6
+    ]
+}

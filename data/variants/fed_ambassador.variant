@@ -1,0 +1,47 @@
+{
+    "displayName":"Standard",
+    "fluxCapacitors":0,
+    "fluxVents":0,
+    "goalVariant":true,
+    "hullId":"fed_ambassador",
+    "hullMods":[
+        "impulse_engines_capital",
+        "warp_core_large",
+        "federationShields"
+    ],
+    "quality":0.0,
+    "variantId":"fed_ambassador",
+    "weaponGroups":[
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "AFT Phaser 000":"phaser_typeIX",
+                "AFT Phaser 001":"phaser_typeIX",
+                "FWD Phaser 002":"phaser_typeIX",
+                "FWD Phaser 001":"phaser_typeIX",
+                "FWD Phaser 000":"phaser_typeIX"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "AFT Launcher 000":"photonTorpedo_standard",
+                "FWD Launcher 000":"photonTorpedo_standard"
+            }
+        },
+        {
+            "autofire":false,
+            "mode":"LINKED",
+            "weapons":{
+                "PORT Phaser 002":"phaser_typeIX",
+                "PORT Phaser 000":"phaser_typeIX",
+                "PORT Phaser 001":"phaser_typeIX",
+                "STBD Phaser 002":"phaser_typeIX",
+                "STBD Phaser 000":"phaser_typeIX",
+                "STBD Phaser 001":"phaser_typeIX"
+            }
+        }
+    ]
+}

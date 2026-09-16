@@ -1,0 +1,18 @@
+{
+	"id":"silvered_nadion_slug",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":20.0,
+	"hitGlowRadius":10,
+	"width":38,
+	"fadeTime":0.4,
+	#"fringeColor":[255,155,125,255],
+	#"coreColor":[255,255,200,150],
+	"fringeColor":[255,138,205,255],
+	"coreColor":[255,138,0,200],	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/ballistic/silvered_nadion_slug.png"
+}
