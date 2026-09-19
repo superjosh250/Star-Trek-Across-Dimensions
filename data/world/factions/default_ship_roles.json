@@ -16,8 +16,6 @@
 		"fed_ambassador_enterpriseC":0.01,
 		"fed_ambassador_enterpriseC_mission":0.01,
 		"fed_enterpriseD":0.01,
-		"fed_enterpriseD_saucer":0.01,
-		"fed_enterpriseD_stardrive":0.01,
 		"fed_sovereign_enterpriseE":0.01,
 		"fed_sovereign_ussSovereign":0.01,
 
@@ -40,13 +38,17 @@
 		"fed_intrepid":50,
 		"fed_intrepid_explorer":20,
 		"fed_intrepid_voyager":0.01,
-		"fed_galaxy_saucer":1,
-		"fed_galaxy_stardrive":1,
+		"fed_galaxy_saucer":0.01,
+		"fed_galaxy_stardrive":0.01,
 		"fed_akira":50,
 		"fed_nebula_NX":10,
 		"fed_nebula":75,
 		"fed_nebula_sensor":30,
 		"fed_nebula_warp":30,
+
+		#HERO SHIPS
+		"fed_enterpriseD_saucer":0.01,
+		"fed_enterpriseD_stardrive":0.01,
 
 		"colossus_mkIII":30,
 		"paragon_signature_standard":30,

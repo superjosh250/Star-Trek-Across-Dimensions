@@ -21,6 +21,17 @@ public class DeployedAblativeArmor extends BaseHullMod {
         }
     }
 
+    @Override
+    public String getDescriptionParam(int index, ShipAPI.HullSize hullSize) {
+        if (index == 0) return "95%";
+        if (index == 1) return "99%";
+        if (index == 2) return "75%";
+        if (index == 3) return "80%";
+        if (index == 4) return "90%";
+        if (index == 5) return "60%";
+        return null;
+    }
+
     public static class AblativeArmorDamageListener implements DamageTakenModifier {
 
         @Override
@@ -59,7 +70,6 @@ public class DeployedAblativeArmor extends BaseHullMod {
         private boolean isArmorHit(ShipAPI ship, Vector2f point) {
             if (ship.getArmorGrid() == null) return false;
 
-            // Check specific cell if hit location is provided
             if (point != null) {
                 int[] cell = ship.getArmorGrid().getCellAtLocation(point);
                 if (cell != null) {
@@ -68,7 +78,6 @@ public class DeployedAblativeArmor extends BaseHullMod {
                 }
             }
 
-            // Fallback if point is null/out of bounds: check if any armor cell on the ship remains
             float[][] grid = ship.getArmorGrid().getGrid();
             if (grid != null) {
                 for (int x = 0; x < grid.length; x++) {
@@ -81,16 +90,6 @@ public class DeployedAblativeArmor extends BaseHullMod {
             }
 
             return false;
-        }
-
-        public String getDescriptionParam(int index, ShipAPI.HullSize hullSize) {
-            if (index == 0) return "95%";
-            if (index == 1) return "99%";
-            if (index == 2) return "75%";
-            if (index == 3) return "80%";
-            if (index == 4) return "90%";
-            if (index == 5) return "60%";
-            return null;
         }
     }
 }

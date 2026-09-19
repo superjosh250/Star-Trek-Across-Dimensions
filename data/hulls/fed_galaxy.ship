@@ -9,12 +9,12 @@
     "center":[
         240, 326
     ],
-    "collisionRadius":350,
+    "collisionRadius":512,
     "coversColor":"",
     "shieldCenter":[
         0, 0
     ],
-    "shieldRadius":472,
+    "shieldRadius":420,
     "viewOffset":0,
     "builtInMods":[
         "power_delivery",
