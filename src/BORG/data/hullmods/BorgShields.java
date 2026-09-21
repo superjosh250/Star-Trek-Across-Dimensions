@@ -23,7 +23,6 @@ import java.util.Map;
 
 public class BorgShields extends BaseHullMod {
 
-    // Borg Shield Constants
     public static final float ROTATION_RATE = 0.12f;
     public static final float SHIELD_UNFOLD_MULT = 2.75f;
 
@@ -57,7 +56,6 @@ public class BorgShields extends BaseHullMod {
                 customData.put(FederationShields.EMP_DEFLECT_LISTENER_KEY, true);
             }
 
-            // Register Management AI
             ship.setCustomData(FederationShieldsManagementAI.KEY_ENABLED_ON_SHIP, true);
         } finally {
             ScriptPerformanceReader.endTrack("BorgShields.applyEffectsAfterShipCreation");
@@ -113,7 +111,6 @@ public class BorgShields extends BaseHullMod {
                 container.isDisabled = isShieldDisabled;
             }
 
-            // State-based EMP immunity logic
             boolean shieldIsOn = ship.getShield().isOn();
             Object lastStateObj = customData.get(LAST_STATE_KEY);
 
@@ -135,7 +132,7 @@ public class BorgShields extends BaseHullMod {
     }
 
     protected String getGraphicStyle() {
-        String selectedStyle = UFP_CSV_Manager.getSelectedShieldStyle();
+        String selectedStyle = UFP_CSV_Manager.getBorgShieldStyle();
         if (selectedStyle != null && ShieldTextureManager.isValidStyle(selectedStyle)) {
             return selectedStyle;
         }

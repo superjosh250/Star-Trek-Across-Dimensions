@@ -109,6 +109,9 @@ public class DimensionsCrossedIDS {
     // PEOPLE
     public static final String MR_PRAS = "pras_mr_contact";
 
+    //HULLS
+    public static final String HULL_USS_VOYAGER_ARMORED = "fed_intrepid_armored";
+
     // STARSHIP VARIANTS
     public static final String GALAXY = "fed_galaxy";
     public static final String GALAXY_CARRIER = "fed_galaxy_carrier";

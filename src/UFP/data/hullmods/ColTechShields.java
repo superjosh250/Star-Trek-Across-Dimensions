@@ -40,6 +40,8 @@ public class ColTechShields extends BaseHullMod {
     public static final String EMP_BLOCK_ID = "ufp_emp_block_when_shield_up";
     public static final String EMP_DEFLECT_LISTENER_KEY = "ufp_emp_deflect_listener_added";
 
+    public static final String DEFAULT_COLTECH_STYLE = "Shields384";
+
     private static final String LAST_STATE_KEY = "ufp_last_shield_state";
     private static final String CT_DAMAGE_INTERCEPTOR_ADDED_KEY = "ufp_ct_damage_interceptor_added";
 
@@ -195,10 +197,18 @@ public class ColTechShields extends BaseHullMod {
         return ShieldHitpointManager.getShieldHPForRefit(ship);
     }
 
+    protected String getGraphicStyle() {
+        String selectedStyle = UFP_CSV_Manager.getColTechShieldStyle();
+        if (selectedStyle != null && ShieldTextureManager.isValidStyle(selectedStyle)) {
+            return selectedStyle;
+        }
+        return DEFAULT_COLTECH_STYLE;
+    }
+
     protected void applyVisuals(ShipAPI ship, ShieldAPI shield) {
         ScriptPerformanceReader.startTrack("ColTechShields.applyVisuals");
         try {
-            String selectedStyle = UFP_CSV_Manager.getColTechShieldStyle();
+            String selectedStyle = getGraphicStyle();
             String[] textures = ShieldTextureManager.getTextures(selectedStyle);
 
             shield.setRadius(shield.getRadius(), textures[0], textures[1]);

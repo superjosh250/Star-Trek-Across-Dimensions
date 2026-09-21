@@ -41,14 +41,8 @@ public class HollandMarket implements SectorGeneratorPlugin {
 
         SectorEntityToken platformToken = system.getEntityById(PLATFORM_ID);
 
-        // Scope recruitment flag directly to the target platform entity
-        if (platformToken != null) {
-            platformToken.getMemoryWithoutUpdate().set("$uss_sovereign_event_target", true);
-        }
-
         if (platformToken instanceof CustomCampaignEntityAPI) {
             CustomCampaignEntityAPI platform = (CustomCampaignEntityAPI) platformToken;
-            // Guard: don’t recreate if already present
             if (platform.getMarket() == null) {
                 createRandomPlatformMarket(sector, system, platform);
             }
@@ -243,16 +237,7 @@ public class HollandMarket implements SectorGeneratorPlugin {
 
             if (!sovereignAlive) {
                 Global.getSector().getMemoryWithoutUpdate().unset(USS_SovereignEvent.KEY_RECRUITED);
-
-                StarSystemAPI system = Global.getSector().getStarSystem(SYSTEM_NAME);
-                if (system != null) {
-                    SectorEntityToken platform = system.getEntityById(PLATFORM_ID);
-                    if (platform != null) {
-                        // Re-enable target tag on Starbase 12 only when ship is lost
-                        platform.getMemoryWithoutUpdate().set("$uss_sovereign_event_target", true);
-                    }
-                }
-                respawnTimerDays = 7f;
+                respawnTimerDays = 7f; // Triggers respawn on next advance cycle
             }
         }
 

@@ -4,6 +4,7 @@ import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.graphics.SpriteAPI;
 import org.apache.log4j.Logger;
 
+import java.io.IOException;
 import java.util.*;
 
 public class ShieldTextureManager {
@@ -18,14 +19,14 @@ public class ShieldTextureManager {
     };
 
     static {
-        SHIELD_TEXTURES.put("Shields264", new String[]{
-                "graphics/fx/shields264.png", "graphics/fx/shields264.png"
+        SHIELD_TEXTURES.put("BubbleShield16", new String[]{
+                "graphics/fx/bubble_shield16.png", "graphics/fx/bubble_shield32_ring.png"
         });
-        SHIELD_TEXTURES.put("Shields384", new String[]{
-                "graphics/fx/shields384.png", "graphics/fx/shields384.png"
+        SHIELD_TEXTURES.put("BubbleShield32", new String[]{
+                "graphics/fx/bubble_shield32.png", "graphics/fx/bubble_shield32_ring.png"
         });
         SHIELD_TEXTURES.put("BubbleShield64", new String[]{
-                "graphics/fx/bubble_shield64.png", "graphics/fx/bubble_shield64.png"
+                "graphics/fx/bubble_shield64.png", "graphics/fx/bubble_shield64_ring.png"
         });
         SHIELD_TEXTURES.put("BubbleShield128", new String[]{
                 "graphics/fx/bubble_shield128.png", "graphics/fx/bubble_shield128.png"
@@ -44,6 +45,24 @@ public class ShieldTextureManager {
         });
         SHIELD_TEXTURES.put("BubbleShield448", new String[]{
                 "graphics/fx/bubble_shield448.png", "graphics/fx/bubble_shield448.png"
+        });
+        SHIELD_TEXTURES.put("BubbleShield512", new String[]{
+                "graphics/fx/bubble_shield512.png", "graphics/fx/bubble_shield512_ring.png"
+        });
+        SHIELD_TEXTURES.put("BubbleShield536", new String[]{
+                "graphics/fx/bubble_shield536.png", "graphics/fx/bubble_shield536_ring.png"
+        });
+        SHIELD_TEXTURES.put("BubbleShield576", new String[]{
+                "graphics/fx/bubble_shield576.png", "graphics/fx/bubble_shield576_ring.png"
+        });
+        SHIELD_TEXTURES.put("BubbleShield640", new String[]{
+                "graphics/fx/bubble_shield640.png", "graphics/fx/bubble_shield640_ring.png"
+        });
+        SHIELD_TEXTURES.put("BubbleShield704", new String[]{
+                "graphics/fx/bubble_shield704.png", "graphics/fx/bubble_shield704_ring.png"
+        });
+        SHIELD_TEXTURES.put("BubbleShield768", new String[]{
+                "graphics/fx/bubble_shield768.png", "graphics/fx/bubble_shield768_ring.png"
         });
 
         SHIELD_TEXTURES.put(DEFAULT_STYLE, DEFAULT_TEXTURES);
@@ -77,6 +96,12 @@ public class ShieldTextureManager {
                 LOG.error("❌ Exception while validating shield style '" + style + "'", e);
             }
         }
+    }
+
+    public static void reloadActiveShieldTextures() {
+        VALID_STYLES.clear();
+        preloadAndValidateTextures();
+        LOG.info("Shield textures reloaded successfully.");
     }
 
     public static boolean isValidStyle(String style) {

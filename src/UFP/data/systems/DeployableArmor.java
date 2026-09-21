@@ -14,10 +14,13 @@ import org.lwjgl.util.vector.Vector2f;
 import UFP.data.campaign.ids.DimensionsCrossedIDS;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.characters.PersonAPI;
+import com.fs.starfarer.api.combat.ArmorGridAPI;
 import com.fs.starfarer.api.combat.BaseCombatLayeredRenderingPlugin;
+import com.fs.starfarer.api.combat.CollisionClass;
 import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.CombatEngineLayers;
 import com.fs.starfarer.api.combat.CombatFleetManagerAPI;
+import com.fs.starfarer.api.combat.DeployedFleetMemberAPI;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipHullSpecAPI;
@@ -78,7 +81,6 @@ public class DeployableArmor extends BaseShipSystemScript {
         return null;
     }
 
-    // return engine.getCombatTime() < (Float) lockoutVal;
     public static boolean isLockedOut(ShipAPI ship, CombatEngineAPI engine) {
         if (ship == null || engine == null) return false;
         if (!ship.getCustomData().containsKey(LOCKOUT_TIMESTAMP_KEY)) return false;
@@ -363,11 +365,12 @@ public class DeployableArmor extends BaseShipSystemScript {
     }
 
     public static ShipAPI executeShipSwap(ShipAPI originalShip, String targetVariantId, boolean isReverting, CombatEngineAPI engine) {
-        if (originalShip == null || targetVariantId == null) return null;
+        if (originalShip == null || targetVariantId == null || engine == null) return null;
 
         boolean isPlayer = (engine.getPlayerShip() == originalShip);
         PersonAPI captain = originalShip.getCaptain();
         FleetMemberAPI member = originalShip.getFleetMember();
+        int owner = originalShip.getOwner();
 
         String previousFormId = originalShip.getHullSpec() != null ? originalShip.getHullSpec().getHullId() : null;
         if (originalShip.getVariant() != null && previousFormId == null) {
@@ -378,11 +381,18 @@ public class DeployableArmor extends BaseShipSystemScript {
         Vector2f velocity = new Vector2f(originalShip.getVelocity());
         float facing = originalShip.getFacing();
         float angularVelocity = originalShip.getAngularVelocity();
+
         float hullFraction = originalShip.getHitpoints() / originalShip.getMaxHitpoints();
-        float fluxFraction = originalShip.getCurrFlux() / originalShip.getMaxFlux();
-        int owner = originalShip.getOwner();
+        float fluxFraction = originalShip.getMaxFlux() > 0 ? originalShip.getCurrFlux() / originalShip.getMaxFlux() : 0f;
+        float hardFluxFraction = originalShip.getHardFluxLevel();
 
         CombatFleetManagerAPI manager = engine.getFleetManager(owner);
+        if (manager == null) return null;
+
+        // 1. Remove old ship from FleetManager tracking (frees DP and clears deployment screen)
+        manager.removeDeployed(originalShip, false);
+
+        // 2. Spawn new ship on battle grid (allocates DP for new variant)
         ShipAPI newShip = manager.spawnShipOrWing(
                 targetVariantId,
                 location,
@@ -393,9 +403,30 @@ public class DeployableArmor extends BaseShipSystemScript {
         if (newShip != null) {
             newShip.getVelocity().set(velocity);
             newShip.setAngularVelocity(angularVelocity);
-            newShip.setHitpoints(newShip.getMaxHitpoints() * hullFraction);
+            newShip.setHitpoints(Math.max(1f, newShip.getMaxHitpoints() * hullFraction));
             newShip.getFluxTracker().setCurrFlux(newShip.getMaxFlux() * fluxFraction);
+            newShip.getFluxTracker().setHardFlux(newShip.getMaxFlux() * hardFluxFraction);
 
+            // Copy proportional armor grid damage
+            ArmorGridAPI oldGrid = originalShip.getArmorGrid();
+            ArmorGridAPI newGrid = newShip.getArmorGrid();
+            if (oldGrid != null && newGrid != null && oldGrid.getGrid() != null && newGrid.getGrid() != null) {
+                float[][] oldData = oldGrid.getGrid();
+                float[][] newData = newGrid.getGrid();
+                int xBounds = Math.min(oldData.length, newData.length);
+                int yBounds = Math.min(oldData[0].length, newData[0].length);
+
+                float maxArmorOld = oldGrid.getMaxArmorInCell();
+
+                for (int x = 0; x < xBounds; x++) {
+                    for (int y = 0; y < yBounds; y++) {
+                        float ratio = maxArmorOld > 0 ? oldData[x][y] / maxArmorOld : 1.0f;
+                        newData[x][y] = newData[x][y] * ratio;
+                    }
+                }
+            }
+
+            // Re-bind captain and fleet member reference
             if (captain != null) {
                 newShip.setCaptain(captain);
             }
@@ -403,7 +434,7 @@ public class DeployableArmor extends BaseShipSystemScript {
                 newShip.setFleetMember(member);
             }
 
-            // Tracker management
+            // Copy transformation tracking keys
             if (!isReverting) {
                 String originalForm = (String) originalShip.getCustomData().get(ORIGINAL_FORM_KEY);
                 if (originalForm == null) originalForm = previousFormId;
@@ -412,14 +443,20 @@ public class DeployableArmor extends BaseShipSystemScript {
                 newShip.getCustomData().remove(ORIGINAL_FORM_KEY);
             }
 
-            // Lockout management: set custom data lockout timestamp on newly spawned ship
+            // Apply lockout to custom data AND ship system instance
             float currentCombatTime = engine.getTotalElapsedTime(false);
             newShip.getCustomData().put(LOCKOUT_TIMESTAMP_KEY, currentCombatTime + LOCKOUT_DURATION);
+            if (newShip.getSystem() != null) {
+                newShip.getSystem().setCooldownRemaining(LOCKOUT_DURATION);
+            }
 
             if (isPlayer) {
                 engine.setPlayerShipExternal(newShip);
             }
 
+            // 3. Remove physical entity from visual combat grid
+            originalShip.setCollisionClass(CollisionClass.NONE);
+            originalShip.getCustomData().remove(ANIM_ACTIVE_KEY);
             engine.removeEntity(originalShip);
         }
 

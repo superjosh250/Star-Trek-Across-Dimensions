@@ -47,7 +47,7 @@ public class ImpulseEngineMounts extends BaseHullMod {
         }
     }
 
-    private static final PenaltyProfile ONE_SLOT_PROFILE = new PenaltyProfile(0.02f, 0.05f, 0.0125f);
+    private static final PenaltyProfile ONE_SLOT_PROFILE = new PenaltyProfile(0.02f, 0.05f, 0.025f);
     private static final PenaltyProfile TWO_SLOT_PROFILE = new PenaltyProfile(0.05f, 0.10f, 0.025f);
     private static final PenaltyProfile THREE_PLUS_SLOT_PROFILE = new PenaltyProfile(0.01f, 0.10f, 0.05f);
 

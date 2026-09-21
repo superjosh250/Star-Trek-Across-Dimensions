@@ -29,10 +29,14 @@ public final class UFP_CSV_Manager {
     // Logger Settings Cache
     private static final Map<String, Boolean> LOGGER_TOGGLES_CACHE = new HashMap<>();
 
-    private static String cachedFedShieldStyle = "BubbleShield";
-    private static String cachedTerranShieldStyle = "BubbleShield";
-    private static String cachedColTechShieldStyle = "BubbleShield";
-    private static String cachedRomTLEShieldStyle = "BubbleShield64";
+    // Cached Faction Shield Styles
+    private static String cachedFedShieldStyle = "BubbleShield192";
+    private static String cachedRomShieldStyle = "BubbleShield128";
+    private static String cachedRomTLEShieldStyle = "BubbleShield448";
+    private static String cachedBorgShieldStyle = "BubbleShield384";
+    private static String cachedKolShieldStyle = "BubbleShield448";
+    private static String cachedColTechShieldStyle = "Shields384";
+    private static String cachedTerranShieldStyle = "BubbleShield128";
 
     private static boolean isLoaded = false;
 
@@ -50,6 +54,12 @@ public final class UFP_CSV_Manager {
             this.emergencyPwr = Math.max(0f, emergencyPwr);
             this.specialEnergy = Math.max(0f, specialEnergy);
         }
+    }
+
+    private static boolean parseCsvBoolean(JSONObject row, String key) {
+        if (row == null || !row.has(key)) return false;
+        String val = row.optString(key, "").trim().toLowerCase(Locale.ROOT);
+        return "true".equals(val) || "1".equals(val);
     }
 
     public static void loadAllCSVData() {
@@ -125,10 +135,13 @@ public final class UFP_CSV_Manager {
                     String graphicId = row.optString("shieldGraphic_id");
                     if (graphicId == null || graphicId.isEmpty()) continue;
 
-                    if (row.optBoolean("Fed_Shields", false)) cachedFedShieldStyle = graphicId;
-                    if (row.optBoolean("Terran_Shields", false)) cachedTerranShieldStyle = graphicId;
-                    if (row.optBoolean("ColTech_Shields", false)) cachedColTechShieldStyle = graphicId;
-                    if (row.optBoolean("RomTLE_Shields", false)) cachedRomTLEShieldStyle = graphicId;
+                    if (parseCsvBoolean(row, "Fed_Shields")) cachedFedShieldStyle = graphicId;
+                    if (parseCsvBoolean(row, "Rom_Shields")) cachedRomShieldStyle = graphicId;
+                    if (parseCsvBoolean(row, "RomTLE_Shields")) cachedRomTLEShieldStyle = graphicId;
+                    if (parseCsvBoolean(row, "Borg_Shields")) cachedBorgShieldStyle = graphicId;
+                    if (parseCsvBoolean(row, "Kol_Shields")) cachedKolShieldStyle = graphicId;
+                    if (parseCsvBoolean(row, "ColTech_Shields")) cachedColTechShieldStyle = graphicId;
+                    if (parseCsvBoolean(row, "Terran_Shields")) cachedTerranShieldStyle = graphicId;
                 }
             } catch (Exception ignored) {}
 
@@ -158,6 +171,15 @@ public final class UFP_CSV_Manager {
         COLTECH_MULT_BY_WEAPON_CACHE.clear();
         COLTECH_MULT_BY_PROJECTILE_CACHE.clear();
         LOGGER_TOGGLES_CACHE.clear();
+
+        cachedFedShieldStyle = "BubbleShield192";
+        cachedRomShieldStyle = "BubbleShield128";
+        cachedRomTLEShieldStyle = "BubbleShield448";
+        cachedBorgShieldStyle = "BubbleShield384";
+        cachedKolShieldStyle = "BubbleShield448";
+        cachedColTechShieldStyle = "Shields384";
+        cachedTerranShieldStyle = "BubbleShield128";
+
         loadAllCSVData();
     }
 
@@ -231,9 +253,24 @@ public final class UFP_CSV_Manager {
         return cachedFedShieldStyle;
     }
 
-    public static String getTerranShieldStyle() {
+    public static String getRomShieldStyle() {
         loadAllCSVData();
-        return cachedTerranShieldStyle;
+        return cachedRomShieldStyle;
+    }
+
+    public static String getRomTLEShieldStyle() {
+        loadAllCSVData();
+        return cachedRomTLEShieldStyle;
+    }
+
+    public static String getBorgShieldStyle() {
+        loadAllCSVData();
+        return cachedBorgShieldStyle;
+    }
+
+    public static String getKolShieldStyle() {
+        loadAllCSVData();
+        return cachedKolShieldStyle;
     }
 
     public static String getColTechShieldStyle() {
@@ -241,8 +278,8 @@ public final class UFP_CSV_Manager {
         return cachedColTechShieldStyle;
     }
 
-    public static String getRomTLEShieldStyle() {
+    public static String getTerranShieldStyle() {
         loadAllCSVData();
-        return cachedRomTLEShieldStyle;
+        return cachedTerranShieldStyle;
     }
 }
