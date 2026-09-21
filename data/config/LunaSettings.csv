@@ -5,9 +5,9 @@ ufp_enableShieldLib,Enable Shield Restoration System,Boolean,TRUE,,Master switch
 ufp_shieldRestoreKeybind,Shield Restoration Keybind,Keycode,82,,Keybind used to activate emergency shield restoration using ESM energy.,,,Shield Restoration
 ufp_shieldRestoreMaxUses,Max Charges Per Combat,Int,4,,Maximum number of shield restoration charges available per battle.,0,20,Shield Restoration
 ufp_shieldRestoreUnlimited,Unlimited Restoration Charges,Boolean,FALSE,,Disables charge limits for emergency shield restoration (cooldowns still apply).,,,Shield Restoration
-ufp_shieldRestoreRechargeInterval,Charge Recharge Interval (s),Double,0.0,,Seconds required to recover 1 restoration charge in battle (0 = no in-combat recharge).,0.0,300.0,Shield Restoration
-ufp_shieldRestoreDefaultCooldown,Restoration Cooldown (s),Double,25.0,,Cooldown in seconds between shield restoration uses.,0.0,120.0,Shield Restoration
-ufp_shieldRestoreDefaultHpPercent,Shield HP Restored (Percent),Double,0.25,,Percentage of max shield HP restored per activation (0.25 = 25 percent).,0.01,1.0,Shield Restoration
+ufp_shieldRestoreRechargeInterval,Charge Recharge Interval (s),Double,0,,Seconds required to recover 1 restoration charge in battle (0 = no in-combat recharge).,0,300,Shield Restoration
+ufp_shieldRestoreDefaultCooldown,Restoration Cooldown (s),Double,25,,Cooldown in seconds between shield restoration uses.,0,120,Shield Restoration
+ufp_shieldRestoreDefaultHpPercent,Shield HP Restored (Percent),Double,0.25,,Percentage of max shield HP restored per activation (0.25 = 25 percent).,0.01,1,Shield Restoration
 ufp_shieldRestoreCostIsPercent,Use Percentage Energy Cost,Boolean,TRUE,,If enabled energy cost is calculated as a percentage of max ESM energy. If disabled uses flat energy cost.,,,Shield Restoration
-ufp_shieldRestoreCostPercent,Energy Cost (Percent),Double,0.25,,ESM energy cost as a fraction of maximum ship ESM capacity (0.25 = 25 percent).,0.01,1.0,Shield Restoration
-ufp_shieldRestoreCostFlat,Energy Cost (Flat),Double,500.0,,Flat ESM energy cost for activating shield restoration.,0.0,10000.0,Shield Restoration
+ufp_shieldRestoreCostPercent,Energy Cost (Percent),Double,0.25,,ESM energy cost as a fraction of maximum ship ESM capacity (0.25 = 25 percent).,0.01,1,Shield Restoration
+ufp_shieldRestoreCostFlat,Energy Cost (Flat),Double,500,,Flat ESM energy cost for activating shield restoration.,0,10000,Shield Restoration
