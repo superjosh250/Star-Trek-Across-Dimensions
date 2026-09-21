@@ -1,6 +1,6 @@
 {
-  "id": "UFP-DEV", # For the convenience of troubleshooters, include your name and the mod name, not just an acronym.
-  "name": "Star Trek Across Dimensions-Dev Enviroment", # Displayed to the player
+  "id": "stad_ufp", # For the convenience of troubleshooters, include your name and the mod name, not just an acronym.
+  "name": "Star Trek Across Dimensions", # Displayed to the player
   "author": "captainBrassen",
   "utility": false,
   "version": "1.0.0", # Major / Minor / Patch
@@ -14,17 +14,17 @@
         "name": "LazyLib", # Optional (recommended)
    #     #"version": "2.7b" # Optional
     },
-   # {
-   #     "id": "MagicLib",
-   #     "name": "MagicLib",
+    {
+        "id": "MagicLib",
+        "name": "MagicLib",
    #     #"version": "0.34"
-   # },
-   # {
-   #     "id": "shaderLib",
-   #     "name": "GraphicsLib",
+    },
+    {
+        "id": "shaderLib",
+        "name": "GraphicsLib",
    #     #"version": "1.5.1"
-   # },
+    },
   { "id": "lunalib",    
-  "name": "LunaLib" }
+    "name": "LunaLib" }
   ],
 }

@@ -18,6 +18,8 @@
             "autofire": false,
             "mode": "LINKED",
             "weapons": {
+                "AFT Phaser 000": "phaser_typeX_medium",
+                "AFT Phaser 001": "phaser_typeX_medium",
                 "FWD Phaser 000": "phaser_typeX_medium",
                 "FWD Phaser 001": "phaser_typeX_medium",
                 "FWD Phaser 002": "phaser_typeX_medium",
@@ -44,14 +46,6 @@
                 "Phaser 003": "phaser_typeX_medium",
                 "Phaser 004": "phaser_typeX_medium",
                 "Phaser 005": "phaser_typeX_medium"
-            }
-        },
-        {
-            "autofire": false,
-            "mode": "LINKED",
-            "weapons": {
-                "AFT Phaser 000": "phaser_typeX_medium",
-                "AFT Phaser 001": "phaser_typeX_medium"
             }
         }
     ],

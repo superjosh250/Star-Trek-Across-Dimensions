@@ -1,1 +1,2 @@
-This mod brings the Star Trek universe into Starsector. This mod is called Star Trek Across Dimensions. It is really a framework from which to build other Star Trek Factions.
+# Star Trek Across Dimensions
+Starsector is finally recieving an update for adding a Star Trek based mod into its game enviroment. This is the base mod.
